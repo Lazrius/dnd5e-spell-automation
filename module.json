@@ -1,7 +1,7 @@
 {
-	"name": "jb2a-automated-animations-dnd5e",
-	"title": "JB2A Automated Animations DnD5E Preset",
-	"description": "A compendium of macros and preset file for automated animations designed to make it compatible out-of-the-box with DnD5E.",
+	"name": "dnd5e-spell-automation",
+	"title": "DnD5E Spell Automations",
+	"description": "Setting up spell effects, animations, and all the automation with MIDI, DAE, AA - it's a pain. This module does it all for you!",
 	"minimumCoreVersion": "9",
 	"compatibleCoreVersion": "9",
 	"version": "0.0.1",

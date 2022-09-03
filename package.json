@@ -1,5 +1,5 @@
 {
-	"name": "jb2a-automated-animations-dnd5e",
+	"name": "dnd5e-spell-automation",
 	"version": "1.0.0",
 	"scripts": {
 		"pack": "gulp pack"
