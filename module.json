@@ -1,0 +1,49 @@
+{
+	"name": "jb2a-automated-animations-dnd5e",
+	"title": "JB2A Automated Animations DnD5E Preset",
+	"description": "A compendium of macros and preset file for automated animations designed to make it compatible out-of-the-box with DnD5E.",
+	"minimumCoreVersion": "9",
+	"compatibleCoreVersion": "9",
+	"version": "0.0.1",
+	"url": "https://github.com/IrateRedKite/jb2a-sequencer-spell-macros",
+	"scripts": [
+		"module/main.js"
+	],
+	"packs": [
+		{
+			"name": "Macros",
+			"label": "JB2A DnD5e Spell Macros",
+			"system": "dnd5e",
+			"path": "jb2a-dnd5e-macros.db",
+			"entity": "Macro",
+			"type": "Macro",
+			"private": false
+		}
+	],
+	"authors": [
+		{
+			"name": "Lazrius",
+			"url": "https://github.com/Lazrius"
+		},
+		{
+			"name": "IrateRedKite/Milo",
+			"url": "https://github.com/IrateRedKite"
+		}
+	],
+	"dependencies": [
+		{
+			"name": "autoanimations",
+			"manifest": "https://raw.githubusercontent.com/otigon/automated-jb2a-animations/main/module.json",
+			"type": "module"
+		},
+		{
+			"name": "warpgate",
+			"manifest": "https://raw.githubusercontent.com/trioderegion/warpgate/master/module.json",
+			"type": "module"
+		},
+		{
+			"name": "dnd5e",
+			"type": "system"
+		}
+	]
+}

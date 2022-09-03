@@ -1,0 +1,12 @@
+// We do not use typescript, but having this file here with this setup tricks a number of
+// different IDEs into correctly adding type information where it was being ignored previously
+{
+	"compilerOptions": {
+		"types": [
+			"@league-of-foundry-developers/foundry-vtt-types",
+			"@league-of-foundry-developers/foundry-vtt-dnd5e-types",
+			"types"
+		],
+		"moduleResolution": "node"
+	}
+}
