@@ -1,5 +1,5 @@
-// @import getCasterToken.js
-// @import getTargets.js
+// @include getCasterToken.js
+// @include getTargets.js
 
 const sequence = new Sequence();
 sequence
@@ -7,7 +7,7 @@ sequence
 	.file("jb2a.extras.tmfx.runes.circle.simple.necromancy")
 	.atLocation(casterToken)
 	.fadeIn(500)
-	.scaleIn(0, 300, {ease: "easeOutCubic"})
+	.scaleIn(0, 300, { ease: "easeOutCubic" })
 	.scaleToObject(4)
 	.duration(1000)
 	.fadeOut(500);
@@ -35,7 +35,7 @@ for (const target of targets) {
 		.file("jb2a.portals.horizontal.ring.dark_red")
 		.atLocation(target)
 		.fadeIn(500)
-		.scaleIn(0, 300, {ease: "easeOutCubic"})
+		.scaleIn(0, 300, { ease: "easeOutCubic" })
 		.scaleToObject(2, 2.2)
 		.duration(2500)
 		.fadeOut(500)

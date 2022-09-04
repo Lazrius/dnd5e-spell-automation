@@ -1,4 +1,4 @@
-// @import getCasterToken.js
+// @include getCasterToken.js
 
 const sequence = new Sequence();
 
@@ -11,7 +11,7 @@ sequence
 	.fadeOut(500)
 	.scale(0.5)
 	.filter("Glow", { color: 0xabcdef })
-	.scaleIn(0, 500, {ease: "easeOutCubic", delay: 100});
+	.scaleIn(0, 500, { ease: "easeOutCubic", delay: 100 });
 
 sequence
 	.effect()

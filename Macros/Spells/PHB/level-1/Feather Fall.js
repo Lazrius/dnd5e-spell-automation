@@ -1,5 +1,5 @@
-// @import getCasterToken.js
-// @import getTargets.js
+// @include getCasterToken.js
+// @include getTargets.js
 
 const sequence = new Sequence();
 sequence
@@ -8,7 +8,7 @@ sequence
 	.atLocation(casterToken)
 	.fadeIn(100)
 	.fadeOut(500)
-	.duration(1200); 
+	.duration(1200);
 sequence
 	.effect()
 	.file("jb2a.extras.tmfx.runes.circle.outpulse.transmutation")

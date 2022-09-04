@@ -1,6 +1,6 @@
 
-// @import getCasterToken.js
-// @import getTargets.js
+// @include getCasterToken.js
+// @include getTargets.js
 
 const sequence = new Sequence();
 sequence
@@ -12,7 +12,7 @@ sequence
 	.fadeOut(500)
 	.scale(0.5)
 	.opacity(0.5)
-	.scaleIn(0, 500, {ease: "easeOutCubic", delay: 100});
+	.scaleIn(0, 500, { ease: "easeOutCubic", delay: 100 });
 sequence
 	.effect()
 	.file("jb2a.moonbeam.01.intro.rainbow")
@@ -26,7 +26,7 @@ for (const target of targets) {
 		.effect()
 		.file("jb2a.flaming_sphere.rainbow")
 		.atLocation(casterToken)
-		.moveTowards(target, {ease: "easeInCubic"})
+		.moveTowards(target, { ease: "easeInCubic" })
 		.moveSpeed(500)
 		.fadeIn(500)
 		.duration(1200)

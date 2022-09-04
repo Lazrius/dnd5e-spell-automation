@@ -4,7 +4,7 @@ await Sequencer.Preloader.preloadForClients(
 	"jb2a.impact.011.dark_purple",
 	"jb2a.energy_strands.complete.dark_red.01");
 
-// @import getCasterToken.js
+// @include getCasterToken.js
 
 const sequence = new Sequence();
 

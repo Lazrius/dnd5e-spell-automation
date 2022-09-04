@@ -1,4 +1,4 @@
-// @import getCasterToken.js
+// @include getCasterToken.js
 
 await warpgate.spawn("Mage Hand", {}, {
 	pre: async (location) => {
@@ -13,7 +13,7 @@ await warpgate.spawn("Mage Hand", {}, {
 			.scale(0.5)
 			.opacity(0.3)
 			.filter("Glow", { color: 0xa1c4fd })
-			.scaleIn(0, 500, {ease: "easeOutCubic", delay: 100});
+			.scaleIn(0, 500, { ease: "easeOutCubic", delay: 100 });
 		sequence
 			.effect()
 			.file("jb2a.moonbeam.01.intro.blue")
@@ -29,7 +29,7 @@ await warpgate.spawn("Mage Hand", {}, {
 			.fadeIn(500)
 			.fadeOut(500)
 			.scale(0.5)
-			.scaleIn(0, 500, {ease: "easeOutCubic", delay: 100})
+			.scaleIn(0, 500, { ease: "easeOutCubic", delay: 100 })
 			.filter("Glow", { color: 0xa1c4fd });
 
 		await sequence.play();

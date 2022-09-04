@@ -1,10 +1,10 @@
 //NOTE: This needs to go into the effect's macro.execute property, rather than midi's 'On Item Use' field.
 
-// @import getCasterToken.js
+// @include getCasterToken.js
 
 let targetID = canvas.tokens.get(args[1].tokenId);
 
-if(args[0] === "on"){
+if (args[0] === "on") {
 	// If the dynamic active effect started
 
 	const sequence = new Sequence();
@@ -13,7 +13,7 @@ if(args[0] === "on"){
 		.file("jb2a.markers.light.intro.green")
 		.atLocation(casterToken)
 		.fadeIn(500)
-		.fadeOut(500);    
+		.fadeOut(500);
 	sequence
 		.effect()
 		.file("jb2a.hunters_mark.pulse.02.blue")
@@ -28,7 +28,7 @@ if(args[0] === "on"){
 	sequence
 		.effect()
 		.file("jb2a.hunters_mark.loop.02.blue")
-		.scaleIn(0, 500, {ease: "easeOutCubic"})
+		.scaleIn(0, 500, { ease: "easeOutCubic" })
 		.fadeOut(500)
 		.scaleToObject(1)
 		.attachTo(targetID)
@@ -38,7 +38,7 @@ if(args[0] === "on"){
 	await sequence.play();
 
 }
-if(args[0] === "off"){
+if (args[0] === "off") {
 	// If the dynamic active effect ended
 	Sequencer.EffectManager.endEffects({ name: `hunters-mark-${targetID.id}`, object: targetID });
 }    

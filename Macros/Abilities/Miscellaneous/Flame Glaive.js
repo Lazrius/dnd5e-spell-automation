@@ -4,7 +4,7 @@ await Sequencer.Preloader.preloadForClients(
 	], false);
 
 //This uses MIDI QOL to check for Hits before playing certain parts
-// @import getCasterToken.js
+// @include getCasterToken.js
 
 let target = canvas.tokens.get(args[0].targets[0].id);
 //midi checking for hit.

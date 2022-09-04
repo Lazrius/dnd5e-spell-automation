@@ -1,4 +1,4 @@
-// @import getCasterToken.js
+// @include getCasterToken.js
 
 const sequence = new Sequence();
 sequence
@@ -10,7 +10,7 @@ sequence
 	.duration(3000)
 	.scale(0.4)
 	.atLocation(casterToken)
-	.scaleIn(0, 500, {ease: "easeOutCubic"});    
+	.scaleIn(0, 500, { ease: "easeOutCubic" });
 sequence
 	.effect()
 	.file("jb2a.extras.tmfx.runes.circle.outpulse.transmutation")
@@ -20,7 +20,7 @@ sequence
 	.fadeOut(500)
 	.scale(0.5)
 	.waitUntilFinished(-2000)
-	.filter("Glow", { color: 0x800080 });    
+	.filter("Glow", { color: 0x800080 });
 sequence
 	.effect()
 	.file("jb2a.moonbeam.01.intro.rainbow")
@@ -29,12 +29,12 @@ sequence
 	.fadeOut(200)
 	.duration(1200)
 	.belowTokens()
-	.waitUntilFinished(-500);        
+	.waitUntilFinished(-500);
 sequence
 	.effect()
 	.file("jb2a.detect_magic.circle.purple")
 	.atLocation(casterToken)
 	.fadeIn(500)
 	.fadeOut(500)
-	.randomRotation(); 
+	.randomRotation();
 await sequence.play();

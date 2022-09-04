@@ -1,5 +1,5 @@
-// @import getCasterToken.js
-// @import getTargets.js
+// @include getCasterToken.js
+// @include getTargets.js
 
 const sequence = new Sequence();
 sequence
@@ -11,7 +11,7 @@ sequence
 	.duration(3000)
 	.scale(0.4)
 	.atLocation(casterToken)
-	.scaleIn(0, 500, {ease: "easeOutCubic"});    
+	.scaleIn(0, 500, { ease: "easeOutCubic" });
 sequence
 	.effect()
 	.file("jb2a.extras.tmfx.runes.circle.outpulse.enchantment")

@@ -1,4 +1,4 @@
-// @import getCasterToken.js
+// @include getCasterToken.js
 
 const sequence = new Sequence();
 sequence
@@ -24,7 +24,7 @@ sequence
 	.attachTo(casterToken)
 	.fadeIn(500)
 	.fadeOut(500)
-	.scaleIn(0, 500, {ease: "easeOutCubic"})
+	.scaleIn(0, 500, { ease: "easeOutCubic" })
 	.persist();
 
 await sequence.play();

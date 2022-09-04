@@ -1,4 +1,4 @@
-// @import getCasterToken.js
+// @include getCasterToken.js
 // noinspection PointlessBooleanExpressionJS
 
 let dancingLightCount = 1;
@@ -24,8 +24,8 @@ if (!createDancingLight) {
 						.fadeIn(500)
 						.fadeOut(500)
 						.scale(0.5)
-						.filter("Glow", {color: 0xffffbf})
-						.scaleIn(0, 500, {ease: "easeOutCubic", delay: 100});
+						.filter("Glow", { color: 0xffffbf })
+						.scaleIn(0, 500, { ease: "easeOutCubic", delay: 100 });
 					sequence
 						.effect()
 						.file("jb2a.moonbeam.01.intro.blue")

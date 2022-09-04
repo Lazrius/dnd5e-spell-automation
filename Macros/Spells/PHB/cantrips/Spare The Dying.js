@@ -1,5 +1,5 @@
-// @import getCasterToken.js
-// @import getTargets.js
+// @include getCasterToken.js
+// @include getTargets.js
 
 const sequence = new Sequence();
 sequence
@@ -7,7 +7,7 @@ sequence
 	.file("jb2a.extras.tmfx.runes.circle.simple.necromancy")
 	.atLocation(casterToken)
 	.fadeIn(500)
-	.scaleIn(0, 300, {ease: "easeOutCubic"})
+	.scaleIn(0, 300, { ease: "easeOutCubic" })
 	.scaleToObject(4)
 	.duration(1000)
 	.fadeOut(500)
@@ -27,7 +27,7 @@ for (const target of targets) {
 		.effect()
 		.file("jb2a.extras.tmfx.outpulse.circle.01.slow")
 		.atLocation(target)
-		.filter("Glow", {color: 0xFFFFA7})
+		.filter("Glow", { color: 0xFFFFA7 })
 		.fadeIn(100)
 		.fadeOut(500)
 		.scaleToObject(5)

@@ -4,7 +4,7 @@ await Sequencer.Preloader.preloadForClients([
 	"jb2a.fire_ring.500px.red"
 ], false);
 
-// @import getCasterToken.js
+// @include getCasterToken.js
 
 const sequence = new Sequence();
 sequence

@@ -1,5 +1,5 @@
-// @import getCasterToken.js
-// @import getTargets.js
+// @include getCasterToken.js
+// @include getTargets.js
 
 const sequence = new Sequence();
 sequence
@@ -41,6 +41,6 @@ for (const target of targets) {
 		.fadeOut(100)
 		.scale(0.4, 0.55)
 		.atLocation(target)
-		.scaleIn(0, 500, {ease: "easeOutCubic"});
+		.scaleIn(0, 500, { ease: "easeOutCubic" });
 }
 await sequence.play();

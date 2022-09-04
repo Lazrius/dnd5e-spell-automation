@@ -1,5 +1,5 @@
-// @import getCasterToken.js
-// @import getTemplate.js
+// @include getCasterToken.js
+// @include getTemplate.js
 
 const sequence = new Sequence();
 sequence

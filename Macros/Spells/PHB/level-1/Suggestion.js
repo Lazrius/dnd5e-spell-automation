@@ -1,5 +1,5 @@
-// @import getCasterToken.js
-// @import getTargets.js
+// @include getCasterToken.js
+// @include getTargets.js
 
 const sequence = new Sequence();
 sequence
@@ -29,17 +29,17 @@ for (const target of targets) {
 		.scale(0.4)
 		.opacity(0.4)
 		.atLocation(target)
-		.scaleIn(0, 500, {ease: "easeOutCubic"});
+		.scaleIn(0, 500, { ease: "easeOutCubic" });
 	sequence
 		.effect()
 		.file("jb2a.extras.tmfx.runes.circle.simple.enchantment")
 		.atLocation(target)
 		.fadeIn(500)
-		.scaleIn(0, 300, {ease: "easeOutCubic"})
+		.scaleIn(0, 300, { ease: "easeOutCubic" })
 		.scaleToObject(2)
 		.duration(2000)
 		.fadeOut(500)
-		.filter("Glow", {color: 0xffffbf});
+		.filter("Glow", { color: 0xffffbf });
 }
 
 await sequence.play();

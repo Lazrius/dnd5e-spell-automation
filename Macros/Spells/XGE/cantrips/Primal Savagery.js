@@ -1,15 +1,15 @@
-// @import getCasterToken.js
-// @import getTargets.js
+// @include getCasterToken.js
+// @include getTargets.js
 
 const sequence = new Sequence();
 sequence
 	.effect()
 	.file("jb2a.butterflies.many.red")
 	.atLocation(casterToken)
-	.fadeIn(500) 
+	.fadeIn(500)
 	.fadeOut(500)
-	.duration(4000)  
-	.scale(0.8); 
+	.duration(4000)
+	.scale(0.8);
 sequence
 	.effect()
 	.file("jb2a.extras.tmfx.runes.circle.outpulse.transmutation")

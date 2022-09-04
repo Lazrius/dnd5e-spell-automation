@@ -1,4 +1,4 @@
-// @import getCasterToken.js
+// @include getCasterToken.js
 
 const sequence = new Sequence();
 sequence
@@ -10,5 +10,5 @@ sequence
 	.fadeOut(500)
 	.scale(0.5)
 	.waitUntilFinished(-2000)
-	.filter("Glow", { color: 0xf02d2b }); 
+	.filter("Glow", { color: 0xf02d2b });
 await sequence.play();

@@ -1,5 +1,5 @@
-// @import getCasterToken.js
-// @import getTargets.js
+// @include getCasterToken.js
+// @include getTargets.js
 
 const sequence = new Sequence();
 
@@ -12,7 +12,7 @@ sequence
 	.duration(3000)
 	.scale(0.4)
 	.atLocation(casterToken)
-	.scaleIn(0, 500, {ease: "easeOutCubic"});
+	.scaleIn(0, 500, { ease: "easeOutCubic" });
 
 sequence
 	.effect()
@@ -23,7 +23,7 @@ sequence
 	.fadeOut(500)
 	.scale(0.5)
 	.waitUntilFinished(-2000)
-	.filter("Glow", {color: 0x800080});
+	.filter("Glow", { color: 0x800080 });
 
 for (const target of targets) {
 	sequence

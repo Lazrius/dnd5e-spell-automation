@@ -1,6 +1,6 @@
 
-// @import getCasterToken.js
-// @import getTargets.js
+// @include getCasterToken.js
+// @include getTargets.js
 
 const sequence = new Sequence();
 sequence
@@ -8,7 +8,7 @@ sequence
 	.file("jb2a.markers.light.intro.green")
 	.atLocation(casterToken)
 	.fadeIn(500)
-	.fadeOut(500);    
+	.fadeOut(500);
 sequence
 	.effect()
 	.file("jb2a.extras.tmfx.runes.circle.outpulse.transmutation")
@@ -25,7 +25,7 @@ for (const target of targets) {
 	sequence
 		.effect()
 		.file("jb2a.hunters_mark.loop.02.blue")
-		.scaleIn(0, 500, {ease: "easeOutCubic"})
+		.scaleIn(0, 500, { ease: "easeOutCubic" })
 		.fadeOut(500)
 		.scaleToObject(1)
 		.attachTo(target)

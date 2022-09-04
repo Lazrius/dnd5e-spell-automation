@@ -1,4 +1,4 @@
-// @import getCasterToken.js
+// @include getCasterToken.js
 
 await warpgate.spawn("Minor Illusion", {}, {
 	pre: async (location) => {
@@ -13,7 +13,7 @@ await warpgate.spawn("Minor Illusion", {}, {
 			.scale(0.5)
 			.opacity(0.3)
 			.filter("Glow", { color: 0xffffbf })
-			.scaleIn(0, 500, {ease: "easeOutCubic", delay: 100});
+			.scaleIn(0, 500, { ease: "easeOutCubic", delay: 100 });
 		sequence
 			.effect()
 			.file("jb2a.moonbeam.01.intro.rainbow")
@@ -29,7 +29,7 @@ await warpgate.spawn("Minor Illusion", {}, {
 			.fadeIn(500)
 			.fadeOut(500)
 			.scale(0.5)
-			.scaleIn(0, 500, {ease: "easeOutCubic", delay: 100});
+			.scaleIn(0, 500, { ease: "easeOutCubic", delay: 100 });
 
 		await sequence.play();
 

@@ -1,8 +1,7 @@
-// @import getCasterToken.js
-// @import getTargets.js
+// @include getCasterToken.js
+// @include getTargets.js
 
-for (const target of targets)
-{
+for (const target of targets) {
 	const sequence = new Sequence();
 	sequence
 		.effect()

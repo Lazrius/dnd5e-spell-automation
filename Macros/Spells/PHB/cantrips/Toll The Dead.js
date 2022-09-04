@@ -1,5 +1,5 @@
-// @import getCasterToken.js
-// @import getTargets.js
+// @include getCasterToken.js
+// @include getTargets.js
 
 const sequence = new Sequence();
 
@@ -7,7 +7,7 @@ sequence
 	.effect()
 	.file("jb2a.impact.004.dark_purple")
 	.atLocation(casterToken)
-	.fadeIn(500);    
+	.fadeIn(500);
 
 sequence
 	.effect()
@@ -18,7 +18,7 @@ sequence
 	.fadeOut(500)
 	.scale(0.5)
 	.filter("Glow", { color: 0x3c1361 })
-	.scaleIn(0, 500, {ease: "easeOutCubic"})
+	.scaleIn(0, 500, { ease: "easeOutCubic" })
 	.waitUntilFinished(-2000);
 
 for (const target of targets) {
@@ -26,7 +26,7 @@ for (const target of targets) {
 		.effect()
 		.file("jb2a.toll_the_dead.purple.complete")
 		.atLocation(target)
-		.scaleIn(0, 500, {ease: "easeInCubic"})
+		.scaleIn(0, 500, { ease: "easeInCubic" })
 		.fadeIn(500)
 		.fadeOut(300);
 }

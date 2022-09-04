@@ -1,4 +1,4 @@
-// @import getCasterToken.js
+// @include getCasterToken.js
 
 const sequence = new Sequence();
 sequence
@@ -10,7 +10,7 @@ sequence
 	.fadeOut(500)
 	.scale(0.5)
 	.filter("Glow", { color: 0xffffbf })
-	.scaleIn(0, 500, {ease: "easeOutCubic", delay: 100});
+	.scaleIn(0, 500, { ease: "easeOutCubic", delay: 100 });
 
 sequence
 	.effect()
@@ -39,7 +39,7 @@ sequence
 	.belowTokens()
 	.scaleToObject(2)
 	.opacity(0.4)
-	.scaleIn(0, 500, {ease: "easeOutCubic"})
+	.scaleIn(0, 500, { ease: "easeOutCubic" })
 	.waitUntilFinished(-500);
 
 await sequence.play();

@@ -1,4 +1,4 @@
-// @import getCasterToken.js
+// @include getCasterToken.js
 
 //get the template id from the canvas and its positions.
 let fireTemplate = canvas.templates.get(args[0].templateId);

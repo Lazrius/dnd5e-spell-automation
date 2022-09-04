@@ -1,4 +1,4 @@
-// @import getCasterToken.js
+// @include getCasterToken.js
 
 const sequence = new Sequence();
 sequence
@@ -10,7 +10,7 @@ sequence
 	.fadeOut(500)
 	.scale(0.5)
 	.waitUntilFinished(-2000)
-	.filter("Glow", { color: 0x7D87BF }); 
+	.filter("Glow", { color: 0x7D87BF });
 await sequence.play();
 
 canvas.scene.deleteEmbeddedDocuments("MeasuredTemplate", [template.data._id]);

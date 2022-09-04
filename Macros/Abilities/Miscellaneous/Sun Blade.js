@@ -1,6 +1,6 @@
 import Sequence from "../../../dist/module/sequencer.js";
 
-// @import getCasterToken.js
+// @include getCasterToken.js
 
 let target = Array.from(game.user.targets)[0];
 //let targetImg = Array.from(game.user.targets)[0].data.img;

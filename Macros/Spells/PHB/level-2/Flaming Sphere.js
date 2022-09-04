@@ -1,4 +1,4 @@
-// @import getCasterToken.js
+// @include getCasterToken.js
 
 await warpgate.spawn("Flaming Sphere", {}, {
 	pre: async (location) => {
@@ -28,7 +28,7 @@ await warpgate.spawn("Flaming Sphere", {}, {
 			.fadeIn(100)
 			.fadeOut(100)
 			.scale(0.8)
-			.scaleIn(0, 500, {ease: "easeOutCubic", delay: 100});
+			.scaleIn(0, 500, { ease: "easeOutCubic", delay: 100 });
 		await sequence.play();
 
 		// Sleep for 300ms

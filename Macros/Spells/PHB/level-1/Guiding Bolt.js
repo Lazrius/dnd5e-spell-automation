@@ -1,4 +1,4 @@
-// @import getCasterToken.js
+// @include getCasterToken.js
 
 let target = Array.from(game.user.targets)[0];
 

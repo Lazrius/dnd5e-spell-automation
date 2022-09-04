@@ -1,5 +1,5 @@
-// @import getCasterToken.js
-// @import getTargets.js
+// @include getCasterToken.js
+// @include getTargets.js
 
 const sequence = new Sequence();
 sequence
@@ -22,7 +22,7 @@ for (const target of targets) {
 		.fadeOut(200)
 		.belowTokens()
 		.scaleToObject(1.5)
-		.animateProperty("spriteContainer", "rotation", {from: 0, to: 360, duration: 5000, delay: 0});
+		.animateProperty("spriteContainer", "rotation", { from: 0, to: 360, duration: 5000, delay: 0 });
 	sequence
 		.effect()
 		.file("jb2a.shatter.green")

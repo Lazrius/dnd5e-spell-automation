@@ -5,7 +5,7 @@ await Sequencer.Preloader.preloadForClients(
 		"jb2a.ice_spikes.radial.burst.blue"
 	], false);
 
-// @import getCasterToken.js
+// @include getCasterToken.js
 
 let iceTemplate = canvas.templates.get(args[0].templateId);
 let tokenD = canvas.tokens.get(args[0].tokenId);

@@ -4,7 +4,7 @@ await Sequencer.Preloader.preloadForClients(
 		"jb2a.arms_of_hadar.dark_green"
 	], false);
 
-// @import getCasterToken.js
+// @include getCasterToken.js
 
 //get the template id from the canvas and its positions.
 let fireTemplate = canvas.templates.get(args[0].templateId);

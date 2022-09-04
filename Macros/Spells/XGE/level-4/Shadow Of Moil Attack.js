@@ -5,7 +5,7 @@ await Sequencer.Preloader.preloadForClients([
 
 // remove the damage from the Shadow of Moil Chat Card, Create a new item and add the damage to it then apply the attack macro to that
 
-// @import getCasterToken.js
+// @include getCasterToken.js
 
 let target = Array.from(game.user.targets)[0];
 //Delete the comment on this line, formatting breaks the layout

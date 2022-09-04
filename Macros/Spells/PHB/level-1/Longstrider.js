@@ -1,5 +1,5 @@
-// @import getCasterToken.js
-// @import getTargets.js
+// @include getCasterToken.js
+// @include getTargets.js
 
 const sequence = new Sequence();
 sequence
@@ -11,7 +11,7 @@ sequence
 	.fadeOut(500)
 	.scale(0.5)
 	.filter("Glow", { color: 0xffa500 })
-	.scaleIn(0, 500, {ease: "easeOutCubic", delay: 100});
+	.scaleIn(0, 500, { ease: "easeOutCubic", delay: 100 });
 
 for (const target of targets) {
 	sequence

@@ -1,4 +1,4 @@
-// @import getCasterToken.js
+// @include getCasterToken.js
 
 let target = canvas.tokens.get(args[0].targets[0].id);
 let targetImg = Array.from(game.user.targets)[0].data.img;

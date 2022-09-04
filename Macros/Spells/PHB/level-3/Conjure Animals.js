@@ -1,4 +1,4 @@
-// @import getCasterToken.js
+// @include getCasterToken.js
 
 const sequence = new Sequence();
 
@@ -12,7 +12,7 @@ sequence
 	.scale(0.5)
 	.opacity(0.3)
 	.filter("Glow", { color: 0xffffff })
-	.scaleIn(0, 500, {ease: "easeOutCubic", delay: 100});
+	.scaleIn(0, 500, { ease: "easeOutCubic", delay: 100 });
 sequence
 	.effect()
 	.file("jb2a.energy_strands.overlay.blue.01")

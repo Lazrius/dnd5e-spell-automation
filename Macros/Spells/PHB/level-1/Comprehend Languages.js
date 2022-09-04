@@ -1,4 +1,4 @@
-// @import getCasterToken.js
+// @include getCasterToken.js
 
 const sequence = new Sequence();
 sequence
@@ -10,7 +10,7 @@ sequence
 	.fadeOut(500)
 	.scale(0.5)
 	.filter("Glow", { color: 0xabcdef })
-	.scaleIn(0, 500, {ease: "easeOutCubic", delay: 100});
+	.scaleIn(0, 500, { ease: "easeOutCubic", delay: 100 });
 sequence
 	.effect()
 	.file("jb2a.moonbeam.01.intro.blue")
@@ -27,5 +27,5 @@ sequence
 	.fadeIn(500)
 	.fadeOut(500)
 	.duration(1000)
-	.randomRotation(); 
+	.randomRotation();
 await sequence.play();

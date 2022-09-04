@@ -1,5 +1,5 @@
-// @import getCasterToken.js
-// @import getTargets.js
+// @include getCasterToken.js
+// @include getTargets.js
 
 const sequence = new Sequence();
 
@@ -18,7 +18,7 @@ for (const target of targets) {
 	sequence
 		.effect()
 		.file("jb2a.disintegrate.orangepink")
-		.atLocation({x: target.center.x, y: target.center.y - (canvas.grid.size * 2)})
+		.atLocation({ x: target.center.x, y: target.center.y - (canvas.grid.size * 2) })
 		.stretchTo(target)
 		.waitUntilFinished(-500);
 

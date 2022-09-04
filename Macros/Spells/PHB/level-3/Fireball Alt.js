@@ -1,4 +1,4 @@
-// @import getCasterToken.js
+// @include getCasterToken.js
 
 //get the template id from the canvas and its positions.
 const templatePosition = canvas.templates.placeables[canvas.templates.placeables.length - 1];

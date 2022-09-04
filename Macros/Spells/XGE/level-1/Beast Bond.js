@@ -1,4 +1,4 @@
-// @import getCasterToken.js
+// @include getCasterToken.js
 
 const sequence = new Sequence();
 sequence
@@ -11,7 +11,7 @@ sequence
 	.scale(0.5)
 	.opacity(0.3)
 	.filter("Glow", { color: 0x76d669 })
-	.scaleIn(0, 500, {ease: "easeOutCubic", delay: 100});
+	.scaleIn(0, 500, { ease: "easeOutCubic", delay: 100 });
 sequence
 	.effect()
 	.file("jb2a.moonbeam.01.intro.green")
@@ -27,6 +27,6 @@ sequence
 	.atLocation(casterToken)
 	.fadeIn(500)
 	.fadeOut(500)
-	.duration(1500) 
+	.duration(1500)
 	.belowTokens();
 await sequence.play();

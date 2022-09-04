@@ -1,5 +1,5 @@
-// @import getCasterToken.js
-// @import getTargets.js
+// @include getCasterToken.js
+// @include getTargets.js
 const sequence = new Sequence();
 
 sequence
@@ -40,7 +40,7 @@ for (const target of targets) {
 		.fadeIn(500)
 		.fadeOut(500)
 		.scaleToObject(3)
-		.filter("Glow", {color: 0xd9f1ff});
+		.filter("Glow", { color: 0xd9f1ff });
 	sequence
 		.effect()
 		.file("jb2a.ice_spikes.radial.burst.white")
