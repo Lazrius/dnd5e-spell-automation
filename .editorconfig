@@ -1,0 +1,5 @@
+root = true
+
+[*.{js, ts}]
+indent_style = tab
+charset = utf-8
