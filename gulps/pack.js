@@ -1,27 +1,30 @@
 import gulp from 'gulp';
-import through2 from 'through2';
 import preprocess from 'gulp-preprocess';
+import through2 from 'through2';
 import * as fs from 'fs';
-import {basename, resolve} from 'path';
+import { basename, resolve } from 'path';
 
-import { createRequire } from "module";
-global.require = createRequire(import.meta.url);
+const packName = "jb2a-dnd5e-macros.db";
 
-const randomID = (length = 16) => {
-	const rnd = () => Math.random().toString(36).substring(2);
-	let id = "";
-	while (id.length < length)
-		id += rnd();
-	return id.substring(0, length);
-};
+const newMacros = [];
 
-const macros = [];
 const macroToJson = async (file, enc, callback) => {
-	const {contents, path} = file;
-	const fileName = basename(path);
+	const { contents, path } = file;
 
+	// A little hacky, but an easy way to have each file export information about the spell
+	const index = contents.toString().indexOf('@endmeta');
+	const js = contents.toString().substring(0, index + 8);
+	if (index === -1 || !js.includes('@endmeta')) {
+		console.warn('metadata not found. Path: ' + path);
+		callback(null);
+		return;
+	}
+
+	const metadata = eval(js);
+
+	// Otherwise we need to make a new macro!
 	const macroJson = {
-		"_id": randomID(),
+		"_id": metadata.id,
 		"command": contents.toString(),
 		"flags": {
 			"advanced-macros": {
@@ -30,7 +33,7 @@ const macroToJson = async (file, enc, callback) => {
 		},
 		"folder": null,
 		"img": "icons/svg/dice-target.svg",
-		"name": "Animate " + fileName.replace(/\.[^/.]+$/, ""),
+		"name": metadata.name,
 		"permission": {
 			"default": 0
 		},
@@ -39,23 +42,23 @@ const macroToJson = async (file, enc, callback) => {
 		"type": "script"
 	};
 
-	macros.push(macroJson);
+	newMacros.push(macroJson);
 
 	callback(null);
 };
 
-export const finishedConverting = (callback) => {
-	fs.rmSync('jb2a-dnd5e-macros.db', {force: true});
-	const db = fs.createWriteStream('jb2a-dnd5e-macros.db', {flags: "a", mode: 0o664});
+const finishedConverting = (callback) => {
+	fs.rmSync(packName, { force: true });
+	const db = fs.createWriteStream(packName, { flags: "a", mode: 0o664 });
 
-	macros.sort((lhs, rhs) => (lhs.name) > (rhs.name) ? 1 : -1);
-	macros.forEach(macro => db.write(JSON.stringify(macro) + "\n"));
+	newMacros.sort((lhs, rhs) => (lhs.name) > (rhs.name) ? 1 : -1);
+	newMacros.forEach(macro => db.write(JSON.stringify(macro) + "\n"));
 	db.close();
 
 	callback();
 };
 
-export default () => {
+export const packFile = () => {
 	return gulp.src('Macros/**/*.js')
 		.pipe(preprocess({
 			includeBase: resolve() + '/Preprocessors',
