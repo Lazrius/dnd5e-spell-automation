@@ -1,3 +1,9 @@
+({
+	name: "Thorn Whip",
+	id: "41m45bft0kwfsvek",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 // @include getTargets.js
 

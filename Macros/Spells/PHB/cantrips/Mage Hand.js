@@ -1,3 +1,9 @@
+({
+	name: "Mage Hand",
+	id: "n0rcalcgb8k5g5wf",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 await warpgate.spawn("Mage Hand", {}, {

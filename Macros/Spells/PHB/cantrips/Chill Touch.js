@@ -1,3 +1,9 @@
+({
+	name: "Chill Touch",
+	id: "x6gyxlv4trm7vwkk",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 // @include getTargets.js
 

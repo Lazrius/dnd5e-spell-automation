@@ -1,3 +1,9 @@
+({
+	name: "Hunters Mark Persist",
+	id: "okpi5lrz12burasz",
+	spellType: "aefx"
+});
+// @endmeta
 //NOTE: This needs to go into the effect's macro.execute property, rather than midi's 'On Item Use' field.
 
 // @include getCasterToken.js

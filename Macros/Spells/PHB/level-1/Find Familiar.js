@@ -1,3 +1,9 @@
+({
+	name: "Find Familiar",
+	id: "qpe1s9dnvotno9ce",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();

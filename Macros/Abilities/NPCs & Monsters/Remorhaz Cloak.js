@@ -1,3 +1,9 @@
+({
+	name: "Remorhaz Cloak",
+	id: "7zzvf76h0coaf2ae",
+	spellType: "range"
+});
+// @endmeta
 //This is for a homebrew item which on hit deals damage back to the attacker
 
 // @include getCasterToken.js

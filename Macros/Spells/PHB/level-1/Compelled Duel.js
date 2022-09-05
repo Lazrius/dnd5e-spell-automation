@@ -1,3 +1,9 @@
+({
+	name: "Compelled Duel",
+	id: "rt45hz8k6xrqcpz3",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 // @include getTargets.js
 

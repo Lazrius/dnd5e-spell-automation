@@ -1,3 +1,9 @@
+({
+	name: "Ray Of Frost Persist",
+	id: "1068svcch6cf0mjv",
+	spellType: "aefx"
+});
+// @endmeta
 //NOTE: This needs to go into the effect's macro.execute property, rather than midi's 'On Item Use' field.
 
 let tokenD = canvas.tokens.get(args[1].tokenId);

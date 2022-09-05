@@ -1,3 +1,9 @@
+({
+	name: "Beast Bond",
+	id: "u272x9iis93ohjhs",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();

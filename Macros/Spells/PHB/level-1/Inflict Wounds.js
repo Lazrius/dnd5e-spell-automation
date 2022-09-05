@@ -1,3 +1,9 @@
+({
+	name: "Inflict Wounds",
+	id: "rdwkv92s08dm6dk4",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 // @include getTargets.js
 

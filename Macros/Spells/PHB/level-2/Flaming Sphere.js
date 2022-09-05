@@ -1,3 +1,9 @@
+({
+	name: "Flaming Sphere",
+	id: "ix1myz3dcu5enyzm",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 await warpgate.spawn("Flaming Sphere", {}, {

@@ -1,3 +1,9 @@
+({
+	name: "Bless Persist",
+	id: "coszx5yd58jrmiyh",
+	spellType: "aefx"
+});
+// @endmeta
 //NOTE: This needs to go into the effect's macro.execute property, rather than midi's 'On Item Use' field.
 let targetID = canvas.tokens.get(args[1].tokenId);
 

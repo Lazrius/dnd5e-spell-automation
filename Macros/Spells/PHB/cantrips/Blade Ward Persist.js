@@ -1,3 +1,9 @@
+({
+	name: "Blade Ward Persist",
+	id: "247d7ktfu3edwl2p",
+	spellType: "aefx"
+});
+// @endmeta
 //NOTE: This needs to go into the effect's macro.execute property, rather than midi's 'On Item Use' field.
 
 let tokenD = canvas.tokens.get(args[1].tokenId);

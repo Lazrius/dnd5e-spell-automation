@@ -1,3 +1,9 @@
+({
+	name: "Healing Word",
+	id: "727pblrzb3ft0afm",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 // @include getTargets.js
 

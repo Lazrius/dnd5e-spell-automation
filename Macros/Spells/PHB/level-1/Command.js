@@ -1,3 +1,9 @@
+({
+	name: "Command",
+	id: "7gogva0t7qn9omxm",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 // @include getTargets.js
 

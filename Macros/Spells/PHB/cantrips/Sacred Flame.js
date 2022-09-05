@@ -1,3 +1,9 @@
+({
+	name: "Sacred Flame",
+	id: "rojoxol72kdbsljv",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 // @include getTargets.js
 

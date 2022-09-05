@@ -1,3 +1,9 @@
+({
+	name: "Jump",
+	id: "u1izlvn7n16nvox5",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 // @include getTargets.js
 

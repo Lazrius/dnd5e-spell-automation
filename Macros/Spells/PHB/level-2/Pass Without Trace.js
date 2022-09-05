@@ -1,3 +1,9 @@
+({
+	name: "Pass Without Trace",
+	id: "erfzkt4tm4ju9z8i",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();

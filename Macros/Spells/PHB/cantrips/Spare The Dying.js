@@ -1,3 +1,9 @@
+({
+	name: "Spare The Dying",
+	id: "yehxruwtjoh8itb0",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 // @include getTargets.js
 

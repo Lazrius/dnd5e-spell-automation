@@ -1,3 +1,9 @@
+({
+	name: "Blade Ward",
+	id: "fndwbi0dqync3eui",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();

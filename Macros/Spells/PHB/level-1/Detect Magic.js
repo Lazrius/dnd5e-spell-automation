@@ -1,3 +1,9 @@
+({
+	name: "Detect Magic",
+	id: "0rwene3mw2t755qg",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();

@@ -1,3 +1,9 @@
+({
+	name: "Cure Wounds",
+	id: "vau9ptxe2drlcsup",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 // @include getTargets.js
 

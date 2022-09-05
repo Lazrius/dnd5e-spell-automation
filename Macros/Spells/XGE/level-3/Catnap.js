@@ -1,3 +1,9 @@
+({
+	name: "Catnap",
+	id: "8q9xsvc7ypon6qez",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();

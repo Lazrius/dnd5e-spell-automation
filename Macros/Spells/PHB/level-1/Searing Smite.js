@@ -1,3 +1,9 @@
+({
+	name: "Searing Smite",
+	id: "jdf1qr1rmejwyvhv",
+	spellType: "range"
+});
+// @endmeta
 // This needs to be placed in dae's macro.execute with the @token and @target parameters in order to work correctly.
 
 const casterToken = canvas.scene.tokens.get(args[1]);

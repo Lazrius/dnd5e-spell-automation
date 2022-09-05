@@ -1,3 +1,9 @@
+({
+	name: "Zone Of Truth",
+	id: "tpkprbc1ojg6s6gd",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();

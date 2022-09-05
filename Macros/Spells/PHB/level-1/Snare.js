@@ -1,3 +1,9 @@
+({
+	name: "Snare",
+	id: "2euew14ibtahxxhe",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 await warpgate.spawn("Snare", {}, {

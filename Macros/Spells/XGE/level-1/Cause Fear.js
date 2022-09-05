@@ -1,3 +1,9 @@
+({
+	name: "Cause Fear",
+	id: "jco4sq2pphivhjn5",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 // @include getTargets.js
 

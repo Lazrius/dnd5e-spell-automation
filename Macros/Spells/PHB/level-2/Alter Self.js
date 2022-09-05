@@ -1,3 +1,9 @@
+({
+	name: "Alter Self",
+	id: "p72ey3f7tog6gmnz",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();

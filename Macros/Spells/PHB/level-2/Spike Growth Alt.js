@@ -1,3 +1,9 @@
+({
+	name: "Spike Growth Alt",
+	id: "s7qkn74gj0iwsxhs",
+	spellType: "range"
+});
+// @endmeta
 //Preloading the Files to make sure they play a bit nicer when animatiing.
 await Sequencer.Preloader.preloadForClients(
 	["jb2a.extras.tmfx.runes.circle.inpulse.transmutation",

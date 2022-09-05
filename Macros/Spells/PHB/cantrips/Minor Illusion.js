@@ -1,3 +1,9 @@
+({
+	name: "Minor Illusion",
+	id: "1e50qzk752dh95mo",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 await warpgate.spawn("Minor Illusion", {}, {

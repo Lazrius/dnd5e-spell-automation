@@ -1,3 +1,9 @@
+({
+	name: "Erupting Earth",
+	id: "ioo32zkvyhcwzpd9",
+	spellType: "range"
+});
+// @endmeta
 const template = canvas.templates.placeables[canvas.templates.placeables.length-1];
 
 const sequence = new Sequence();

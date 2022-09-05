@@ -1,3 +1,9 @@
+({
+	name: "Hunger Of Hadar",
+	id: "t4qyllttaaa8v2f9",
+	spellType: "range"
+});
+// @endmeta
 const template = canvas.templates.placeables[canvas.templates.placeables.length-1];
 
 const sequence = new Sequence();

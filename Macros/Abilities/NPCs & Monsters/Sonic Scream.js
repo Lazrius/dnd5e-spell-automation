@@ -1,3 +1,9 @@
+({
+	name: "Sonic Scream",
+	id: "rt2vnep2l7j193gk",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 // @include getTargets.js
 

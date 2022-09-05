@@ -1,6 +1,6 @@
 ({
-	name: "Bane Start",
-	id: "xuwp6908vmgbbja9",
+	name: "Faerie Fire Start",
+	id: "w1bg5vvcd6ou3j16",
 	spellType: "range"
 });
 // @endmeta
@@ -9,12 +9,14 @@
 const sequence = new Sequence();
 sequence
 	.effect()
-	.file("jb2a.extras.tmfx.runes.circle.outpulse.enchantment")
+	.file("jb2a.extras.tmfx.runes.circle.outpulse.evocation")
 	.atLocation(casterToken)
 	.duration(4000)
 	.fadeIn(500)
 	.fadeOut(500)
 	.scale(0.5)
 	.waitUntilFinished(-2000)
-	.filter("Glow", { color: 0xf02d2b });
+	.filter("Glow", { color: 0x7D87BF });
 await sequence.play();
+
+canvas.scene.deleteEmbeddedDocuments("MeasuredTemplate", [template.data._id]);

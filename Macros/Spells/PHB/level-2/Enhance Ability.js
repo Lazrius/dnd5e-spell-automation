@@ -1,3 +1,9 @@
+({
+	name: "Enhance Ability",
+	id: "9sq2xl0abtbku3c8",
+	spellType: "range"
+});
+// @endmeta
 
 // @include getCasterToken.js
 // @include getTargets.js

@@ -1,3 +1,9 @@
+({
+	name: "Rage",
+	id: "gglmo7zdamg4cxov",
+	spellType: "range"
+});
+// @endmeta
 await Sequencer.Preloader.preloadForClients(
 	"jb2a.markers.02.pink",
 	"jb2a.impact.purple.1",

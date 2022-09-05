@@ -1,3 +1,9 @@
+({
+	name: "Toll The Dead",
+	id: "a9ts7siujcrg5ta4",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 // @include getTargets.js
 

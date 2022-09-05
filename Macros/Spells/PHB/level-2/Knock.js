@@ -1,3 +1,9 @@
+({
+	name: "Knock",
+	id: "cznmg4z1r78a5k5a",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();

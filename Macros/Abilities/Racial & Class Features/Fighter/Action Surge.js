@@ -1,3 +1,9 @@
+({
+	name: "Action Surge",
+	id: "vy8lv6xzslnhs2r0",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();

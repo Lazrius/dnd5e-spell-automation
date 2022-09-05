@@ -1,3 +1,9 @@
+({
+	name: "Unseen Servant",
+	id: "udn7pwlg3gp5amfl",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 await warpgate.spawn("Unseen Servant", {}, {

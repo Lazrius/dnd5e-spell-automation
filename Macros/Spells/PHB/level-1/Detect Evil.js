@@ -1,3 +1,9 @@
+({
+	name: "Detect Evil",
+	id: "nhlwmwenppye68tr",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();

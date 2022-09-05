@@ -1,3 +1,9 @@
+({
+	name: "Sun Blade",
+	id: "mtz8ddzcyenb76jy",
+	spellType: "range"
+});
+// @endmeta
 import Sequence from "../../../dist/module/sequencer.js";
 
 // @include getCasterToken.js

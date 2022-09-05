@@ -1,3 +1,9 @@
+({
+	name: "Hellish Rebuke",
+	id: "qwty7zahgkp6f1os",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 // @include getTargets.js
 

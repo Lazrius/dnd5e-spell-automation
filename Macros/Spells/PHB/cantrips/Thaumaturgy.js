@@ -1,3 +1,9 @@
+({
+	name: "Thaumaturgy",
+	id: "6knc3frtyeparti5",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();

@@ -1,3 +1,9 @@
+({
+	name: "Shatter",
+	id: "30uhw51wcm1h6ve7",
+	spellType: "range"
+});
+// @endmeta
 const template = canvas.templates.placeables[canvas.templates.placeables.length-1];
 
 const sequence = new Sequence();

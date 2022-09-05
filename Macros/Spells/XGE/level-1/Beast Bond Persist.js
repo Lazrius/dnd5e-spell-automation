@@ -1,3 +1,9 @@
+({
+	name: "Beast Bond Persist",
+	id: "1grs4np2971w7apw",
+	spellType: "aefx"
+});
+// @endmeta
 // This needs to be placed in dae's macro.execute with the @token and @target parameters in order to work correctly.
 
 const casterToken = canvas.scene.tokens.get(args[1]);

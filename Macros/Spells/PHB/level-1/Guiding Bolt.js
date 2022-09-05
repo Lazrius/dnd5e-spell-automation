@@ -1,3 +1,9 @@
+({
+	name: "Guiding Bolt",
+	id: "qbsatenzs9h6l5a2",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 let target = Array.from(game.user.targets)[0];

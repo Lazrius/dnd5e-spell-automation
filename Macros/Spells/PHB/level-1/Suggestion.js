@@ -1,3 +1,9 @@
+({
+	name: "Suggestion",
+	id: "nll2ed9hlbkogp68",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 // @include getTargets.js
 

@@ -1,3 +1,9 @@
+({
+	name: "Ceremony",
+	id: "u9kt683ve3ek713e",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 // @include getTargets.js
 

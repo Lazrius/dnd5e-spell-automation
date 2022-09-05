@@ -1,3 +1,9 @@
+({
+	name: "Mending",
+	id: "nedl8h2sldhvzs3j",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();

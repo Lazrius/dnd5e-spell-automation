@@ -1,3 +1,9 @@
+({
+	name: "Prestidigitation",
+	id: "7ys6ekl5h53m7z5g",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();

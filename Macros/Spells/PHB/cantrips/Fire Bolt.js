@@ -1,3 +1,9 @@
+({
+	name: "Fire Bolt",
+	id: "vq4ruar4i6qb07oy",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 // @include getTargets.js
 

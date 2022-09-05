@@ -1,3 +1,9 @@
+({
+	name: "Longstrider",
+	id: "bcee3p2okqt5hb4v",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 // @include getTargets.js
 

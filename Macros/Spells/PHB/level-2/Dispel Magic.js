@@ -1,3 +1,9 @@
+({
+	name: "Dispel Magic",
+	id: "tskdl1e2uyh685cj",
+	spellType: "range"
+});
+// @endmeta
 const casterToken = canvas.tokens.get(args[0].tokenId);
 
 const sequence = new Sequence();

@@ -1,3 +1,9 @@
+({
+	name: "Spirit Guardians",
+	id: "kclbvg47w938asu8",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();

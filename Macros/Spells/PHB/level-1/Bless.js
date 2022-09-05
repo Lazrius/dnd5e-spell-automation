@@ -1,3 +1,9 @@
+({
+	name: "Bless Start",
+	id: "e2kpvdc4fcfzg1f3",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();
@@ -10,5 +16,6 @@ sequence
 	.fadeOut(500)
 	.scale(0.5)
 	.waitUntilFinished(-2000)
-	.filter("Glow", { color: 0xcd5c5c });
+	.filter("Glow", { color: 0xfefebe })
+	.opacity(0.5);
 await sequence.play();

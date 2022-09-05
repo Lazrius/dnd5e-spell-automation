@@ -1,3 +1,9 @@
+({
+	name: "Conjure Barrage",
+	id: "nmb7bn2qusfu4tvf",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 // @include getTargets.js
 

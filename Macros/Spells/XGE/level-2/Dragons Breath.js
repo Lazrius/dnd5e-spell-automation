@@ -1,3 +1,10 @@
+({
+    name: "Dragons Breath",
+    id: "ittk3frl1doqfzv7",
+    spellType: "range"
+});
+// @endmeta
+
 // This needs to be placed in dae's macro.execute with the @spellLevel, @target and @token parameters in order to work correctly.
 //Get the caster and target token IDs
 const casterToken = canvas.scene.tokens.get(args[3]);
@@ -124,7 +131,7 @@ sequence
 		.extraEndDuration(800)
 		.belowTokens()
 await sequence.play()
-	};
+	}
 }
 // When the effect is toggled off:
 if (args[0] === "off") {

@@ -1,3 +1,9 @@
+({
+	name: "Guidance",
+	id: "87p459z4hg2fqtor",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();

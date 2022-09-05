@@ -1,3 +1,9 @@
+({
+	name: "Eldritch Blast",
+	id: "hgf6pvrzgn6cgo4b",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 // @include getTargets.js
 

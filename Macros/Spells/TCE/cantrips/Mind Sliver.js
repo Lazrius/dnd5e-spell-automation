@@ -1,3 +1,9 @@
+({
+	name: "Mind Sliver",
+	id: "256ntsuz5w6q4vi5",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 // @include getTargets.js
 

@@ -1,3 +1,9 @@
+({
+	name: "Poison Spray",
+	id: "46zolefofwm6e0h2",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 // @include getTemplate.js
 

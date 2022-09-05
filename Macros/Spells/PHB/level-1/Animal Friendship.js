@@ -1,3 +1,9 @@
+({
+	name: "Animal Friendship",
+	id: "rlzi27d7bvach5qt",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 // @include getTargets.js
 

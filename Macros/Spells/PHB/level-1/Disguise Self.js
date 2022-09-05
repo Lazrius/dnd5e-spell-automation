@@ -1,3 +1,9 @@
+({
+	name: "Disguise Self",
+	id: "0w4lom70s3ne7a5y",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();

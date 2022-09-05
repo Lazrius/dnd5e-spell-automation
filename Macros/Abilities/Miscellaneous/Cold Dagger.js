@@ -1,3 +1,9 @@
+({
+	name: "Cold Dagger",
+	id: "s8ivpxkt19t83050",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 await Sequencer.Preloader.preloadForClients(

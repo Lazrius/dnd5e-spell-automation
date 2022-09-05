@@ -1,3 +1,9 @@
+({
+	name: "Druidcraft",
+	id: "lywpzhilmbsb4kuo",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();

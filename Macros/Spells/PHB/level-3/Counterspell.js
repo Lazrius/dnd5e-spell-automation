@@ -1,3 +1,9 @@
+({
+	name: "Counterspell",
+	id: "zvfmmy22qikge0ce",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();

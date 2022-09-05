@@ -1,3 +1,9 @@
+({
+	name: "Flame Glaive",
+	id: "90oixn7cw7jut16f",
+	spellType: "range"
+});
+// @endmeta
 await Sequencer.Preloader.preloadForClients(
 	["jb2a.glaive.melee.01.orange",
 		"jb2a.flames.01.orange"

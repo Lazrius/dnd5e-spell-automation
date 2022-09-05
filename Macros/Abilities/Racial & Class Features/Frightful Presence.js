@@ -1,3 +1,9 @@
+({
+	name: "Frightful Presence",
+	id: "t4s3k32cr6d16hz8",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 let target = Array.from(game.user.targets)[0];

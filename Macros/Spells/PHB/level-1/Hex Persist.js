@@ -1,3 +1,9 @@
+({
+	name: "Hex Persist",
+	id: "esvco2y5dw4tv3g5",
+	spellType: "aefx"
+});
+// @endmeta
 //NOTE: This needs to go into the effect's macro.execute property, rather than midi's 'On Item Use' field.
 
 let targetID = canvas.tokens.get(args[1].tokenId);

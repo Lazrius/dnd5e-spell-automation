@@ -1,3 +1,9 @@
+({
+	name: "Protection From Good And Evil Start",
+	id: "lbxynsouoad6d80b",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();
@@ -10,14 +16,14 @@ sequence
 	.fadeOut(500)
 	.scale(0.5)
 	.opacity(0.3)
-	.filter("Glow", { color: 0xffffff })
+	.filter("Glow", { color: 0xf9e076 })
 	.scaleIn(0, 500, { ease: "easeOutCubic", delay: 100 });
 sequence
 	.effect()
-	.file("jb2a.moonbeam.01.intro.rainbow")
+	.file("jb2a.markers.light.intro.yellow")
 	.atLocation(casterToken)
 	.fadeIn(100)
 	.fadeOut(200)
-	.duration(1200)
+	.scaleToObject(2)
 	.waitUntilFinished(-500);
 await sequence.play();

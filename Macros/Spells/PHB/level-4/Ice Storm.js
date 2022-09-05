@@ -1,3 +1,9 @@
+({
+	name: "Ice Storm",
+	id: "k0ag972m22riko9n",
+	spellType: "range"
+});
+// @endmeta
 await Sequencer.Preloader.preloadForClients(
 	["jb2a.fire_bolt.blue",
 		"jb2a.extras.tmfx.inflow.circle.02",

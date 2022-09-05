@@ -1,3 +1,9 @@
+({
+	name: "Create Or Destroy Water",
+	id: "vu2x1nj095mu1ikk",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();

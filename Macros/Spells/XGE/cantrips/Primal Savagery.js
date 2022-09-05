@@ -1,3 +1,9 @@
+({
+	name: "Primal Savagery",
+	id: "2z3yb4dhf2wvfvay",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 // @include getTargets.js
 

@@ -1,3 +1,9 @@
+({
+	name: "Charm Person",
+	id: "zuwxmkjff8sdwwv2",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 // @include getTargets.js
 

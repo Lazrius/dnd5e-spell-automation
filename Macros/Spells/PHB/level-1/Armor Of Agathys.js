@@ -1,3 +1,9 @@
+({
+	name: "Armor Of Agathys",
+	id: "wqycefztbplutm4n",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();

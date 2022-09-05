@@ -1,3 +1,9 @@
+({
+	name: "Sending",
+	id: "iegxhdcsbehany6b",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();

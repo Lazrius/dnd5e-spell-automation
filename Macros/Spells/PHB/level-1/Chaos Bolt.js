@@ -1,3 +1,9 @@
+({
+	name: "Chaos Bolt",
+	id: "afy2bs8dv4fyx6zf",
+	spellType: "range"
+});
+// @endmeta
 
 // @include getCasterToken.js
 // @include getTargets.js

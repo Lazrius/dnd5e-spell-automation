@@ -1,3 +1,9 @@
+({
+	name: "Silence",
+	id: "ma9sw5fhe6pui5pu",
+	spellType: "range"
+});
+// @endmeta
 const template = canvas.templates.placeables[canvas.templates.placeables.length - 1];
 //uncomment the below line to remove the placed template after casting
 //await template.delete();

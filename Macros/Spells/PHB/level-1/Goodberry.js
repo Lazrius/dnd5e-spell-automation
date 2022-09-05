@@ -1,3 +1,9 @@
+({
+	name: "Goodberry",
+	id: "7foqep89uv4i9cv0",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();

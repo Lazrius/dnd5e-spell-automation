@@ -1,3 +1,9 @@
+({
+	name: "Absorb Elements",
+	id: "jpsypegwv7sg7jv0",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();

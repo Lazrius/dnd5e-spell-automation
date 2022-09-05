@@ -1,3 +1,9 @@
+({
+	name: "Entangle",
+	id: "rbiljnyf4lj5y7mh",
+	spellType: "range"
+});
+// @endmeta
 const template = canvas.templates.placeables[canvas.templates.placeables.length-1];
 
 const sequence = new Sequence();

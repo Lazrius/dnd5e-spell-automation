@@ -1,3 +1,9 @@
+({
+	name: "Shadow Of Moil",
+	id: "kz9uergly2qn1cjz",
+	spellType: "range"
+});
+// @endmeta
 await Sequencer.Preloader.preloadForClients([
 	"jb2a.energy_strands.complete.dark_red.01",
 	"jb2a.darkness.black",

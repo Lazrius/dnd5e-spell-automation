@@ -1,3 +1,9 @@
+({
+	name: "Ensnaring Strike",
+	id: "f3e8yyl915d5effa",
+	spellType: "range"
+});
+// @endmeta
 const casterToken = canvas.tokens.get(args[0].tokenId);
 let target = Array.from(game.user.targets)[0];
 let distance = canvas.grid.measureDistance(casterToken, target);

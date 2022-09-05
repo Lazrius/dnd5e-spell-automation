@@ -1,3 +1,9 @@
+({
+	name: "Dispel Magic",
+	id: "8ivkfocebfk5p3nb",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();

@@ -1,3 +1,9 @@
+({
+	name: "Purify Food And Drink",
+	id: "mi4997dd2j7k7g1r",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();

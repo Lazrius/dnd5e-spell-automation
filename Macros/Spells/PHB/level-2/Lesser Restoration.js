@@ -1,3 +1,9 @@
+({
+	name: "Lesser Restoration",
+	id: "2r318nk15rgzvx15",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 // @include getTargets.js
 

@@ -1,3 +1,9 @@
+({
+	name: "Shocking Grasp",
+	id: "iggwmwuuudkc8rqj",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 // @include getTargets.js
 

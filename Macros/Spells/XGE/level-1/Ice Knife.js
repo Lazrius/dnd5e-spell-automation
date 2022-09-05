@@ -1,6 +1,12 @@
-// @include getCasterToken.js
+({
+	name: "Ice Knife",
+	id: "m0kj4ha0vjnczsrn",
+	spellType: "range"
+});
+// @endmeta
 
-let target = Array.from(game.user.targets)[0];
+// @include getCasterToken.js
+// @include getTargets.js
 
 const sequence = new Sequence();
 sequence
@@ -14,6 +20,7 @@ sequence
 	.opacity(0.3)
 	.filter("Glow", { color: 0xD7E5F0 })
 	.scaleIn(0, 500, { ease: "easeOutCubic", delay: 100 });
+	
 sequence
 	.effect()
 	.file("jb2a.shield_themed.above.ice.03.blue")
@@ -23,44 +30,46 @@ sequence
 	.fadeOut(500)
 	.opacity(0.5)
 	.scale(0.5);
-sequence
-	.effect()
-	.file("jb2a.bolt.cold.blue")
-	.atLocation(casterToken)
-	.stretchTo(target)
-	.waitUntilFinished(-1400);
-sequence
-	.effect()
-	.file("jb2a.side_impact.ice_shard.blue")
-	.atLocation(casterToken)
-	.rotateTowards(target)
-	.fadeIn(100)
-	.fadeOut(100)
-	.scale(0.5);
-sequence
-	.effect()
-	.file("jb2a.impact_themed.ice_shard.blue")
-	.atLocation(target)
-	.fadeIn(500)
-	.fadeOut(500)
-	.waitUntilFinished(-2000)
-	.scaleToObject(2);
-sequence
-	.effect()
-	.file("jb2a.ice_spikes.radial.burst.white")
-	.atLocation(target)
-	.fadeIn(100)
-	.fadeOut(100)
-	.scaleToObject(2)
-	.waitUntilFinished(-1000);
-sequence
-	.effect()
-	.file("jb2a.impact_themed.ice_shard.blue")
-	.atLocation(target)
-	.fadeIn(500)
-	.fadeOut(500)
-	.scaleToObject(2);
+
+for (const target of targets)
+{
+	sequence
+		.effect()
+		.file("jb2a.bolt.cold.blue")
+		.atLocation(casterToken)
+		.stretchTo(target)
+		.waitUntilFinished(-1400);
+	sequence
+		.effect()
+		.file("jb2a.side_impact.ice_shard.blue")
+		.atLocation(casterToken)
+		.rotateTowards(target)
+		.fadeIn(100)
+		.fadeOut(100)
+		.scale(0.5);
+	sequence
+		.effect()
+		.file("jb2a.impact_themed.ice_shard.blue")
+		.atLocation(target)
+		.fadeIn(500)
+		.fadeOut(500)
+		.waitUntilFinished(-2000)
+		.scaleToObject(2);
+	sequence
+		.effect()
+		.file("jb2a.ice_spikes.radial.burst.white")
+		.atLocation(target)
+		.fadeIn(100)
+		.fadeOut(100)
+		.scaleToObject(2)
+		.waitUntilFinished(-1000);
+	sequence
+		.effect()
+		.file("jb2a.impact_themed.ice_shard.blue")
+		.atLocation(target)
+		.fadeIn(500)
+		.fadeOut(500)
+		.scaleToObject(2);
+}
+
 await sequence.play();
-
-//WIP
-

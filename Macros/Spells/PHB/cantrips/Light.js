@@ -1,3 +1,9 @@
+({
+	name: "Light",
+	id: "nhe4omu4knce5n7j",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();

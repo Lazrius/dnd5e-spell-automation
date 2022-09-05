@@ -1,3 +1,9 @@
+({
+	name: "Revivify",
+	id: "l71tl3s710spazda",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 // @include getTargets.js
 

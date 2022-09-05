@@ -1,3 +1,9 @@
+({
+	name: "Detect Poison",
+	id: "yiox131znwaep8pj",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();

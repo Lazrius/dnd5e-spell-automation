@@ -1,3 +1,9 @@
+({
+	name: "Fog Cloud",
+	id: "mqkc2wz4wr1dcs8m",
+	spellType: "range"
+});
+// @endmeta
 
 const template = canvas.templates.placeables[canvas.templates.placeables.length-1];
 

@@ -1,3 +1,9 @@
+({
+	name: "Blink",
+	id: "ry1ueii1xjc83o19",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();

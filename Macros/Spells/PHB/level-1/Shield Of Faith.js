@@ -1,3 +1,9 @@
+({
+	name: "Shield Of Faith Start",
+	id: "q5q2nnfn4fo3ihm1",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();
@@ -14,18 +20,10 @@ sequence
 	.scaleIn(0, 500, { ease: "easeOutCubic", delay: 100 });
 sequence
 	.effect()
-	.file("jb2a.moonbeam.01.intro.blue")
+	.file("jb2a.moonbeam.01.intro.rainbow")
 	.atLocation(casterToken)
 	.fadeIn(100)
 	.fadeOut(200)
 	.duration(1200)
 	.waitUntilFinished(-500);
-sequence
-	.effect()
-	.file("jb2a.shield.02.intro.blue")
-	.opacity(0.4)
-	.scale(0.45)
-	.atLocation(casterToken)
-	.fadeIn(500)
-	.fadeOut(500);
 await sequence.play();

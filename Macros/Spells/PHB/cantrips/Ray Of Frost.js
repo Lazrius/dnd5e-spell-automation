@@ -1,3 +1,9 @@
+({
+	name: "Ray Of Frost",
+	id: "8jah84vuargqoc41",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 // @include getTargets.js
 

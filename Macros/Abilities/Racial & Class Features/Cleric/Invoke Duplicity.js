@@ -1,3 +1,9 @@
+({
+	name: "Invoke Duplicity",
+	id: "6cc07t6sd5gf5003",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 await warpgate.spawn("Illusory Duplicate", {}, {

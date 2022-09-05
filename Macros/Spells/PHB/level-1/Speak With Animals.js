@@ -1,3 +1,9 @@
+({
+	name: "Speak With Animals",
+	id: "enqet3nuifdp8h9o",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();

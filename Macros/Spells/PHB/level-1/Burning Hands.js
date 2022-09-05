@@ -1,3 +1,9 @@
+({
+	name: "Burning Hands",
+	id: "p0ok6oj175ovpodr",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();

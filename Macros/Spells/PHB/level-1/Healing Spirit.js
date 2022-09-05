@@ -1,3 +1,9 @@
+({
+	name: "Healing Spirit",
+	id: "ofbqs329tin7yiqk",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 await warpgate.spawn("Healing Spirit", {}, {

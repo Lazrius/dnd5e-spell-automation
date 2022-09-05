@@ -1,3 +1,9 @@
+({
+	name: "Sleet Storm",
+	id: "rnkdnonfsvkq7lab",
+	spellType: "range"
+});
+// @endmeta
 const template = canvas.templates.placeables[canvas.templates.placeables.length-1];
 
 const sequence = new Sequence();

@@ -1,3 +1,9 @@
+({
+	name: "Heroism",
+	id: "c800tyovswoytfje",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 let target = canvas.tokens.get(args[0].targets[0].id);

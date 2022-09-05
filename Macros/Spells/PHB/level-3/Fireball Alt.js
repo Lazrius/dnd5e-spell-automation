@@ -1,3 +1,9 @@
+({
+	name: "Fireball Alt",
+	id: "yjqwspfem8pj6s07",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 //get the template id from the canvas and its positions.

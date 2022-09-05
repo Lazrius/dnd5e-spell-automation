@@ -1,3 +1,9 @@
+({
+	name: "Sanctuary",
+	id: "lu9hf3xcbnplxpuz",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();

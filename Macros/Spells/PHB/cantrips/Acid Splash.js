@@ -1,3 +1,9 @@
+({
+	name: "Acid Splash",
+	id: "ly4wkrhaqdmjieyz",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 // @include getTargets.js
 

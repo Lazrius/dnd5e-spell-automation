@@ -1,3 +1,9 @@
+({
+	name: "Hold Person",
+	id: "pnc9agq0vkn8lm4g",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 // @include getTargets.js
 

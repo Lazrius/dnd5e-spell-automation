@@ -1,3 +1,9 @@
+({
+	name: "Second Wind",
+	id: "6j4g0yiwgsm97vfx",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();

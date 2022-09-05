@@ -1,3 +1,9 @@
+({
+	name: "Psychic Scimitar",
+	id: "poy59bqr9nctkd4j",
+	spellType: "range"
+});
+// @endmeta
 await Sequencer.Preloader.preloadForClients(
 	["jb2a.scimitar.melee.01.purple",
 		"jb2a.markers.01.purplepink"

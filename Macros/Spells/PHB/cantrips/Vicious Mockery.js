@@ -1,3 +1,9 @@
+({
+	name: "Vicious Mockery",
+	id: "jbwa1jav1xtovcni",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 // @include getTargets.js
 

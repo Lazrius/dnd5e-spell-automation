@@ -1,3 +1,9 @@
+({
+	name: "Barkskin Persist",
+	id: "en7m2p701ggmz7n1",
+	spellType: "aefx"
+});
+// @endmeta
 //NOTE: This needs to go into the effect's macro.execute property, rather than midi's 'On Item Use' field.
 
 let tokenD = canvas.tokens.get(args[1].tokenId);

@@ -1,3 +1,9 @@
+({
+	name: "Frostbite",
+	id: "5agdxf0xk9j026g1",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 // @include getTargets.js
 const sequence = new Sequence();

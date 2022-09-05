@@ -1,3 +1,9 @@
+({
+	name: "Conjure Animals",
+	id: "ohts1gm27cjypwnu",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();

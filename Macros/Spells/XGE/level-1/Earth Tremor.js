@@ -1,3 +1,9 @@
+({
+	name: "Earth Tremor",
+	id: "31xbp9n3shtjl5yd",
+	spellType: "range"
+});
+// @endmeta
 //For use with a 10ft spherical template. Will be off-center if cube is used.
 const template = canvas.templates.placeables[canvas.templates.placeables.length-1];
 

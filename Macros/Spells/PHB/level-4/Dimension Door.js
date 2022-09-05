@@ -1,3 +1,9 @@
+({
+    name: "Dimension Door",
+    id: "v21c4y2p2h838dh2",
+    spellType: "range"
+})
+// @endmeta
 // requires JB2A, Sequencer, and Warpgate
 //Credit to david (aka claudekennilol) for initial Pathfinder version and Tupsi for initial 5e version
 

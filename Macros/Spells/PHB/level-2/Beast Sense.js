@@ -1,3 +1,9 @@
+({
+	name: "Beast Sense",
+	id: "9gewllswvuhcj66r",
+	spellType: "range"
+});
+// @endmeta
 // This needs to be placed in dae's macro.execute with the @token and @target parameters in order to work correctly.
 
 

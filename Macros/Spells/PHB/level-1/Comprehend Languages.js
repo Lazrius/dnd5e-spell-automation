@@ -1,3 +1,9 @@
+({
+	name: "Comprehend Languages",
+	id: "crb622c23egc4418",
+	spellType: "range"
+});
+// @endmeta
 // @include getCasterToken.js
 
 const sequence = new Sequence();
