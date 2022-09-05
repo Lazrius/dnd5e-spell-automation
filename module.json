@@ -6,7 +6,7 @@
 	"compatibleCoreVersion": "9",
 	"version": "0.0.1",
 	"url": "https://github.com/IrateRedKite/jb2a-sequencer-spell-macros",
-	"scripts": [
+	"esmodules": [
 		"module/main.js"
 	],
 	"packs": [
@@ -39,6 +39,10 @@
 		{
 			"name": "warpgate",
 			"manifest": "https://raw.githubusercontent.com/trioderegion/warpgate/master/module.json",
+			"type": "module"
+		},
+		{
+			"name": "midi-qol",
 			"type": "module"
 		},
 		{
