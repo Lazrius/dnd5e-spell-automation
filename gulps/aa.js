@@ -14,35 +14,56 @@ const autoRecognition = {
 	"aefx": {}
 };
 
+const defaultEffect = (name) => ({
+	"name": name,
+	"below": false,
+	"hidden": true,
+	"soundOnly": {
+		"enable": false
+	},
+	"macro": {
+		"enable": true,
+		"playWhen": "2",
+		"name": name,
+		"args": ""
+	},
+	"audio": {
+		"a01": {
+			"enable": false
+		}
+	},
+	"animation": "",
+	"variant": "",
+	"color": "",
+	"custom": false,
+});
+
+const createAefx = (metadata) => {
+	const index = Object.keys(autoRecognition['range']).length;
+
+	autoRecognition['aefx'][index.toString()] = {
+		...defaultEffect(metadata.name),
+		"macro": {
+			"enable": true,
+			"playWhen": "2",
+			"name": "Shield",
+			"args": ""
+		},
+		"aeType": "",
+		"type": "source",
+		"menuType": "",
+	};
+};
+
 const createRange = (metadata) => {
 	const index = Object.keys(autoRecognition['range']).length;
 
 	autoRecognition['range'][index.toString()] = {
-		"below": false,
-		"hidden": true,
+		...defaultEffect(metadata.name),
 		"anim2d": false,
-		"name": metadata.name,
-		"soundOnly": {
-			"enable": false
-		},
-		"macro": {
-			"enable": true,
-			"playWhen": "2",
-			"name": `Compendium.dnd5e-spell-automation.Macros.${metadata.name}`,
-			"args": ""
-		},
 		"menuType": "spell",
-		"animation": "",
-		"variant": "",
-		"color": "",
-		"custom": false,
 		"repeat": null,
 		"delay": null,
-		"audio": {
-			"a01": {
-				"enable": false
-			}
-		},
 		"explosion": {
 			"enable": false
 		}
@@ -90,6 +111,7 @@ const createEntry = (file, enc, cb) => {
 		}
 		case 'aefx':
 		{
+			createAefx(metadata);
 			break;
 		}
 		default:
