@@ -1,7 +1,7 @@
-import bladeWard from "./cantrips/Blade Ward.js";
-import shield from "./level-1/Shield.js";
+import cantrips from './cantrips/_index.js';
+import level1 from './level-1/_index.js';
 
 export default {
-	"Blade Ward": bladeWard,
-	"Shield": shield
+	...cantrips,
+	...level1
 };
