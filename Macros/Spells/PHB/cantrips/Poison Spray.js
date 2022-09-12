@@ -4,8 +4,8 @@
 	spellType: "range"
 });
 // @endmeta
-// @include getCasterToken.js
-// @include getTemplate.js
+// @include getTokenDae.js
+// @include getTargetsDae.js
 
 const sequence = new Sequence();
 sequence

@@ -5,8 +5,6 @@
 });
 // @endmeta
 
-//NOTE: This needs to go into the effect's macro.execute property, rather than midi's 'On Item Use' field. The parameters @target and @token need to be passed in (In this order)
-//This needs sequencer 1.20 RC5 or later to work! There's a delta time bug that will cause the images to spiral out of control that's fixed in this release.
 // @include getCasterToken.js
 
 let target = canvas.tokens.get(args[1]);

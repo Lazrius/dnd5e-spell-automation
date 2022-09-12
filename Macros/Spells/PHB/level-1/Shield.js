@@ -5,11 +5,11 @@
 });
 // @endmeta
 
-let tokenD = canvas.tokens.get(args[1].tokenId);
+// @include getTokenDae.js
 
 if(args[0] === "on"){
-	const oneShot = new Sequence();
-	oneShot
+	const sequence = new Sequence();
+	sequence
 		.effect()
 		.file("jb2a.extras.tmfx.runes.circle.inpulse.abjuration")
 		.atLocation(casterToken)
@@ -20,7 +20,7 @@ if(args[0] === "on"){
 		.opacity(0.3)
 		.filter("Glow", { color: 0xffffff })
 		.scaleIn(0, 500, { ease: "easeOutCubic", delay: 100 });
-	oneShot
+	sequence
 		.effect()
 		.file("jb2a.moonbeam.01.intro.blue")
 		.atLocation(casterToken)
@@ -28,23 +28,19 @@ if(args[0] === "on"){
 		.fadeOut(200)
 		.duration(1200)
 		.waitUntilFinished(-500);
-	await oneShot.play();
-
-
-	const sequence = new Sequence();
 	sequence
 		.effect()
 		.file("jb2a.shield.01.intro.blue")
-		.attachTo(tokenD)
+		.attachTo(casterToken)
 		.scale(0.5)
 		.waitUntilFinished(-500);
 	sequence
 		.effect()
 		.file("jb2a.shield.01.loop.blue")
-		.attachTo(tokenD)
+		.attachTo(casterToken)
 		.scale(0.5)
 		.persist()
-		.name(`Shield-${tokenD.id}`)
+		.name(`Shield-${casterToken.id}`)
 		.fadeIn(300)
 		.fadeOut(300)
 		.extraEndDuration(800);
@@ -53,13 +49,13 @@ if(args[0] === "on"){
 
 if(args[0] === "off"){
 	// If the dynamic active effect ended
-	Sequencer.EffectManager.endEffects({ name: `Shield-${tokenD.id}`, object: tokenD });
+	Sequencer.EffectManager.endEffects({ name: `Shield-${casterToken.id}`, object: casterToken });
 
 	const sequence = new Sequence();
 	sequence
 		.effect()
 		.file("jb2a.shield.01.outro_explode.blue")
 		.scale(0.5)
-		.attachTo(tokenD);
+		.attachTo(casterToken);
 	await sequence.play();
 }

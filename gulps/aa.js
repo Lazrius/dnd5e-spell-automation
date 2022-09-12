@@ -24,7 +24,7 @@ const defaultEffect = (name) => ({
 	"macro": {
 		"enable": true,
 		"playWhen": "2",
-		"name": name,
+		"name": `Compendium.dnd5e-spell-automation.Macros.${name}`,
 		"args": ""
 	},
 	"audio": {
@@ -43,12 +43,6 @@ const createAefx = (metadata) => {
 
 	autoRecognition['aefx'][index.toString()] = {
 		...defaultEffect(metadata.name),
-		"macro": {
-			"enable": true,
-			"playWhen": "2",
-			"name": "Shield",
-			"args": ""
-		},
 		"aeType": "",
 		"type": "source",
 		"menuType": "",

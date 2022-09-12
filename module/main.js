@@ -1,5 +1,5 @@
 import SequencerHelpers from './helpers.js';
-import { registerSettings, effectAutomationEnabled } from './settings.js';
+import { registerSettings, effectAutomationEnabled, replaceExistingAe } from './settings.js';
 
 import activeEffects from './dae/index.js';
 
@@ -23,13 +23,22 @@ const createOrUpdateItem = async (item, changes) => {
 	if (!effectAutomationEnabled())
 		return;
 
-	const effect = Object.entries(activeEffects).find(x => x[0] === item.name);
+	const effect = Object.entries(activeEffects).find(x => x[1].label === item.name);
 	if (!effect)
 		return;
 
-	if (item.effects.size !== 0) {
-		// If there are existing effects we don't want to try and add ours
-		return;
+	if (!changes.effects) {
+		changes.effects = [];
+	}
+
+	if (changes.effects.length !== 0) {
+		if (replaceExistingAe()) {
+			// There are existing effects and we *do* want to replace with ours
+			changes.effects.length = 0;
+		} else {
+			// If there are existing effects we don't want to try and add ours
+			return;
+		}
 	}
 
 	changes.effects.push(effect[1]);

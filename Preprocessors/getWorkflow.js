@@ -1,1 +1,1 @@
-const workflow = arguments[0].args[0];
+let workflow = arguments[0].args[0];

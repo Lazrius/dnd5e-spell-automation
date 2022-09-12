@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "scripts": {
         "pack": "gulp pack",
+        "pack-dbg": "gulp packDbg",
         "ids": "gulp ids",
         "aa": "gulp autorec"
     },
