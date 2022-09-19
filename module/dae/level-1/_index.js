@@ -6,7 +6,7 @@ import HuntersMark from "./Hunter's Mark.js";
 import MageArmor from './Mage Armor.js';
 import ProtectionFromEvilAndGood from './Protection from Evil and Good.js';
 import Sanctuary from './Sanctuary.js';
-import ShieldOfFaith from './ShieldOfFaith.js';
+import ShieldOfFaith from './Shield of Faith.js';
 import Shield from './Shield.js';
 
 export default {
