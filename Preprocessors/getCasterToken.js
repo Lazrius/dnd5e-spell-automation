@@ -4,7 +4,15 @@ console.log(arguments);
 console.log(workflow);
 // @endif
 
-const casterToken = canvas.tokens.get(workflow.tokenId);
+let casterToken;
+
+// Workflow will be a string of on/off for DAE effects
+if (typeof workflow === typeof string) {
+	casterToken = arguments[0].token;
+} else {
+	casterToken = canvas.tokens.get(workflow.tokenId);
+}
+
 if (!casterToken) {
 	ui.notifications.warn("Please select a valid token to use this ability.");
 	return;

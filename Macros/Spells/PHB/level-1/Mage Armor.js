@@ -6,7 +6,7 @@
 // @endmeta
 
 // @include getTokenDae.js
-// @include getTargetsDae.js
+// @include getTargetDae.js
 
 if (args[0] === "on") {
 	const sequence = new Sequence();
@@ -36,22 +36,21 @@ if (args[0] === "on") {
 		.atLocation(casterToken)
 		.fadeIn(500)
 		.fadeOut(500);
-	for (const target of targets) {
-		sequence
-			.effect()
-			.file("jb2a.energy_field.02.above.blue")
-			.attachTo(target)
-			.scaleToObject(1.5)
-			.opacity(0.3)
-			.persist()
-			.name(`mage-armor-${target.id}`)
-			.fadeIn(1000)
-			.fadeOut(1000);
-		await sequence.play();
-	}
+
+	sequence
+		.effect()
+		.file("jb2a.energy_field.02.above.blue")
+		.attachTo(target)
+		.scaleToObject(1.5)
+		.opacity(0.3)
+		.persist()
+		.name(`mage-armor-${target.id}`)
+		.fadeIn(1000)
+		.fadeOut(1000);
+	await sequence.play();
 }
 
-if (args[0] === "off") {
+else if (args[0] === "off") {
 	Sequencer.EffectManager.endEffects({ name: `mage-armor-${casterToken.id}`, object: casterToken });
 }
 

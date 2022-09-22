@@ -5,11 +5,11 @@
 });
 // @endmeta
 // @include getTokenDae.js
-// @include getTargetsDae.js
+// @include getTargetDae.js
 
 let tokenD = canvas.tokens.get(args[1].tokenId);
 
-if(args[0] === "on"){
+if(args[0] === "on") {
 	const sequence = new Sequence();
 	sequence
 		.effect()
@@ -32,27 +32,25 @@ if(args[0] === "on"){
 		.fadeIn(500)
 		.scale(0.7);
 
-	for (const target of targets) {
-		sequence
-			.effect()
-			.file("jb2a.impact.011.blue")
-			.atLocation(target)
-			.scaleToObject(2);
-		sequence
-			.effect()
-			.file("jb2a.static_electricity.02.blue")
-			.delay(2000)
-			.attachTo(target)
-			.scaleToObject(1.2)
-			.fadeIn(500)
-			.fadeOut(2000)
-			.persist()
-			.name(`shocking-grasp-${target.id}`);
-	}
-	
+	sequence
+		.effect()
+		.file("jb2a.impact.011.blue")
+		.atLocation(target)
+		.scaleToObject(2);
+	sequence
+		.effect()
+		.file("jb2a.static_electricity.02.blue")
+		.delay(2000)
+		.attachTo(target)
+		.scaleToObject(1.2)
+		.fadeIn(500)
+		.fadeOut(2000)
+		.persist()
+		.name(`shocking-grasp-${target.id}`);
+			
 	await sequence.play();
 }
-
-if(args[0] === "off"){
+	
+else if (args[0] === "off"){
 	Sequencer.EffectManager.endEffects({ name: `shocking-grasp-${casterToken.id}`, object: casterToken });
 }

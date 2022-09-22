@@ -5,7 +5,7 @@
 });
 // @endmeta
 // @include getTokenDae.js
-// @include getTargetsDae.js
+// @include getTargetDae.js
 
 if(args[0] === "on") {
 	const sequence = new Sequence();
@@ -29,27 +29,25 @@ if(args[0] === "on") {
 		.scaleToObject(2)
 		.waitUntilFinished(-500);
 		
-	for (const target of targets) {
-		sequence
-			.effect()
-			.file("jb2a.ray_of_frost.blue")
-			.atLocation(casterToken)
-			.stretchTo(target);
-		sequence
-			.effect()
-			.file("jb2a.token_border.circle.static.blue.001")
-			.delay(2000)
-			.attachTo(target)
-			.scale(0.5)
-			.fadeIn(2000)
-			.fadeOut(2000)
-			.persist()
-			.name(`frost-${target.id}`);
-	}
+	sequence
+		.effect()
+		.file("jb2a.ray_of_frost.blue")
+		.atLocation(casterToken)
+		.stretchTo(target);
+	sequence
+		.effect()
+		.file("jb2a.token_border.circle.static.blue.001")
+		.delay(2000)
+		.attachTo(target)
+		.scale(0.5)
+		.fadeIn(2000)
+		.fadeOut(2000)
+		.persist()
+		.name(`frost-${target.id}`);
 	
 	await sequence.play();
 }
 
-if (args[0] === "off") {
+else if (args[0] === "off") {
 	Sequencer.EffectManager.endEffects({ name: `frost-${casterToken.id}`, object: casterToken });
 }

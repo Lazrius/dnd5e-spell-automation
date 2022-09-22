@@ -5,7 +5,7 @@
 });
 // @endmeta
 // @include getTokenDae.js
-// @include getTargetsDae.js
+// @include getTargetDae.js
 
 
 if(args[0] === "on") {
@@ -29,30 +29,30 @@ if(args[0] === "on") {
 		.fadeOut(200)
 		.scaleToObject(2)
 		.waitUntilFinished(-500);
-	for (const target of targets) {
-		sequence
-			.effect()
-			.file("jb2a.magic_signs.circle.02.abjuration.intro.yellow")
-			.attachTo(target)
-			.scaleToObject(1.5)
-			.waitUntilFinished(-500)
-			.belowTokens();
-		sequence
-			.effect()
-			.file("jb2a.magic_signs.circle.02.abjuration.loop.yellow")
-			.attachTo(target)
-			.scaleToObject(1.5)
-			.persist()
-			.name(`protection-from-good-and-evil-${target.id}`)
-			.fadeIn(300)
-			.fadeOut(300)
-			.extraEndDuration(800)
-			.belowTokens();
-	}
+
+	sequence
+		.effect()
+		.file("jb2a.magic_signs.circle.02.abjuration.intro.yellow")
+		.attachTo(target)
+		.scaleToObject(1.5)
+		.waitUntilFinished(-500)
+		.belowTokens();
+	sequence
+		.effect()
+		.file("jb2a.magic_signs.circle.02.abjuration.loop.yellow")
+		.attachTo(target)
+		.scaleToObject(1.5)
+		.persist()
+		.name(`protection-from-good-and-evil-${target.id}`)
+		.fadeIn(300)
+		.fadeOut(300)
+		.extraEndDuration(800)
+		.belowTokens();
+			
 	await sequence.play();
 }
 
-if(args[0] === "off") {
+else if(args[0] === "off") {
 	Sequencer.EffectManager.endEffects({ name: `protection-from-good-and-evil-${casterToken.id}`, object: casterToken });
 
 	const sequence = new Sequence();

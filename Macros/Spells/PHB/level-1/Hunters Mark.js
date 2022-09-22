@@ -6,7 +6,7 @@
 // @endmeta
 
 // @include getTokenDae.js
-// @include getTargetsDae.js
+// @include getTargetDae.js
 
 
 if (args[0] === "on") {
@@ -28,21 +28,21 @@ if (args[0] === "on") {
 		.waitUntilFinished(-2000)
 		.filter("Glow", { color: 0xfefebe })
 		.opacity(0.5);
-	for (const target of targets) {
-		sequence
-			.effect()
-			.file("jb2a.hunters_mark.loop.02.blue")
-			.scaleIn(0, 500, { ease: "easeOutCubic" })
-			.fadeOut(500)
-			.scaleToObject(1)
-			.attachTo(target)
-			.persist()
-			.opacity(0.5)
-			.name(`hunters-mark-${target.id}`);
-	}
+		
+	sequence
+		.effect()
+		.file("jb2a.hunters_mark.loop.02.blue")
+		.scaleIn(0, 500, { ease: "easeOutCubic" })
+		.fadeOut(500)
+		.scaleToObject(1)
+		.attachTo(target)
+		.persist()
+		.opacity(0.5)
+		.name(`hunters-mark-${target.id}`);
+	
 	await sequence.play();
 }
 
-if (args[0] === "off") {
+else if (args[0] === "off") {
 	Sequencer.EffectManager.endEffects({ name: `hunters-mark-${casterToken.id}`, object: casterToken });
 }  
