@@ -78,7 +78,13 @@ const packageBuild = () => {
 
 			zip.pipe(zipFile);
 
-			zip.directory(path.join(process.cwd(), 'dist'), false);
+			zip.file("module.json");
+			zip.file("README.md");
+			zip.file("LICENSE.md");
+			zip.file("jb2a-dnd5e-macros.db");
+
+			zip.glob("module/**/*.js");
+
 			return zip.finalize();
 		} catch (err) {
 			return reject(err);
@@ -184,7 +190,8 @@ const gitTaskBuild = (cb) => {
 	return gulp.src(`dist/${manifest.file.name}-v${manifest.file.version}.zip`)
 		.pipe(git.checkout(`v${manifest.file.version}`, { args: '-b' }))
 		.pipe(git.add({ args: "--no-all -f" }))
-		.pipe(git.commit(`v${manifest.file.version}`, { args: "-a", disableAppendPaths: true }));
+		.pipe(git.commit(`v${manifest.file.version}`, { args: "-a", disableAppendPaths: true }))
+		.pipe(git.checkout("master"));
 };
 
 export const update = gulp.series(updateManifest, packageBuild, gitTaskManifest, gitTaskBuild);
