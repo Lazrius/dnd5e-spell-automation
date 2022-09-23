@@ -1,31 +1,53 @@
 {
-	"name": "dnd5e-spell-automation",
-	"version": "0.0.5",
-	"scripts": {
-		"pack": "gulp pack",
-		"pack-dbg": "gulp packDbg",
-		"ids": "gulp ids",
-		"aa": "gulp autorec",
-		"publish": "gulp publish --update "
-	},
-	"devDependencies": {
-		"@babel/eslint-parser": "^7.18.9",
-		"@league-of-foundry-developers/foundry-vtt-dnd5e-types": "^1.2.4-2",
-		"@league-of-foundry-developers/foundry-vtt-types": "^9.269.0",
-		"@types/gulp": "^4.0.9",
-		"@types/jquery": "^3.5.6",
-		"@types/node": "^16.9.1",
-		"archiver": "^5.3.1",
-		"eslint": "8.22.0",
-		"gulp": "^4.0.2",
-		"gulp-git-streamed": "^2.10.1",
-		"gulp-preprocess": "^4.0.2",
-		"through2": "^4.0.2",
-		"typescript": "^4.4.2",
-		"yargs": "^17.5.1"
-	},
-	"type": "module",
-	"url": "https://github.com/Lazrius/dnd5e-spell-automation",
-	"manifest": "https://raw.githubusercontent.com/Lazrius/dnd5e-spell-automation/master/module.json",
-	"download": "https://raw.githubusercontent.com/Lazrius/dnd5e-spell-automation/v0.0.5/dist/dnd5e-spell-automation-v0.0.5.zip"
+    "name": "dnd5e-spell-automation",
+    "title": "DnD5E Spell Automations",
+    "description": "Setting up spell effects, animations, and all the automation with MIDI, DAE, AA - it's a pain. This module does it all for you!",
+    "minimumCoreVersion": "9",
+    "compatibleCoreVersion": "9",
+    "version": "0.0.1",
+    "url": "https://github.com/IrateRedKite/jb2a-sequencer-spell-macros",
+    "esmodules": [
+        "module/main.js"
+    ],
+    "packs": [
+        {
+            "name": "Macros",
+            "label": "JB2A DnD5e Spell Macros",
+            "system": "dnd5e",
+            "path": "jb2a-dnd5e-macros.db",
+            "entity": "Macro",
+            "type": "Macro",
+            "private": false
+        }
+    ],
+    "authors": [
+        {
+            "name": "Lazrius",
+            "url": "https://github.com/Lazrius"
+        },
+        {
+            "name": "IrateRedKite/Milo",
+            "url": "https://github.com/IrateRedKite"
+        }
+    ],
+    "dependencies": [
+        {
+            "name": "autoanimations",
+            "manifest": "https://raw.githubusercontent.com/otigon/automated-jb2a-animations/main/module.json",
+            "type": "module"
+        },
+        {
+            "name": "warpgate",
+            "manifest": "https://raw.githubusercontent.com/trioderegion/warpgate/master/module.json",
+            "type": "module"
+        },
+        {
+            "name": "midi-qol",
+            "type": "module"
+        },
+        {
+            "name": "dnd5e",
+            "type": "system"
+        }
+    ]
 }
