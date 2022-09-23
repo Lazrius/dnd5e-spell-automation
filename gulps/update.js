@@ -159,7 +159,7 @@ const updateManifest = (cb) => {
 		manifest.file.download = result;
 
 		fs.writeFileSync("package.json", JSON.stringify(packageJson, null, '\t'));
-		fs.writeFileSync(path.join(manifest.root, manifest.name), JSON.stringify(packageJson, null, '\t'), "utf8");
+		fs.writeFileSync(path.join(manifest.root, manifest.name), JSON.stringify(manifest.file, null, '\t'), "utf8");
 
 		return cb();
 	} catch (err) {
