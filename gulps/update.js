@@ -155,12 +155,11 @@ const updateManifest = (cb) => {
 		const result = `${rawURL}/v${manifest.file.version}/dist/${manifest.file.name}-v${manifest.file.version}.zip`;
 
 		manifest.file.url = repoURL;
-		manifest.file.manifest = `${rawURL}/master/${manifestRoot}/${manifest.name}`;
+		manifest.file.manifest = `${rawURL}/master/${manifestRoot}${manifest.name}`;
 		manifest.file.download = result;
 
 		fs.writeFileSync("package.json", JSON.stringify(packageJson, null, '\t'));
 		fs.writeFileSync(path.join(manifest.root, manifest.name), JSON.stringify(manifest.file, null, '\t'), "utf8");
-
 		return cb();
 	} catch (err) {
 		return cb(err);
