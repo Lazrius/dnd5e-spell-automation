@@ -8,6 +8,7 @@ import ProtectionFromEvilAndGood from './Protection from Evil and Good.js';
 import Sanctuary from './Sanctuary.js';
 import ShieldOfFaith from './Shield of Faith.js';
 import Shield from './Shield.js';
+import TashasCausticBrew from './Tasha\'s Caustic Brew.js';
 
 export default {
 	Bane,
@@ -19,5 +20,6 @@ export default {
 	"Protection from Evil and Good": ProtectionFromEvilAndGood,
 	Sanctuary,
 	"Shield of Faith": ShieldOfFaith,
-	Shield
+	Shield,
+	"Tasha's Caustic Brew": TashasCausticBrew
 };
