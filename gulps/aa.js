@@ -66,6 +66,26 @@ const createRange = (metadata) => {
 	};
 };
 
+const createTemplate = (metadata) => {
+	const index = Object.keys(autoRecognition['templates']).length;
+
+	autoRecognition['templates'][index.toString()] = {
+		...defaultEffect(metadata.name),
+		"menuType": "",
+		"animation": "",
+		"variant": "",
+		"color": "",
+		"custom": false,
+		"repeat": null,
+		"delay": null,
+		"scaleX": null,
+		"scaleY": null,
+		"opacity": null,
+		"removeTemplate": false,
+		"persist": false
+	};
+};
+
 const createEntry = (file, enc, cb) => {
 	const contents = file.contents.toString();
 
@@ -95,6 +115,7 @@ const createEntry = (file, enc, cb) => {
 		}
 		case 'templates':
 		{
+			createTemplate(metadata);
 			break;
 		}
 		case 'auras':
