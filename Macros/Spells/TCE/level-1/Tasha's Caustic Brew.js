@@ -8,13 +8,7 @@
 // @include getTemplate.js
 // @include helpers/getRayEndPos.js
 
-console.log("Tasha's Cast");
-console.log(arguments);
-
 const templateEndPos = getRayEndPos(template);
-
-console.log(template);
-console.log(templateEndPos);
 
 const sequence = new Sequence();
 sequence.effect()
@@ -24,3 +18,5 @@ sequence.effect()
 	.fadeOut(200);
 
 await sequence.play();
+
+await canvas.scene.deleteEmbeddedDocuments("MeasuredTemplate", [template.data._id]);

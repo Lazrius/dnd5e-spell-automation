@@ -1,6 +1,6 @@
 {
 	"name": "dnd5e-spell-automation",
-	"version": "0.0.10",
+	"version": "0.0.11",
 	"scripts": {
 		"pack": "gulp pack",
 		"pack-dbg": "gulp packDbg",
