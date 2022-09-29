@@ -32,19 +32,19 @@ for (const target of targets) {
 		.duration(4000)
 		.fadeOut(1000)
 		.scaleToObject(3)
-		.atLocation(target)
+		.attachTo(target)
 		.scaleIn(0, 500, { ease: "easeOutCubic" })
 		.scaleOut(0, 4000, { ease: "easeOutCubic" });
 	sequence
 		.effect()
 		.file("jb2a.impact.011.orange")
-		.atLocation(target)
+		.attachTo(target)
 		.scaleIn(0, 300, { ease: "easeOutCubic" })
 		.scaleToObject(2);
 	sequence
 		.effect()
 		.file("jb2a.smoke.puff.centered.dark_black.0")
-		.atLocation(target)
+		.attachTo(target)
 		.scaleIn(0, 300, { ease: "easeOutCubic" })
 		.scaleToObject(3)
 		.randomRotation();

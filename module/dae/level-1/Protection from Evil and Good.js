@@ -12,6 +12,12 @@ export default {
 			"mode": 2,
 			"value": "charmed",
 			"priority": "20"
+		},
+		{
+			"key": "macro.execute",
+			"value": "\"Compendium.dnd5e-spell-automation.Macros.Protection from Evil and Good AE\"",
+			"mode": 0,
+			"priority": "20"
 		}
 	],
 	"disabled": false,

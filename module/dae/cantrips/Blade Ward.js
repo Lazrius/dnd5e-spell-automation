@@ -6,6 +6,12 @@ export default {
 			"mode": 2,
 			"value": "physical",
 			"priority": "20"
+		},
+		{
+			"key": "macro.execute",
+			"value": "\"Compendium.dnd5e-spell-automation.Macros.Blade Ward AE\"",
+			"mode": 0,
+			"priority": "20"
 		}
 	],
 	"disabled": false,

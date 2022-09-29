@@ -22,7 +22,7 @@ for (const target of targets) {
 	sequence
 		.effect()
 		.file("jb2a.moonbeam.01.intro.rainbow")
-		.atLocation(target)
+		.attachTo(target)
 		.fadeIn(100)
 		.fadeOut(200)
 		.duration(1200);
@@ -35,7 +35,7 @@ for (const target of targets) {
 		.duration(3000)
 		.scale(0.4)
 		.opacity(0.4)
-		.atLocation(target)
+		.attachTo(target)
 		.scaleIn(0, 500, { ease: "easeOutCubic" });
 }
 await sequence.play();

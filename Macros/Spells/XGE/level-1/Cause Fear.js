@@ -22,20 +22,20 @@ for (const target of targets) {
 	sequence
 		.effect()
 		.file("jb2a.impact.004.blue")
-		.atLocation(target)
+		.attachTo(target)
 		.fadeIn(500)
 		.randomRotation();
 	sequence
 		.effect()
 		.file("jb2a.toll_the_dead.blue.shockwave")
-		.atLocation(target)
+		.attachTo(target)
 		.fadeIn(500)
 		.scale(0.8, 1)
 		.randomRotation();
 	sequence
 		.effect()
 		.file("jb2a.fireflies.many.02.blue")
-		.atLocation(target)
+		.attachTo(target)
 		.fadeIn(500)
 		.fadeOut(500)
 		.scale(0.4, 0.5)
@@ -46,7 +46,7 @@ for (const target of targets) {
 		.fadeIn(100)
 		.fadeOut(100)
 		.scale(0.4, 0.55)
-		.atLocation(target)
+		.attachTo(target)
 		.scaleIn(0, 500, { ease: "easeOutCubic" });
 }
 await sequence.play();

@@ -6,6 +6,12 @@ export default {
 			"mode": 0,
 			"value": "1",
 			"priority": "20"
+		},
+		{
+			"key": "macro.execute",
+			"value": "\"Compendium.dnd5e-spell-automation.Macros.Frostbite AE\"",
+			"mode": 0,
+			"priority": "20"
 		}
 	],
 	"disabled": false,

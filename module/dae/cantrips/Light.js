@@ -1,6 +1,13 @@
 export default {
 	"_id": "eogwcdvwy4r0vx77",
-	"changes": [],
+	"changes": [
+		{
+			"key": "macro.execute",
+			"value": "\"Compendium.dnd5e-spell-automation.Macros.Light AE\"",
+			"mode": 0,
+			"priority": "20"
+		}
+	],
 	"disabled": false,
 	"duration": {
 		"seconds": 3600,

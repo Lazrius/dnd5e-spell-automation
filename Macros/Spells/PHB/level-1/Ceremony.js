@@ -19,20 +19,4 @@ sequence
 	.waitUntilFinished(-500)
 	.filter("Glow", { color: 0xabcdef });
 
-for (const target of targets) {
-	sequence
-		.effect()
-		.file("jb2a.impact.004.blue")
-		.atLocation(target)
-		.fadeIn(500);
-	sequence
-		.effect()
-		.file("jb2a.energy_strands.complete.blueorange.01")
-		.fadeIn(1000)
-		.duration(10000)
-		.fadeOut(1000)
-		.scaleToObject(1.5)
-		.atLocation(target)
-		.randomRotation();
-	await sequence.play();
-}
+await sequence.play();

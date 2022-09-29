@@ -33,7 +33,7 @@ for (const target of targets) {
 		.fadeIn(100)
 		.fadeOut(100)
 		.scale(0.4, 0.45)
-		.atLocation(target)
+		.attachTo(target)
 		.randomRotation();
 }
 await sequence.play();

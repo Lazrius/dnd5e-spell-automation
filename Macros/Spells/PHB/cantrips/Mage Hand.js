@@ -39,9 +39,6 @@ await warpgate.spawn("Mage Hand", {}, {
 			.filter("Glow", { color: 0xa1c4fd });
 
 		await sequence.play();
-
-		// Sleep for 500ms
-		await (new Promise(resolve => setTimeout(resolve, 1200)));
 	}
 }, {
 	collision: false

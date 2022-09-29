@@ -23,7 +23,7 @@ for (const target of targets) {
 	sequence
 		.effect()
 		.file("jb2a.impact.004.blue")
-		.atLocation(target)
+		.attachTo(target)
 		.fadeIn(500);
 	sequence
 		.effect()
@@ -31,7 +31,7 @@ for (const target of targets) {
 		.fadeIn(100)
 		.fadeOut(100)
 		.scale(0.4, 0.45)
-		.atLocation(target)
+		.attachTo(target)
 		.randomRotation();
 }
 

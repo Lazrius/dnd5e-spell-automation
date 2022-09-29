@@ -52,7 +52,7 @@ sequence
 	.file("jb2a.markers.fear.orange.02")
 	.fadeIn(500)
 	.fadeOut(500)
-	.atLocation(target)
+	.attachTo(target)
 	.persist();
 //   .playIf(targetSave)
 

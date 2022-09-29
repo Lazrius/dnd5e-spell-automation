@@ -33,7 +33,7 @@ for (const target of targets) {
 	sequence
 		.effect()
 		.file("jb2a.flames.01.orange")
-		.atLocation(target)
+		.attachTo(target)
 		.fadeIn(500)
 		.fadeOut(500)
 		.waitUntilFinished();

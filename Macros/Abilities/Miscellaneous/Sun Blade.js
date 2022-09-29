@@ -27,7 +27,7 @@ sequence
 	.duration(1500)
 	.fadeIn(500)
 	.fadeOut(500)
-	.atLocation(target)
+	.attachTo(target)
 	.filter("Glow", { color: 0xffa700 })
 	.scaleToObject()
 	.waitUntilFinished(-500);
@@ -36,7 +36,7 @@ sequence
 	.effect()
 	.file("jb2a.flames.01.orange")
 	.filter("Glow", { color: 0xffa700 })
-	.atLocation(target)
+	.attachTo(target)
 	.fadeIn(500)
 	.fadeOut(500)
 	.waitUntilFinished(-1500)

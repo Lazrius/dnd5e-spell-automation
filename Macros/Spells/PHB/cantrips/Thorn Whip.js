@@ -43,7 +43,7 @@ for (const target of targets) {
 	sequence
 		.effect()
 		.file("jb2a.impact.008.green")
-		.atLocation(target)
+		.attachTo(target)
 		.scaleToObject(1.5);
 }
 

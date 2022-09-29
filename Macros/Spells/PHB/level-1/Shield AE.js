@@ -1,18 +1,18 @@
 ({
-	name: "Shield",
+	name: "Shield AE",
 	id: "w9xmvz697vd201vi",
 	spellType: "aefx"
 });
 // @endmeta
 
-// @include getTokenDae.js
+// @include getTargetDae.js
 
-if(args[0] === "on"){
+if(args[0] === "on") {
 	const sequence = new Sequence();
 	sequence
 		.effect()
 		.file("jb2a.extras.tmfx.runes.circle.inpulse.abjuration")
-		.atLocation(casterToken)
+		.attachTo(target)
 		.duration(2000)
 		.fadeIn(500)
 		.fadeOut(500)
@@ -23,7 +23,7 @@ if(args[0] === "on"){
 	sequence
 		.effect()
 		.file("jb2a.moonbeam.01.intro.blue")
-		.atLocation(casterToken)
+		.attachTo(target)
 		.fadeIn(100)
 		.fadeOut(200)
 		.duration(1200)
@@ -31,31 +31,31 @@ if(args[0] === "on"){
 	sequence
 		.effect()
 		.file("jb2a.shield.01.intro.blue")
-		.attachTo(casterToken)
+		.attachTo(target)
 		.scale(0.5)
 		.waitUntilFinished(-500);
 	sequence
 		.effect()
 		.file("jb2a.shield.01.loop.blue")
-		.attachTo(casterToken)
+		.attachTo(target)
 		.scale(0.5)
 		.persist()
-		.name(`Shield-${casterToken.id}`)
+		.name(`Shield-${target.id}`)
 		.fadeIn(300)
 		.fadeOut(300)
 		.extraEndDuration(800);
 	await sequence.play();
 }
 
-if(args[0] === "off"){
+if(args[0] === "off") {
 	// If the dynamic active effect ended
-	Sequencer.EffectManager.endEffects({ name: `Shield-${casterToken.id}`, object: casterToken });
+	Sequencer.EffectManager.endEffects({ name: `Shield-${target.id}`, object: target });
 
 	const sequence = new Sequence();
 	sequence
 		.effect()
 		.file("jb2a.shield.01.outro_explode.blue")
 		.scale(0.5)
-		.attachTo(casterToken);
+		.attachTo(target);
 	await sequence.play();
 }

@@ -30,7 +30,7 @@ sequence
 sequence
 	.effect()
 	.file("jb2a.impact.004.pinkpurple")
-	.atLocation(target)
+	.attachTo(target)
 	.fadeIn(500)
 	.fadeOut(300)
 	.playIf(targetHit);
@@ -38,7 +38,7 @@ sequence
 sequence
 	.effect()
 	.file("jb2a.markers.01.purplepink")
-	.atLocation(target)
+	.attachTo(target)
 	.duration(1500)
 	.fadeIn(500)
 	.fadeOut(300)

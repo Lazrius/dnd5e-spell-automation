@@ -23,12 +23,12 @@ for (const target of targets) {
 	sequence
 		.effect()
 		.file("jb2a.impact.004.dark_red")
-		.atLocation(target)
+		.attachTo(target)
 		.fadeIn(500);
 	sequence
 		.effect()
 		.file("jb2a.extras.tmfx.runes.circle.simple.enchantment")
-		.atLocation(target)
+		.attachTo(target)
 		.fadeIn(500)
 		.scaleIn(0, 300, { ease: "easeOutCubic" })
 		.scaleToObject(2)

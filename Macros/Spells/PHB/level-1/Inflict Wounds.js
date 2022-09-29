@@ -31,15 +31,17 @@ for (const target of targets) {
 	sequence
 		.effect()
 		.file("jb2a.impact.003.dark_red")
-		.atLocation(target)
+		.attachTo(target)
 		.fadeIn(500);
 	sequence
 		.effect()
 		.file("jb2a.impact.004.dark_red")
-		.atLocation(target)
-		.fadeIn(500)
+		.attachTo(target)
+		.fadeIn(500);
+	sequence
+		.effect()
 		.file("jb2a.portals.horizontal.ring.dark_red")
-		.atLocation(target)
+		.attachTo(target)
 		.fadeIn(500)
 		.scaleIn(0, 300, { ease: "easeOutCubic" })
 		.scaleToObject(2, 2.2)

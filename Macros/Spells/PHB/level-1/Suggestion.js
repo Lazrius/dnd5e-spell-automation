@@ -23,7 +23,7 @@ for (const target of targets) {
 	sequence
 		.effect()
 		.file("jb2a.impact.004.yellow")
-		.atLocation(target)
+		.attachTo(target)
 		.fadeIn(500);
 	sequence
 		.effect()
@@ -34,12 +34,12 @@ for (const target of targets) {
 		.duration(3000)
 		.scale(0.4)
 		.opacity(0.4)
-		.atLocation(target)
+		.attachTo(target)
 		.scaleIn(0, 500, { ease: "easeOutCubic" });
 	sequence
 		.effect()
 		.file("jb2a.extras.tmfx.runes.circle.simple.enchantment")
-		.atLocation(target)
+		.attachTo(target)
 		.fadeIn(500)
 		.scaleIn(0, 300, { ease: "easeOutCubic" })
 		.scaleToObject(2)

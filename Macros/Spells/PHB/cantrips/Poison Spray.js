@@ -4,7 +4,7 @@
 	spellType: "range"
 });
 // @endmeta
-// @include getTokenDae.js
+// @include getTargetDae.js
 // @include getTargetDae.js
 
 const sequence = new Sequence();

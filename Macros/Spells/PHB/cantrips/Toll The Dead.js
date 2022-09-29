@@ -31,7 +31,7 @@ for (const target of targets) {
 	sequence
 		.effect()
 		.file("jb2a.toll_the_dead.purple.complete")
-		.atLocation(target)
+		.attachTo(target)
 		.scaleIn(0, 500, { ease: "easeInCubic" })
 		.fadeIn(500)
 		.fadeOut(300);

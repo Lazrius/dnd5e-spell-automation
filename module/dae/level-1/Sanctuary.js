@@ -1,6 +1,13 @@
 export default {
 	"_id": "q3966d2scbhzrv5k",
-	"changes": [],
+	"changes": [
+		{
+			"key": "macro.execute",
+			"value": "\"Compendium.dnd5e-spell-automation.Macros.Sanctuary AE\"",
+			"mode": 0,
+			"priority": "20"
+		}
+	],
 	"disabled": false,
 	"duration": {
 		"seconds": 60,

@@ -6,7 +6,7 @@ export default class SequencerHelpers {
 			.duration(2500)
 			.fadeIn(500)
 			.fadeOut(500)
-			.atLocation(target)
+			.attachTo(target)
 			.filter("Glow", { color })
 			.scaleToObject();
 	}

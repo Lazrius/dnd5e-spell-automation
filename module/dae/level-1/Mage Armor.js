@@ -6,6 +6,12 @@ export default {
 			"mode": 5,
 			"value": "mage",
 			"priority": "20"
+		},
+		{
+			"key": "macro.execute",
+			"value": "\"Compendium.dnd5e-spell-automation.Macros.Mage Armor AE\"",
+			"mode": 0,
+			"priority": "20"
 		}
 	],
 	"disabled": false,

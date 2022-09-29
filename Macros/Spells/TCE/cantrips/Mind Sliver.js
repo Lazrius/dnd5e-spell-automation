@@ -33,7 +33,7 @@ for (const target of targets) {
 	sequence
 		.effect()
 		.file("jb2a.moonbeam.01.intro.rainbow")
-		.atLocation(target)
+		.attachTo(target)
 		.fadeIn(100)
 		.fadeOut(200)
 		.duration(1200)
@@ -43,14 +43,14 @@ for (const target of targets) {
 		.effect()
 		.delay(500)
 		.file("jb2a.impact.007.purple")
-		.atLocation(target)
+		.attachTo(target)
 		.fadeIn(100)
 		.fadeOut(200);
 	sequence
 		.effect()
 		.file("jb2a.ice_spikes.radial.burst.white")
 		.scale(0.3)
-		.atLocation(target)
+		.attachTo(target)
 		.fadeIn(500)
 		.fadeOut(500)
 		.duration(1500)

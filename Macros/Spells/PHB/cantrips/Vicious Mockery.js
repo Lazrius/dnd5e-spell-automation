@@ -1,76 +1,60 @@
 ({
 	name: "Vicious Mockery",
 	id: "owwkc7rp76f4e1il",
-	spellType: "aefx"
+	spellType: "range"
 });
 // @endmeta
 // @include getCasterToken.js
 // @include getTargets.js
 
-if (args[0] === "on") {
-	const sequence = new Sequence();
+const sequence = new Sequence();
+sequence
+	.effect()
+	.file("jb2a.markers.music.dark_red")
+	.atLocation(casterToken)
+	.duration(3500)
+	.fadeIn(500)
+	.fadeOut(500)
+	.scale(0.5)
+	.belowTokens();
+sequence
+	.effect()
+	.file("jb2a.extras.tmfx.runes.circle.outpulse.enchantment")
+	.atLocation(casterToken)
+	.duration(4000)
+	.fadeIn(500)
+	.fadeOut(500)
+	.scale(0.5)
+	.waitUntilFinished(-2000)
+	.filter("Glow", { color: 0xcd5c5c });
+
+for (const target of targets) {
 	sequence
 		.effect()
-		.file("jb2a.markers.music.dark_red")
-		.atLocation(casterToken)
-		.duration(3500)
-		.fadeIn(500)
-		.fadeOut(500)
-		.scale(0.5)
-		.belowTokens();
+		.file("jb2a.impact.004.dark_red")
+		.attachTo(target)
+		.fadeIn(500);
 	sequence
 		.effect()
-		.file("jb2a.extras.tmfx.runes.circle.outpulse.enchantment")
-		.atLocation(casterToken)
-		.duration(4000)
-		.fadeIn(500)
+		.file("jb2a.energy_strands.overlay.dark_red.01")
+		.delay(200)
+		.fadeIn(300)
 		.fadeOut(500)
-		.scale(0.5)
-		.waitUntilFinished(-2000)
+		.duration(3000)
+		.scale(0.4)
+		.opacity(0.4)
+		.attachTo(target)
+		.scaleIn(0, 500, { ease: "easeOutCubic" });
+	sequence
+		.effect()
+		.file("jb2a.extras.tmfx.runes.circle.simple.enchantment")
+		.attachTo(target)
+		.fadeIn(500)
+		.scaleIn(0, 300, { ease: "easeOutCubic" })
+		.scaleToObject(2)
+		.duration(2000)
+		.fadeOut(500)
 		.filter("Glow", { color: 0xcd5c5c });
-
-	for (const target of targets) {
-		sequence
-			.effect()
-			.file("jb2a.impact.004.dark_red")
-			.atLocation(target)
-			.fadeIn(500);
-		sequence
-			.effect()
-			.file("jb2a.energy_strands.overlay.dark_red.01")
-			.delay(200)
-			.fadeIn(300)
-			.fadeOut(500)
-			.duration(3000)
-			.scale(0.4)
-			.opacity(0.4)
-			.atLocation(target)
-			.scaleIn(0, 500, { ease: "easeOutCubic" });
-		sequence
-			.effect()
-			.file("jb2a.extras.tmfx.runes.circle.simple.enchantment")
-			.atLocation(target)
-			.fadeIn(500)
-			.scaleIn(0, 300, { ease: "easeOutCubic" })
-			.scaleToObject(2)
-			.duration(2000)
-			.fadeOut(500)
-			.filter("Glow", { color: 0xcd5c5c });
-		sequence
-			.effect()
-			.file("jb2a.token_border.circle.spinning.purple.009")
-			.delay(2000)
-			.attachTo(target)
-			.scale(0.5)
-			.fadeIn(2000)
-			.fadeOut(2000)
-			.persist()
-			.name(`mockery-${target.id}`);
-	}
+}
 	
-	await sequence.play();
-}
-
-if (args[0] === "off") {
-	Sequencer.EffectManager.endEffects({ name: `mockery-${casterToken.id}`, object: casterToken });
-}
+await sequence.play();

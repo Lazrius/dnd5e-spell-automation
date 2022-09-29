@@ -32,14 +32,14 @@ sequence
 	.duration(1500)
 	.fadeIn(500)
 	.fadeOut(500)
-	.atLocation(target)
+	.attachTo(target)
 	.filter("Glow", { color: 0xFFC300 })
 	.playIf(targetHit);
 
 sequence
 	.effect()
 	.file("jb2a.flames.01.orange")
-	.atLocation(target)
+	.attachTo(target)
 	.duration(1500)
 	.fadeIn(500)
 	.fadeOut(300)

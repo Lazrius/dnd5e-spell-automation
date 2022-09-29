@@ -23,13 +23,13 @@ for (const target of targets) {
 	sequence
 		.effect()
 		.file("jb2a.impact.004.dark_purple")
-		.atLocation(target)
+		.attachTo(target)
 		.fadeIn(100)
 		.fadeOut(200);
 	sequence
 		.effect()
 		.file("jb2a.markers.light.loop.blue")
-		.atLocation(target)
+		.attachTo(target)
 		.fadeIn(100)
 		.fadeOut(200)
 		.belowTokens()

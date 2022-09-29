@@ -33,12 +33,12 @@ for (const target of targets) {
 	sequence
 		.effect()
 		.file("jb2a.impact.003.blue")
-		.atLocation(target)
+		.attachTo(target)
 		.fadeIn(500);
 	sequence
 		.effect()
 		.file("jb2a.extras.tmfx.inpulse.circle.02.normal")
-		.atLocation(target)
+		.attachTo(target)
 		.duration(3500)
 		.fadeIn(500)
 		.fadeOut(500)
@@ -48,7 +48,7 @@ for (const target of targets) {
 	sequence
 		.effect()
 		.file("jb2a.extras.tmfx.runes.circle.inpulse.enchantment")
-		.atLocation(target)
+		.attachTo(target)
 		.fadeIn(500)
 		.scaleIn(0, 300, { ease: "easeOutCubic" })
 		.scaleToObject(2)

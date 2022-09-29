@@ -39,12 +39,12 @@ for (const target of targets) {
 	sequence
 		.effect()
 		.file("jb2a.impact.003.blue")
-		.atLocation(target)
+		.attachTo(target)
 		.fadeIn(500);
 	sequence
 		.effect()
 		.file("jb2a.healing_generic.loop.bluewhite")
-		.atLocation(target)
+		.attachTo(target)
 		.fadeIn(500)
 		.fadeOut(500)
 		.scaleToObject(3)
@@ -53,7 +53,7 @@ for (const target of targets) {
 	sequence
 		.effect()
 		.file("jb2a.healing_generic.burst.bluewhite")
-		.atLocation(target)
+		.attachTo(target)
 		.fadeIn(500)
 		.fadeOut(500)
 		.scaleToObject(3)

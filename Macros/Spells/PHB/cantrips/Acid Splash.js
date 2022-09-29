@@ -40,7 +40,7 @@ for (const target of targets) {
 	sequence
 		.effect()
 		.file("jb2a.liquid.splash.bright_green")
-		.atLocation(target)
+		.attachTo(target)
 		.fadeIn(500)
 		.fadeOut(500)
 		.scaleToObject(1.5);

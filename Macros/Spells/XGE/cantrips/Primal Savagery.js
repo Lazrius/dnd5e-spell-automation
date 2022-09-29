@@ -31,12 +31,12 @@ for (const target of targets) {
 	sequence
 		.effect()
 		.file("jb2a.impact.003.dark_red")
-		.atLocation(target)
+		.attachTo(target)
 		.fadeIn(100);
 	sequence
 		.effect()
 		.file("jb2a.claws.200px.dark_red")
-		.atLocation(target)
+		.attachTo(target)
 		.fadeIn(500)
 		.scaleToObject(1.5)
 		.duration(2000)

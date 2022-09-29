@@ -33,14 +33,14 @@ sequence
 sequence
 	.effect()
 	.file("jb2a.swirling_sparkles.01.blue")
-	.atLocation(target)
+	.attachTo(target)
 	.waitUntilFinished(-250);
 
 sequence
 	.effect()
 	.file(targetImg)
 	.fadeOut(500)
-	.atLocation(target)
+	.attachTo(target)
 	.scaleIn(0, 500, { ease: "easeInCubic", delay: 0 })
 	.scaleToObject(3)
 	.waitUntilFinished(-250);
@@ -49,7 +49,7 @@ sequence
 	.effect()
 	.file(targetImg)
 	.fadeOut(500)
-	.atLocation(target)
+	.attachTo(target)
 	.scaleIn(0, 500, { ease: "easeInCubic", delay: 0 })
 	.scaleToObject(3)
 	.waitUntilFinished(-250);
@@ -57,7 +57,7 @@ sequence
 sequence
 	.effect()
 	.file("jb2a.ward.star.yellow.02")
-	.atLocation(target)
+	.attachTo(target)
 	.fadeIn(500)
 	.fadeOut(500)
 	.scaleToObject(2.5)

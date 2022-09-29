@@ -1,6 +1,13 @@
 export default {
 	"_id": "wo1s5pgx6ebtrsi1",
-	"changes": [],
+	"changes": [
+		{
+			"key": "macro.execute",
+			"value": "\"Compendium.dnd5e-spell-automation.Macros.Booming Blade AE\"",
+			"mode": 0,
+			"priority": "20"
+		}
+	],
 	"disabled": false,
 	"duration": {
 		"rounds": 1,

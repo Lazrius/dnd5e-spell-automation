@@ -6,8 +6,8 @@
 // @endmeta
 // @include getCasterToken.js
 // @include getTargets.js
-const sequence = new Sequence();
 
+const sequence = new Sequence();
 sequence
 	.effect()
 	.file("jb2a.extras.tmfx.runes.circle.outpulse.evocation")
@@ -41,7 +41,7 @@ for (const target of targets) {
 	sequence
 		.effect()
 		.file("jb2a.extras.tmfx.inpulse.circle.04.normal")
-		.atLocation(target)
+		.attachTo(target)
 		.duration(3000)
 		.fadeIn(500)
 		.fadeOut(500)
@@ -50,7 +50,7 @@ for (const target of targets) {
 	sequence
 		.effect()
 		.file("jb2a.ice_spikes.radial.burst.white")
-		.atLocation(target)
+		.attachTo(target)
 		.duration(1500)
 		.fadeOut(500)
 		.scaleToObject(1.5);

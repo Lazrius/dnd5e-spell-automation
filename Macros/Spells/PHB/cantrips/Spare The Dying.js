@@ -32,7 +32,7 @@ for (const target of targets) {
 	sequence
 		.effect()
 		.file("jb2a.extras.tmfx.outpulse.circle.01.slow")
-		.atLocation(target)
+		.attachTo(target)
 		.filter("Glow", { color: 0xFFFFA7 })
 		.fadeIn(100)
 		.fadeOut(500)
@@ -41,7 +41,7 @@ for (const target of targets) {
 	sequence
 		.effect()
 		.file("jb2a.impact.004.yellow")
-		.atLocation(target);
+		.attachTo(target);
 }
 
 await sequence.play();

@@ -36,7 +36,7 @@ for (const target of targets) {
 	sequence
 		.effect()
 		.file("jb2a.impact.009.orange")
-		.atLocation(target)
+		.attachTo(target)
 		.fadeIn(500)
 		.fadeOut(500)
 		.delay(1000)

@@ -32,7 +32,7 @@ sequence
 sequence
 	.effect()
 	.file("jb2a.ice_spikes.radial.burst.blue")
-	.atLocation(target)
+	.attachTo(target)
 	.scaleToObject()
 	.fadeIn(500)
 	.fadeOut(300)
@@ -41,7 +41,7 @@ sequence
 sequence
 	.effect()
 	.file("jb2a.side_impact.ice_shard.blue")
-	.atLocation(target)
+	.attachTo(target)
 	.rotateTowards(target)
 	.stretchTo(casterToken)
 	.rotate(180)

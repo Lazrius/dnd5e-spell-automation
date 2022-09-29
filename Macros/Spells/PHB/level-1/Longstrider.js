@@ -23,15 +23,15 @@ for (const target of targets) {
 	sequence
 		.effect()
 		.file("jb2a.impact.007.orange")
-		.atLocation(target)
+		.attachTo(target)
 		.fadeIn(500);
 	sequence
 		.effect()
 		.file("jb2a.impact.007.orange")
-		.atLocation(target)
+		.attachTo(target)
 		.fadeIn(500)
 		.file("jb2a.token_border.circle.spinning.orange.008")
-		.atLocation(target)
+		.attachTo(target)
 		.fadeIn(500)
 		.scaleToObject(2, 2.2)
 		.duration(5000)
