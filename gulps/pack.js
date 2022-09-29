@@ -25,7 +25,7 @@ const macroToJson = async (file, enc, callback) => {
 	// Otherwise we need to make a new macro!
 	const macroJson = {
 		"_id": metadata.id,
-		"command": contents.toString(),
+		"command": `console.log("Running Macro: ${metadata.name}");\n${contents.toString()}`,
 		"flags": {
 			"advanced-macros": {
 				"runAsGM": false
