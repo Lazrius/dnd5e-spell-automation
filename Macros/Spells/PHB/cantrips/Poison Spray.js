@@ -4,8 +4,8 @@
 	spellType: "range"
 });
 // @endmeta
-// @include getTargetDae.js
-// @include getTargetDae.js
+// @include getCasterToken.js
+// @include getTargets.js
 
 const sequence = new Sequence();
 sequence
@@ -29,10 +29,13 @@ sequence
 	.duration(1200)
 	.waitUntilFinished(-1500);
 
-sequence
-	.effect()
-	.file("jb2a.breath_weapons.acid.line.green")
-	.atLocation(casterToken)
-	.stretchTo(target);
+for (const target of targets)
+{
+	sequence
+		.effect()
+		.file("jb2a.breath_weapons.acid.line.green")
+		.atLocation(casterToken)
+		.stretchTo(target);
+}
 
 await sequence.play();

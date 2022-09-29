@@ -5,6 +5,8 @@
 });
 // @endmeta
 
+// @include getCasterToken.js
+
 const createDancingLight = async () => {
 	if (typeof dancingLightCount !== "number" || dancingLightCount <= 0)
 		return;

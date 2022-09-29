@@ -1,10 +1,9 @@
 ({
-	name: "Ray Of Frost AE",
+	name: "Ray of Frost AE",
 	id: "zaqti8gyej1198ky",
 	spellType: "aefx"
 });
 // @endmeta
-// @include getTargetDae.js
 // @include getTargetDae.js
 
 if(args[0] === "on") {
