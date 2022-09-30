@@ -38,5 +38,5 @@ if(args[0] === "on") {
 }
 	
 else if (args[0] === "off") {
-	Sequencer.EffectManager.endEffects({ name: `bless-${casterToken.id}`, object: casterToken });
+	Sequencer.EffectManager.endEffects({ name: `bless-${target.id}`, object: target });
 } 

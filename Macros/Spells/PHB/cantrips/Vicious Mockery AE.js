@@ -22,5 +22,5 @@ if (args[0] === "on") {
 }
 
 if (args[0] === "off") {
-	Sequencer.EffectManager.endEffects({ name: `mockery-${casterToken.id}`, object: casterToken });
+	Sequencer.EffectManager.endEffects({ name: `mockery-${target.id}`, object: target });
 }

@@ -1,16 +1,18 @@
 ({
 	name: "Word Of Radiance",
 	id: "nzgf0hay2smyeo6p",
-	spellType: "range"
+	spellType: "template"
 });
 // @endmeta
-const template = canvas.templates.placeables[canvas.templates.placeables.length-1];
+
+// @include getTemplate.js
+// @include helpers/removeCasterFromTargets.js
 
 const sequence = new Sequence();
 sequence
 	.effect()
 	.file("jb2a.extras.tmfx.runes.circle.outpulse.evocation")
-	.atLocation(args[0].tokenId)
+	.attachTo(casterToken)
 	.duration(1500)
 	.fadeIn(500)
 	.fadeOut(500)
@@ -21,7 +23,7 @@ sequence
 sequence
 	.effect()
 	.file("jb2a.markers.light.intro.yellow")
-	.atLocation(args[0].tokenId)
+	.attachTo(casterToken)
 	.belowTokens()
 	.fadeOut(500)
 	.duration(1200)
@@ -30,7 +32,7 @@ sequence
 sequence
 	.effect()
 	.file("jb2a.explosion.03.blueyellow")
-	.atLocation(template.position);
+	.atLocation({ x: template.x, y: template.y});
 await sequence.play();
 
-canvas.scene.deleteEmbeddedDocuments("MeasuredTemplate", [template.data._id]);
+canvas.scene.deleteEmbeddedDocuments("MeasuredTemplate", [template._id]);

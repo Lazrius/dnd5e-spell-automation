@@ -26,5 +26,5 @@ if (args[0] === "on") {
 }
 
 else if (args[0] === "off") {
-	Sequencer.EffectManager.endEffects({ name: `hunters-mark-${casterToken.id}`, object: casterToken });
+	Sequencer.EffectManager.endEffects({ name: `hunters-mark-${target.id}`, object: target });
 }  

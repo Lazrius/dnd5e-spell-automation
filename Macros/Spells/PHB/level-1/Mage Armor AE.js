@@ -24,6 +24,6 @@ if (args[0] === "on") {
 }
 
 else if (args[0] === "off") {
-	Sequencer.EffectManager.endEffects({ name: `mage-armor-${casterToken.id}`, object: casterToken });
+	Sequencer.EffectManager.endEffects({ name: `mage-armor-${target.id}`, object: target });
 }
 

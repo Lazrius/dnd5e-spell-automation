@@ -1,5 +1,5 @@
 ({
-	name: "Hex",
+	name: "Hex AE",
 	id: "esvco2y5dw4tv3g5",
 	spellType: "aefx"
 });
@@ -38,5 +38,5 @@ if(args[0] === "on") {
 }
 
 else if (args[0] === "off") {
-	Sequencer.EffectManager.endEffects({ name: `hex-${casterToken.id}`, object: casterToken });
+	Sequencer.EffectManager.endEffects({ name: `hex-${target.id}`, object: target });
 }    
