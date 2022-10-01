@@ -1,12 +1,18 @@
 ({
 	name: "Minor Illusion",
 	id: "1e50qzk752dh95mo",
-	spellType: "range"
+	spellType: "template"
 });
 // @endmeta
-// @include getCasterToken.js
+// @include getTemplate.js
 
-await warpgate.spawn("Minor Illusion", {}, {
+const lights = game.actors.filter(x => x.name.includes("Dancing light"))
+if (lights.length === 0) {
+	ui.notifications.warn("Unable to spawn entity. No matching actor found. Ensure they have been imported from the compendium.");
+	return;
+}
+
+const [id] = await warpgate.spawn(lights[Math.floor(Math.random() * lights.length)].name, {}, {
 	pre: async (location) => {
 		const sequence = new Sequence();
 		sequence
@@ -38,10 +44,19 @@ await warpgate.spawn("Minor Illusion", {}, {
 			.scaleIn(0, 500, { ease: "easeOutCubic", delay: 100 });
 
 		await sequence.play();
-
-		// Sleep for 500ms
-		await (new Promise(resolve => setTimeout(resolve, 1200)));
 	}
 }, {
 	collision: false
 });
+
+const token = canvas.scene.tokens.get(id);
+const conc = casterToken.actor.effects.find(e => e.data.label === "Concentrating");
+if (conc) await conc.update({changes: conc.data.changes.concat({
+	key: "flags.dae.deleteUuid",
+	mode: CONST.ACTIVE_EFFECT_MODES.CUSTOM,
+	value: token.uuid
+})});
+
+if (template) {
+	await canvas.scene.deleteEmbeddedDocuments("MeasuredTemplate", [template._id]);
+}

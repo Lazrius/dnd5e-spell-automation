@@ -1,22 +1,32 @@
 ({
 	name: "Dancing Lights",
 	id: "yyebo46gis2iuzz7",
-	spellType: "range"
+	spellType: "static"
 });
 // @endmeta
 
 // @include getCasterToken.js
 
-const createDancingLight = async () => {
-	if (typeof dancingLightCount !== "number" || dancingLightCount <= 0)
-		return;
+const lights = game.actors.filter(x => x.name.includes("Dancing light"))
+if (lights.length === 0) {
+	ui.notifications.warn("Unable to spawn entity. No matching actor found. Ensure they have been imported from the compendium.");
+	return;
+}
 
-	await warpgate.spawn("Dancing Light", {}, {
+let totalDancingLights;
+let currentDancingLightCount = 0;
+const createDancingLight = async () => {
+	if (typeof totalDancingLights !== "number" || totalDancingLights <= 0) {
+		return;
+    }
+
+    const light = lights[Math.floor(Math.random() * lights.length)];
+
+	const [id] = await warpgate.spawn(light.name, {}, {
 		pre: async (location, updates) => {
 			// When the user has clicked where they want it
 
-			if (!hasPlayedAnimation) {
-				hasPlayedAnimation = true;
+			if (currentDancingLightCount === 0) {
 				new Sequence()
 					.effect()
 					.file("jb2a.extras.tmfx.runes.circle.outpulse.evocation")
@@ -49,7 +59,7 @@ const createDancingLight = async () => {
 				.play();
 
 
-			if (++currentDancingLightCount < dancingLightCount) {
+			if (++currentDancingLightCount < totalDancingLights) {
 				await createDancingLight();
 			}
 		}
@@ -57,7 +67,17 @@ const createDancingLight = async () => {
 		controllingActor: casterToken.actor,
 		collision: false,
 	});
-};
+
+	const token = canvas.scene.tokens.get(id);
+	const conc = casterToken.actor.effects.find(e => e.data.label === "Concentrating");
+	if (conc) await conc.update({changes: conc.data.changes.concat({
+		key: "flags.dae.deleteUuid",
+		mode: CONST.ACTIVE_EFFECT_MODES.CUSTOM,
+		value: token.uuid
+	})});
+
+	token.update({ light: { bright : 1, dim: 15, color : '#ffffff', alpha: 0.5, angle: 360 }});
+}
 
 new Dialog({
 	title: "Dancing Lights", content: `
@@ -68,7 +88,7 @@ new Dialog({
     `, buttons: {
 		one: {
 			label: "Done", callback: (html) => {
-				dancingLightCount = parseInt(html.find("#dancing-light-range").val().toString());
+				totalDancingLights = parseInt(html.find("#dancing-light-range").val().toString());
 				createDancingLight();
 			}
 		}

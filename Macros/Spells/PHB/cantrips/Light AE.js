@@ -16,9 +16,9 @@ if (args[0] === "on") {
 		.fadeOut(200);
 
 	await sequence.play();
-	target.data.update({ light:{ bright : 20, dim: 40, color : '#ffffff', alpha: 0.5, angle: 360, animation:{ type: "pulse", speed: 5, intensity: 5}}});
+	await target.update({ light:{ bright : 20, dim: 40, color : '#ffffff', alpha: 0.5, angle: 360, animation:{ type: "pulse", speed: 1, intensity: 1}}});
 }
 
 else if (args[0] === "off") {
-	target.data.update({ light:{ bright : 0, dim: 0, color : '#000000', alpha: 0.5, angle: 360, animation:{ type: "pulse", speed: 5, intensity: 5}}});
+	await target.update({ light:{ bright : 0, dim: 0, color : '#000000', alpha: 0.5, angle: 360, animation:{ type: "pulse", speed: 1, intensity: 1}}});
 }

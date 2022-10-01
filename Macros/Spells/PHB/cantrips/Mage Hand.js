@@ -1,12 +1,22 @@
 ({
 	name: "Mage Hand",
 	id: "n0rcalcgb8k5g5wf",
-	spellType: "range"
+	spellType: "static"
 });
 // @endmeta
 // @include getCasterToken.js
 
-await warpgate.spawn("Mage Hand", {}, {
+const hands = game.actors.filter(x => x.name.includes("Arcane Hand") && !x.name.includes("Rock"))
+if (hands.length === 0) {
+	ui.notifications.warn("Unable to spawn entity. No matching actor found. Ensure they have been imported from the compendium.");
+	return;
+}
+
+await warpgate.spawn(hands[Math.floor(Math.random() * hands.length)].name, {
+	actor: {
+		"data.traits.size": "med",
+	}
+}, {
 	pre: async (location) => {
 		const sequence = new Sequence();
 		sequence
