@@ -40,49 +40,11 @@ const defaultEffect = (name) => ({
 	"custom": false,
 });
 
-const createAefx = (metadata) => {
-	const index = Object.keys(autoRecognition['range']).length;
+const createItem = (metadata) => {
+	const index = Object.keys(autoRecognition[metadata.spellType]).length;
 
-	autoRecognition['aefx'][index.toString()] = {
-		...defaultEffect(metadata.name),
-		"aeType": "",
-		"type": "source",
-		"menuType": "",
-	};
-};
-
-const createRange = (metadata) => {
-	const index = Object.keys(autoRecognition['range']).length;
-
-	autoRecognition['range'][index.toString()] = {
-		...defaultEffect(metadata.name),
-		"anim2d": false,
-		"menuType": "spell",
-		"repeat": null,
-		"delay": null,
-		"explosion": {
-			"enable": false
-		}
-	};
-};
-
-const createTemplate = (metadata) => {
-	const index = Object.keys(autoRecognition['templates']).length;
-
-	autoRecognition['templates'][index.toString()] = {
-		...defaultEffect(metadata.name),
-		"menuType": "",
-		"animation": "",
-		"variant": "",
-		"color": "",
-		"custom": false,
-		"repeat": null,
-		"delay": null,
-		"scaleX": null,
-		"scaleY": null,
-		"opacity": null,
-		"removeTemplate": false,
-		"persist": false
+	autoRecognition[metadata.spellType][index.toString()] = {
+		...defaultEffect(metadata.name)
 	};
 };
 
@@ -101,36 +63,18 @@ const createEntry = (file, enc, cb) => {
 
 	switch (metadata.spellType) {
 		case 'melee':
-		{
-			break;
-		}
 		case 'range':
-		{
-			createRange(metadata);
-			break;
-		}
 		case 'static':
-		{
-			break;
-		}
 		case 'templates':
-		{
-			createTemplate(metadata);
-			break;
-		}
 		case 'auras':
-		{
-			break;
-		}
 		case 'preset':
-		{
-			break;
-		}
 		case 'aefx':
 		{
-			createAefx(metadata);
+			createItem(metadata);
 			break;
 		}
+		case 'ignore':
+			break;
 		default:
 			console.warn('Spell type unknown. Not adding to autorec.json. Path: ' + file.path);
 			cb(null);
