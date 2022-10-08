@@ -14,7 +14,7 @@ sequence
 	.fadeOut(200)
 	.attachTo(casterToken)
 	.scaleToObject(2)
-	.waitUntilFinished();
+	.waitUntilFinished(-500);
 
 for (const target of targets) {
 	sequence
