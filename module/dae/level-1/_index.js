@@ -9,8 +9,10 @@ import Sanctuary from './Sanctuary.js';
 import ShieldOfFaith from './Shield of Faith.js';
 import Shield from './Shield.js';
 import TashasCausticBrew from './Tasha\'s Caustic Brew.js';
+import ArmorOfAgathys from './Armor of Agathys.js';
 
 export default {
+	"Armor of Agathys": ArmorOfAgathys,
 	Bane,
 	Bless,
 	"Faerie Fire": FaerieFire,
