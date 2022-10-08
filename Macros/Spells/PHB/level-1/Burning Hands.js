@@ -1,16 +1,16 @@
 ({
 	name: "Burning Hands",
 	id: "p0ok6oj175ovpodr",
-	spellType: "range"
+	spellType: "templates"
 });
 // @endmeta
-// @include getCasterToken.js
+// @include getTemplate.js
 
 const sequence = new Sequence();
 sequence
 	.effect()
 	.file("jb2a.extras.tmfx.runes.circle.outpulse.evocation")
-	.atLocation(casterToken)
+	.attachTo(casterToken)
 	.duration(1700)
 	.fadeIn(500)
 	.fadeOut(500)
@@ -20,13 +20,13 @@ sequence
 sequence
 	.effect()
 	.file("jb2a.impact.yellow.5")
-	.atLocation(casterToken)
+	.attachTo(casterToken)
 	.fadeIn(100)
 	.fadeOut(200);
 sequence
 	.effect()
 	.file("jb2a.burning_hands.02.orange")
-	.atLocation(template.position, { cacheLocation: true })
+	.atLocation(position, { cacheLocation: true })
 	.stretchTo(template, { cacheLocation: true });
 await sequence.play();
 
