@@ -1,7 +1,7 @@
 ({
 	name: "Word Of Radiance",
 	id: "nzgf0hay2smyeo6p",
-	spellType: "template"
+	spellType: "templates"
 });
 // @endmeta
 

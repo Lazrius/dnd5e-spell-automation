@@ -51,4 +51,4 @@ sequence
 	.name(`earth-tremor-diff-terrain-marker`);
 await sequence.play();
 
-canvas.scene.deleteEmbeddedDocuments("MeasuredTemplate", [template.data._id]);
+canvas.scene.deleteEmbeddedDocuments("MeasuredTemplate", [template._id]);

@@ -19,4 +19,4 @@ sequence.effect()
 
 await sequence.play();
 
-await canvas.scene.deleteEmbeddedDocuments("MeasuredTemplate", [template.data._id]);
+await canvas.scene.deleteEmbeddedDocuments("MeasuredTemplate", [template._id]);

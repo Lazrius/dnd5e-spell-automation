@@ -1,7 +1,7 @@
 ({
 	name: "Minor Illusion",
 	id: "1e50qzk752dh95mo",
-	spellType: "template"
+	spellType: "templates"
 });
 // @endmeta
 // @include getTemplate.js

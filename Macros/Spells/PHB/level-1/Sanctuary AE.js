@@ -5,7 +5,6 @@
 });
 // @endmeta
 // @include getTargetDae.js
-// @include getTargetDae.js
 
 if (args[0] === "on") {
 	const sequence = new Sequence();
@@ -23,6 +22,6 @@ if (args[0] === "on") {
 }
 
 if (args[0] === "off") {
-	Sequencer.EffectManager.endEffects({ name: `sanctuary-${casterToken.id}`, object: casterToken });
+	Sequencer.EffectManager.endEffects({ name: `sanctuary-${target.id}`, object: target });
 }
 

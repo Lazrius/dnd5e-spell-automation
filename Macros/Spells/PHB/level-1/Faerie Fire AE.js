@@ -6,7 +6,6 @@
 // @endmeta
 
 // @include getTargetDae.js
-// @include getTargetDae.js
 
 if(args[0] === "on") {
 	const sequence = new Sequence(); 

@@ -51,4 +51,4 @@ sequence
 	.belowTokens();
 await sequence.play();
 
-canvas.scene.deleteEmbeddedDocuments("MeasuredTemplate", [template.data._id]);
+canvas.scene.deleteEmbeddedDocuments("MeasuredTemplate", [template._id]);

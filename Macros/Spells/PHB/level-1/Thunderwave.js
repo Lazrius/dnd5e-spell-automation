@@ -1,16 +1,18 @@
 ({
 	name: "Thunderwave",
 	id: "elq0qzuad557kd4x",
-	spellType: "range"
+	spellType: "templates"
 });
 // @endmeta
-const template = canvas.templates.placeables[canvas.templates.placeables.length-1];
+
+// @include getTemplate.js
+// @include helpers/removeCasterFromTargets.js
 
 const sequence = new Sequence();
 sequence
 	.effect()
 	.file("jb2a.extras.tmfx.runes.circle.outpulse.evocation")
-	.atLocation(args[0].tokenId)
+	.attachTo(casterToken)
 	.duration(2000)
 	.fadeIn(500)
 	.fadeOut(500)
@@ -21,7 +23,7 @@ sequence
 sequence
 	.effect()
 	.file("jb2a.static_electricity.02.blue")
-	.atLocation(args[0].tokenId)
+	.attachTo(casterToken)
 	.belowTokens()
 	.fadeOut(500)
 	.duration(1800)
@@ -30,7 +32,7 @@ sequence
 sequence
 	.effect()
 	.file("jb2a.call_lightning.low_res.blueorange")
-	.atLocation(template.position)
+	.atLocation(position)
 	.duration(1500)
 	.fadeIn(500)
 	.fadeOut(500)
@@ -40,9 +42,9 @@ sequence
 sequence
 	.effect()
 	.file("jb2a.thunderwave.center.blue")
-	.atLocation(template.position)
+	.atLocation(position)
 	.offset({ x: -150, y: -150 });
 await sequence.play();
 
-canvas.scene.deleteEmbeddedDocuments("MeasuredTemplate", [template.data._id]);
+canvas.scene.deleteEmbeddedDocuments("MeasuredTemplate", [template._id]);
 

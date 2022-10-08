@@ -1,15 +1,9 @@
 ({
 	name: "Rage",
 	id: "gglmo7zdamg4cxov",
-	spellType: "range"
+	spellType: "static"
 });
 // @endmeta
-await Sequencer.Preloader.preloadForClients(
-	"jb2a.markers.02.pink",
-	"jb2a.impact.purple.1",
-	"jb2a.impact.011.dark_purple",
-	"jb2a.energy_strands.complete.dark_red.01");
-
 // @include getCasterToken.js
 
 const sequence = new Sequence();
