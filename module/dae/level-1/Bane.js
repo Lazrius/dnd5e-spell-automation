@@ -2,13 +2,13 @@ export default {
 	"_id": "968eww1zgf0re4ik",
 	"changes": [
 		{
-			"key": "flags.midi-qol.grants.attack.bonus.all",
+			"key": "data.bonuses.All-Attacks",
 			"mode": 2,
 			"value": "-1d4",
 			"priority": "20"
 		},
 		{
-			"key": "flags.midi-qol.advantage.ability.save.all",
+			"key": "data.bonuses.abilities.save",
 			"mode": 2,
 			"value": "-1d4",
 			"priority": "20"

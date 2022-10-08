@@ -8,6 +8,7 @@
 // @include getTargetDae.js
 
 if(args[0] === "on") {
+	const sequence = new Sequence();
 	sequence
 		.effect()
 		.file("jb2a.impact.004.dark_red")
@@ -31,5 +32,5 @@ if(args[0] === "on") {
 }
 
 else if(args[0] === "off") {
-	Sequencer.EffectManager.endEffects({ name: `bane-${target.id}`, object: tar });
+	Sequencer.EffectManager.endEffects({ name: `bane-${target.id}`, object: target });
 } 
