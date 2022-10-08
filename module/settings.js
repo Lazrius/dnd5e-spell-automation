@@ -27,8 +27,18 @@ export const registerSettings = () => {
 		default: true,
 		type: Boolean
 	});
+
+	game.settings.register(moduleName, "disableLoreUnfriendlyAnimations", {
+		name: "Disable Lore Unfriendly Animations",
+		hint: "Some animations like color sprey randomise their effect and include pride flags and other such lore unfriendly animations.",
+		scope: "world",
+		config: true,
+		default: false,
+		type: Boolean
+	});
 };
 
 export const animationsEnabled = () => game.settings.get(moduleName, 'enableAnimations');
 export const effectAutomationEnabled = () => game.settings.get(moduleName, 'enableAutomation');
 export const replaceExistingAe = () => game.settings.get(moduleName, 'replaceExistingAE');
+export const disableLoreUnfriendlyAnimations = () => game.settings.get(moduleName, 'disableLoreUnfriendlyAnimations');
