@@ -18,3 +18,5 @@ sequence
 	.waitUntilFinished(-2000)
 	.filter("Glow", { color: 0xfefebe })
 	.opacity(0.5);
+
+sequence.play();
