@@ -1,7 +1,7 @@
 ({
 	name: "Faerie Fire",
 	id: "5xlkxyxjyhohjp9t",
-	spellType: "range"
+	spellType: "static"
 });
 // @endmeta
 

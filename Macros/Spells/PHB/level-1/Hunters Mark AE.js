@@ -1,12 +1,11 @@
 ({
-	name: "Hunters Mark AE",
+	name: "Hunter's Mark AE",
 	id: "rgqlnrxzsxmuuqm1",
 	spellType: "aefx"
 });
 // @endmeta
 
 // @include getTargetDae.js
-
 
 if (args[0] === "on") {
 	const sequence = new Sequence();

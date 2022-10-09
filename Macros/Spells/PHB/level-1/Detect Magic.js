@@ -1,7 +1,7 @@
 ({
 	name: "Detect Magic",
 	id: "0rwene3mw2t755qg",
-	spellType: "range"
+	spellType: "static"
 });
 // @endmeta
 // @include getCasterToken.js

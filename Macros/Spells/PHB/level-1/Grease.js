@@ -1,11 +1,20 @@
 ({
-	name: "Fog Cloud",
-	id: "mqkc2wz4wr1dcs8m",
+	name: "Grease",
+	id: "jlwigaqsmwpq223w",
 	spellType: "templates"
 });
 // @endmeta
 
 // @include getTemplate.js
+// @include helpers/getRayEndPos.js
+
+const liquids = [
+	'jb2a.grease.dark_brown.loop',
+	'jb2a.grease.dark_green.loop',
+	'jb2a.grease.dark_gray.loop',
+	'jb2a.grease.dark_red.loop',
+	'jb2a.grease.dark_purple.loop',
+];
 
 const sequence = new Sequence();
 sequence
@@ -39,14 +48,16 @@ sequence
 	.scale(0.4)
 	.opacity(1)
 	.waitUntilFinished(1000);
+
 sequence
 	.effect()
-	.file("jb2a.fog_cloud.1.white")
-	.atLocation(position)
-	.fadeIn(4000)
-	.fadeOut(4000)
+	.file(liquids[Math.floor(Math.random() * liquids.length)])
+	.atLocation(templateMiddleGround)
+	.scaleIn(0.5, 1000)
+	.fadeIn(300)
+	.fadeOut(1000)
 	.persist()
-	.name(`fog-cloud${template._id}`)
+	.name(`grease-${template._id}`)
 	.opacity(0.8)
-	.scaleToObject(9);
+	.scaleToObject(2);
 await sequence.play();

@@ -5,8 +5,7 @@
 });
 // @endmeta
 // @include getCasterToken.js
-
-let target = Array.from(game.user.targets)[0];
+// @include getTargets.js
 
 const sequence = new Sequence();
 sequence
@@ -26,12 +25,15 @@ sequence
 	.scale(0.5)
 	.filter("Glow", { color: 0xffffbf })
 	.waitUntilFinished(-500);
-sequence
-	.effect()
-	.file("jb2a.guiding_bolt.01.blueyellow")
-	.fadeIn(500)
-	.fadeOut(300)
-	.atLocation(casterToken)
-	.stretchTo(target)
-	.playIf(args[0].hitTargets.length === 1); // Comment this line out if not using MIDI
+
+for (const target of targets) {
+	sequence
+		.effect()
+		.file("jb2a.guiding_bolt.01.blueyellow")
+		.fadeIn(500)
+		.fadeOut(300)
+		.atLocation(casterToken)
+		.stretchTo(target);
+}
+
 await sequence.play();

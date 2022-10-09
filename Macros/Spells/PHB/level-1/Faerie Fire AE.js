@@ -27,14 +27,14 @@ if(args[0] === "on") {
 		.randomRotation()
 		.scaleIn(0, 500, {ease: "easeOutCubic"})
 		.persist()
-		.name(`faerie-fire-${targetID.id}`);
+		.name(`faerie-fire-${target.id}`);
 			
-	target.document.update({ light: { bright : 0, dim: 10, color : '#a5d5f3', alpha: 0.5, angle: 360, animation:{ type: "pulse", speed: 5, intensity: 5}}});
+	target.update({ light: { bright : 0, dim: 10, color : '#a5d5f3', alpha: 0.5, angle: 360, animation:{ type: "pulse", speed: 5, intensity: 5}}});
 
 	await sequence.play();
 }
 
 else if (args[0] === "off") {
 	Sequencer.EffectManager.endEffects({ name: `faerie-fire-${target.id}`, object: target });
-	target.document.update({ light:{ bright : 0, dim: 0, color : '#000000', alpha: 0.5, angle: 360, animation:{ type: "pulse", speed: 5, intensity: 5}}});
+	target.update({ light:{ bright : 0, dim: 0, color : '#000000', alpha: 0.5, angle: 360, animation:{ type: "pulse", speed: 5, intensity: 5}}});
 }

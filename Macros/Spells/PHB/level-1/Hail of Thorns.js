@@ -1,11 +1,12 @@
 ({
 	name: "Entangle",
-	id: "rbiljnyf4lj5y7mh",
+	id: "xn1cyobxgddoyw3x",
 	spellType: "templates"
 });
 // @endmeta
 
 // @include getTemplate.js
+// @include helpers/getRayEndPos.js
 
 const sequence = new Sequence();
 sequence
@@ -39,10 +40,18 @@ sequence
 	.scale(0.4)
 	.opacity(1)
 	.waitUntilFinished(-300)
-	.filter("Glow", { color: 0x00ff00});    
+	.filter("Glow", { color: 0x00ff00});
 sequence
 	.effect()
-	.file("jb2a.entangle.green")
+	.file('jb2a.guiding_bolt.02.greenorange')
+	.atLocation(casterToken)
+	.fadeIn(500)
+	.fadeOut(300)
+	.atLocation(casterToken)
+	.stretchTo(templateMiddleGround);
+sequence
+	.effect()
+	.file("jb2a.entangle.green02")
 	.atLocation(position, {cacheLocation: true})
 	.fadeIn(1500)
 	.fadeOut(1500)

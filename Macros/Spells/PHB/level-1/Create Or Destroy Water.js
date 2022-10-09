@@ -1,7 +1,7 @@
 ({
 	name: "Create Or Destroy Water",
 	id: "vu2x1nj095mu1ikk",
-	spellType: "range"
+	spellType: "static"
 });
 // @endmeta
 // @include getCasterToken.js

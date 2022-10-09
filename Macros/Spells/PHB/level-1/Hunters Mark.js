@@ -1,5 +1,5 @@
 ({
-	name: "Hunters Mark",
+	name: "Hunter's Mark",
 	id: "okpi5lrz12burasz",
 	spellType: "aefx"
 });

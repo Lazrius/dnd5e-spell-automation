@@ -1,7 +1,7 @@
 ({
 	name: "Find Familiar",
 	id: "qpe1s9dnvotno9ce",
-	spellType: "range"
+	spellType: "static"
 });
 // @endmeta
 // @include getCasterToken.js
@@ -41,4 +41,5 @@ sequence
 	.fadeOut(100)
 	.waitUntilFinished(-100)
 	.scale(0.5);
+	
 await sequence.play();

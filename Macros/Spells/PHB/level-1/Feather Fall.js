@@ -1,9 +1,10 @@
 ({
 	name: "Feather Fall",
 	id: "7s7kzs15mvjt78q9",
-	spellType: "range"
+	spellType: "static"
 });
 // @endmeta
+
 // @include getCasterToken.js
 // @include getTargets.js
 

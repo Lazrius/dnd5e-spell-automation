@@ -1,14 +1,14 @@
 ({
 	name: "Healing Spirit",
 	id: "ofbqs329tin7yiqk",
-	spellType: "range"
+	spellType: "static"
 });
 // @endmeta
 // @include getCasterToken.js
 
 await warpgate.spawn("Healing Spirit", {}, {
 	pre: async (location) => {
-		const seq = new Sequence();
+		const sequence = new Sequence();
 		sequence
 			.effect()
 			.file("jb2a.extras.tmfx.runes.circle.outpulse.conjuration")
@@ -38,9 +38,6 @@ await warpgate.spawn("Healing Spirit", {}, {
 			.scaleIn(0, 500, { ease: "easeOutCubic", delay: 100 });
 
 		await sequence.play();
-
-		// Sleep for 500ms
-		await (new Promise(resolve => setTimeout(resolve, 1200)));
 	}
 }, {
 	collision: false

@@ -1,7 +1,7 @@
 ({
 	name: "Goodberry",
 	id: "7foqep89uv4i9cv0",
-	spellType: "range"
+	spellType: "static"
 });
 // @endmeta
 // @include getCasterToken.js

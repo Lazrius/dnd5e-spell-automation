@@ -1,7 +1,7 @@
 ({
 	name: "Detect Evil",
 	id: "nhlwmwenppye68tr",
-	spellType: "range"
+	spellType: "static"
 });
 // @endmeta
 // @include getCasterToken.js

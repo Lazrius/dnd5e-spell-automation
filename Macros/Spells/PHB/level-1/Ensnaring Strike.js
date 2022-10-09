@@ -1,13 +1,14 @@
 ({
 	name: "Ensnaring Strike",
 	id: "f3e8yyl915d5effa",
-	spellType: "range"
+	spellType: "static"
 });
 // @endmeta
-const casterToken = canvas.tokens.get(args[0].tokenId);
-let target = Array.from(game.user.targets)[0];
-let distance = canvas.grid.measureDistance(casterToken, target);
-let newSequence = new Sequence();
+
+// @include getCasterToken.js
+// @include getTargets.js
+
+const sequence = new Sequence();
 sequence
 	.effect()
 	.file("jb2a.extras.tmfx.runes.circle.simple.conjuration")
@@ -36,42 +37,46 @@ sequence
 	.duration(4000)
 	.fadeIn(500)
 	.fadeOut(500);
-sequence
-	.effect()
-	.file("jb2a.arrow.physical.green")
-	.fadeIn(500)
-	.fadeOut(500)
-	.atLocation(casterToken)
-	.stretchTo(target)
-	.waitUntilFinished(-300)
-	.playIf(() => {
-		return distance > 8;
-	});
-sequence
-	.effect()
-	.file("jb2a.dagger.melee.02.green")
-	.fadeIn(500)
-	.fadeOut(500)
-	.atLocation(casterToken)
-	.stretchTo(target)
-	.waitUntilFinished(-1300)
-	.playIf(() => {
-		return distance < 8;
-	});
-sequence
-	.effect()
-	.file("jb2a.entangle.green")
-	.attachTo(target)
-	.scaleToObject(2)
-	.duration(4000)
-	.fadeIn(500)
-	.fadeOut(500)
-	.opacity(0.5)
-	.belowTokens();
-sequence
-	.effect()
-	.file("jb2a.impact.004.green")
-	.attachTo(target)
-	.fadeIn(100)
-	.fadeOut(100);
+
+for (const target of targets) {
+	const distance = canvas.grid.measureDistance(casterToken, target);
+	sequence
+		.effect()
+		.file("jb2a.arrow.physical.green")
+		.fadeIn(500)
+		.fadeOut(500)
+		.atLocation(casterToken)
+		.stretchTo(target)
+		.waitUntilFinished(-300)
+		.playIf(() => {
+			return distance > 8;
+		});
+	sequence
+		.effect()
+		.file("jb2a.dagger.melee.fire.green")
+		.fadeIn(500)
+		.fadeOut(500)
+		.atLocation(casterToken)
+		.stretchTo(target)
+		.waitUntilFinished(-1300)
+		.playIf(() => {
+			return distance <= 8;
+		});
+	sequence
+		.effect()
+		.file("jb2a.entangle.green")
+		.attachTo(target)
+		.scaleToObject(2)
+		.duration(4000)
+		.fadeIn(500)
+		.fadeOut(500)
+		.opacity(0.5)
+		.belowTokens();
+	sequence
+		.effect()
+		.file("jb2a.impact.004.green")
+		.attachTo(target)
+		.fadeIn(100)
+		.fadeOut(100);
+}
 await sequence.play();

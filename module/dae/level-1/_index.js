@@ -10,11 +10,15 @@ import ShieldOfFaith from './Shield of Faith.js';
 import Shield from './Shield.js';
 import TashasCausticBrew from './Tasha\'s Caustic Brew.js';
 import ArmorOfAgathys from './Armor of Agathys.js';
+import DivineFavor from './Divine Favor.js';
+import EnsnaringStrike from './Ensnaring Strike.js';
 
 export default {
 	"Armor of Agathys": ArmorOfAgathys,
 	Bane,
 	Bless,
+	"Divine Favor": DivineFavor,
+	"Ensnaring Strike": EnsnaringStrike,
 	"Faerie Fire": FaerieFire,
 	Hex,
 	"Hunter's Mark": HuntersMark,
