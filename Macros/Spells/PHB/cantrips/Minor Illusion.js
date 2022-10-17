@@ -50,12 +50,14 @@ const [id] = await warpgate.spawn(lights[Math.floor(Math.random() * lights.lengt
 });
 
 const token = canvas.scene.tokens.get(id);
-const conc = casterToken.actor.effects.find(e => e.data.label === "Concentrating");
-if (conc) await conc.update({changes: conc.data.changes.concat({
-	key: "flags.dae.deleteUuid",
-	mode: CONST.ACTIVE_EFFECT_MODES.CUSTOM,
-	value: token.uuid
-})});
+const conc = casterToken.actor.effects.find(e => e.label === "Concentrating");
+if (conc) await conc.update({
+	changes: conc.changes.concat({
+		key: "flags.dae.deleteUuid",
+		mode: CONST.ACTIVE_EFFECT_MODES.CUSTOM,
+		value: token.uuid
+	})
+});
 
 if (template) {
 	await canvas.scene.deleteEmbeddedDocuments("MeasuredTemplate", [template._id]);

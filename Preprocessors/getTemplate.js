@@ -7,5 +7,5 @@ console.log(args);
 
 const casterToken = args[1].sourceToken;
 let targets = canvas.tokens.placeables.filter(x => x.isTargeted);
-const template = args[1].templateData.data;
-const position = { x: template.x, y: template.y};
+const template = args[1].templateData;
+const position = { x: template.x, y: template.y };

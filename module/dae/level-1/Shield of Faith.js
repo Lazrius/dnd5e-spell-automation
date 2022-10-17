@@ -2,7 +2,7 @@ export default {
 	"_id": "0bhn77bwb6wbw761",
 	"changes": [
 		{
-			"key": "data.attributes.ac.calc",
+			"key": "system.attributes.ac.calc",
 			"mode": 2,
 			"value": "2",
 			"priority": "20"

@@ -52,7 +52,7 @@ const enableCompendiumMacroSearching = () => {
 	// Enable support for compendium searching for macros
 	// It's a hacky C++ style detour, but not error prone from what I can tell.
 	const origGetName = game.macros.getName;
-	game.macros.getName = function (name, {strict = false} = {}) {
+	game.macros.getName = function (name, { strict = false } = {}) {
 		if (name.startsWith("Compendium")) {
 			const packArray = name.split(".");
 			const pack = game.packs.get(`${packArray[1]}.${packArray[2]}`);
@@ -60,7 +60,7 @@ const enableCompendiumMacroSearching = () => {
 				ui.notifications.info(`DnD5e-Spell-Automations | Compendium ${packArray[1]}.${packArray[2]} was not found`);
 				return;
 			}
-			
+
 			const macroFilter = pack.index.filter((m) => m.name === packArray[3]);
 			if (!macroFilter.length) {
 				ui.notifications.info(`DnD5e-Spell-Automations | A macro named ${packArray[3]} was not found in Compendium ${packArray[1]}.${packArray[2]}`);

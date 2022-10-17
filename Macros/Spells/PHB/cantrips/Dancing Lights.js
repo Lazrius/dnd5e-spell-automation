@@ -18,9 +18,9 @@ let currentDancingLightCount = 0;
 const createDancingLight = async () => {
 	if (typeof totalDancingLights !== "number" || totalDancingLights <= 0) {
 		return;
-    }
+	}
 
-    const light = lights[Math.floor(Math.random() * lights.length)];
+	const light = lights[Math.floor(Math.random() * lights.length)];
 
 	const [id] = await warpgate.spawn(light.name, {}, {
 		pre: async (location, updates) => {
@@ -36,7 +36,7 @@ const createDancingLight = async () => {
 					.fadeOut(500)
 					.scale(0.5)
 					.filter("Glow", { color: 0xffffbf })
-					.scaleIn(0, 500, {ease: "easeOutCubic", delay: 100})
+					.scaleIn(0, 500, { ease: "easeOutCubic", delay: 100 })
 					.effect()
 					.file("jb2a.moonbeam.01.intro.blue")
 					.atLocation(casterToken)
@@ -69,14 +69,16 @@ const createDancingLight = async () => {
 	});
 
 	const token = canvas.scene.tokens.get(id);
-	const conc = casterToken.actor.effects.find(e => e.data.label === "Concentrating");
-	if (conc) await conc.update({changes: conc.data.changes.concat({
-		key: "flags.dae.deleteUuid",
-		mode: CONST.ACTIVE_EFFECT_MODES.CUSTOM,
-		value: token.uuid
-	})});
+	const conc = casterToken.actor.effects.find(e => e.label === "Concentrating");
+	if (conc) await conc.update({
+		changes: conc.changes.concat({
+			key: "flags.dae.deleteUuid",
+			mode: CONST.ACTIVE_EFFECT_MODES.CUSTOM,
+			value: token.uuid
+		})
+	});
 
-	token.update({ light: { bright : 1, dim: 15, color : '#ffffff', alpha: 0.5, angle: 360 }});
+	token.update({ light: { bright: 1, dim: 15, color: '#ffffff', alpha: 0.5, angle: 360 } });
 }
 
 new Dialog({

@@ -13,7 +13,7 @@ export default {
 		"seconds": 3600,
 		"startTime": null
 	},
-	"icon": "icons/skills/ranged/target-bullseye-arrow-green.webp",
+	"icon": "icons/magic/perception/eye-ringed-glow-angry-small-red.webp",
 	"label": "Hunter's Mark",
 	"origin": "Actor.57AEBDVVsTuaHOZn.Item.S2oNE8qRVSH6JNrx",
 	"transfer": false,

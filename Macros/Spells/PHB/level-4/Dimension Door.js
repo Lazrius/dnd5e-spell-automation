@@ -22,7 +22,7 @@ if (!tokenD) {
 
 const config = {
     drawIcon: false,
-    interval: tokenD.data.width % 2 === 0 ? 1 : -1,
+    interval: tokenD.system.width % 2 === 0 ? 1 : -1,
     label: 'Dimension Door',
     size: tokenD.w / canvas.grid.size,
 }
@@ -37,7 +37,7 @@ const position = await warpgate.crosshairs.show(config);
 const portalScale = tokenD.w / canvas.grid.size * .7;
 
 sequence
-	.effect()
+    .effect()
     .file('jb2a.magic_signs.rune.conjuration.intro.red')
     .atLocation(tokenD)
     .scale(portalScale * .7)
@@ -47,7 +47,7 @@ sequence
 const introSequence = new Sequence()
 
 sequence
-	.effect()
+    .effect()
     .file('jb2a.magic_signs.circle.02.conjuration.intro.red')
     .atLocation(tokenD)
     .offset({ y: (tokenD.height) })
@@ -58,7 +58,7 @@ sequence
     .waitUntilFinished(-1000);
 
 sequence
-	.effect()
+    .effect()
     .file('jb2a.portals.vertical.vortex.red')
     .atLocation(tokenD)
     .offset({ y: (tokenD.height) })
@@ -72,7 +72,7 @@ introSequence.animation()
     .opacity(0);
 
 sequence
-	.effect()
+    .effect()
     .from(tokenD)
     .moveTowards({ x: tokenD.center.x, y: tokenD.center.y - tokenD.h })
     .zeroSpriteRotation()
@@ -84,7 +84,7 @@ introSequence.wait(250);
 const outroSequence = new Sequence();
 
 sequence
-	.effect()
+    .effect()
     .file('jb2a.magic_signs.circle.02.conjuration.intro.blue')
     .atLocation(position)
     .scaleToObject(2)
@@ -95,7 +95,7 @@ sequence
     .waitUntilFinished(-1000);
 
 sequence
-	.effect()
+    .effect()
     .file('jb2a.portals.vertical.vortex.blue')
     .atLocation(position)
     .offset({ y: (tokenD.height) })
@@ -105,7 +105,7 @@ sequence
     .fadeIn(200);
 
 sequence
-	.effect()
+    .effect()
     .from(tokenD)
     .atLocation({ x: position.x, y: position.y - tokenD.h })
     .fadeIn(500)
