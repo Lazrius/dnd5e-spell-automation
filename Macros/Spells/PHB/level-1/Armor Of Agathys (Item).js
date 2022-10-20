@@ -11,6 +11,7 @@ const sequence = new Sequence();
 sequence
 	.effect()
 	.file('jb2a.shield.02.intro.blue')
+	.atLocation(casterToken)
 	.fadeIn(200)
 	.fadeOut(200)
 	.scaleToObject();

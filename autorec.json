@@ -288,14 +288,7 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
         "1": {
             "name": "Flame Glaive",
@@ -318,14 +311,7 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
         "2": {
             "name": "Psychic Scimitar",
@@ -348,14 +334,7 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
         "3": {
             "name": "Sun Blade",
@@ -378,14 +357,7 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
         "4": {
             "name": "Remorhaz Cloak",
@@ -408,14 +380,7 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
         "5": {
             "name": "Sonic Scream",
@@ -438,14 +403,7 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
         "6": {
             "name": "Frightful Presence",
@@ -468,46 +426,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
         "7": {
-            "name": "Rage",
-            "below": false,
-            "hidden": true,
-            "soundOnly": {
-                "enable": false
-            },
-            "macro": {
-                "enable": true,
-                "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Rage",
-                "args": ""
-            },
-            "audio": {
-                "a01": {
-                    "enable": false
-                }
-            },
-            "animation": "",
-            "variant": "",
-            "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
-        },
-        "8": {
             "name": "Invoke Duplicity",
             "below": false,
             "hidden": true,
@@ -528,16 +449,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "9": {
+        "8": {
             "name": "Action Surge",
             "below": false,
             "hidden": true,
@@ -558,16 +472,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "10": {
+        "9": {
             "name": "Second Wind",
             "below": false,
             "hidden": true,
@@ -588,16 +495,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "11": {
+        "10": {
             "name": "Animal Friendship",
             "below": false,
             "hidden": true,
@@ -618,17 +518,10 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "12": {
-            "name": "Armor Of Agathys",
+        "11": {
+            "name": "Armor of Agathys (ACTIVE)",
             "below": false,
             "hidden": true,
             "soundOnly": {
@@ -637,7 +530,7 @@
             "macro": {
                 "enable": true,
                 "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Armor Of Agathys",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Armor of Agathys (ACTIVE)",
                 "args": ""
             },
             "audio": {
@@ -648,16 +541,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "13": {
+        "12": {
             "name": "Bane",
             "below": false,
             "hidden": true,
@@ -678,16 +564,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "14": {
+        "13": {
             "name": "Bless",
             "below": false,
             "hidden": true,
@@ -708,46 +587,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "15": {
-            "name": "Burning Hands",
-            "below": false,
-            "hidden": true,
-            "soundOnly": {
-                "enable": false
-            },
-            "macro": {
-                "enable": true,
-                "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Burning Hands",
-                "args": ""
-            },
-            "audio": {
-                "a01": {
-                    "enable": false
-                }
-            },
-            "animation": "",
-            "variant": "",
-            "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
-        },
-        "16": {
+        "14": {
             "name": "Ceremony",
             "below": false,
             "hidden": true,
@@ -768,16 +610,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "17": {
+        "15": {
             "name": "Chaos Bolt",
             "below": false,
             "hidden": true,
@@ -798,16 +633,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "18": {
+        "16": {
             "name": "Charm Person",
             "below": false,
             "hidden": true,
@@ -828,16 +656,32 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "19": {
+        "17": {
+            "name": "Chromatic Orb",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Chromatic Orb",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "18": {
             "name": "Command",
             "below": false,
             "hidden": true,
@@ -858,16 +702,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "20": {
+        "19": {
             "name": "Compelled Duel",
             "below": false,
             "hidden": true,
@@ -888,16 +725,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "21": {
+        "20": {
             "name": "Comprehend Languages",
             "below": false,
             "hidden": true,
@@ -918,46 +748,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "22": {
-            "name": "Create Or Destroy Water",
-            "below": false,
-            "hidden": true,
-            "soundOnly": {
-                "enable": false
-            },
-            "macro": {
-                "enable": true,
-                "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Create Or Destroy Water",
-                "args": ""
-            },
-            "audio": {
-                "a01": {
-                    "enable": false
-                }
-            },
-            "animation": "",
-            "variant": "",
-            "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
-        },
-        "23": {
+        "21": {
             "name": "Cure Wounds",
             "below": false,
             "hidden": true,
@@ -978,76 +771,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "24": {
-            "name": "Detect Evil",
-            "below": false,
-            "hidden": true,
-            "soundOnly": {
-                "enable": false
-            },
-            "macro": {
-                "enable": true,
-                "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Detect Evil",
-                "args": ""
-            },
-            "audio": {
-                "a01": {
-                    "enable": false
-                }
-            },
-            "animation": "",
-            "variant": "",
-            "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
-        },
-        "25": {
-            "name": "Detect Magic",
-            "below": false,
-            "hidden": true,
-            "soundOnly": {
-                "enable": false
-            },
-            "macro": {
-                "enable": true,
-                "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Detect Magic",
-                "args": ""
-            },
-            "audio": {
-                "a01": {
-                    "enable": false
-                }
-            },
-            "animation": "",
-            "variant": "",
-            "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
-        },
-        "26": {
+        "22": {
             "name": "Detect Poison",
             "below": false,
             "hidden": true,
@@ -1068,16 +794,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "27": {
+        "23": {
             "name": "Disguise Self",
             "below": false,
             "hidden": true,
@@ -1098,17 +817,10 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "28": {
-            "name": "Ensnaring Strike",
+        "24": {
+            "name": "Dissonant Whispers",
             "below": false,
             "hidden": true,
             "soundOnly": {
@@ -1117,7 +829,7 @@
             "macro": {
                 "enable": true,
                 "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Ensnaring Strike",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Dissonant Whispers",
                 "args": ""
             },
             "audio": {
@@ -1128,196 +840,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "29": {
-            "name": "Entangle",
-            "below": false,
-            "hidden": true,
-            "soundOnly": {
-                "enable": false
-            },
-            "macro": {
-                "enable": true,
-                "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Entangle",
-                "args": ""
-            },
-            "audio": {
-                "a01": {
-                    "enable": false
-                }
-            },
-            "animation": "",
-            "variant": "",
-            "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
-        },
-        "30": {
-            "name": "Faerie Fire",
-            "below": false,
-            "hidden": true,
-            "soundOnly": {
-                "enable": false
-            },
-            "macro": {
-                "enable": true,
-                "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Faerie Fire",
-                "args": ""
-            },
-            "audio": {
-                "a01": {
-                    "enable": false
-                }
-            },
-            "animation": "",
-            "variant": "",
-            "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
-        },
-        "31": {
-            "name": "Feather Fall",
-            "below": false,
-            "hidden": true,
-            "soundOnly": {
-                "enable": false
-            },
-            "macro": {
-                "enable": true,
-                "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Feather Fall",
-                "args": ""
-            },
-            "audio": {
-                "a01": {
-                    "enable": false
-                }
-            },
-            "animation": "",
-            "variant": "",
-            "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
-        },
-        "32": {
-            "name": "Find Familiar",
-            "below": false,
-            "hidden": true,
-            "soundOnly": {
-                "enable": false
-            },
-            "macro": {
-                "enable": true,
-                "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Find Familiar",
-                "args": ""
-            },
-            "audio": {
-                "a01": {
-                    "enable": false
-                }
-            },
-            "animation": "",
-            "variant": "",
-            "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
-        },
-        "33": {
-            "name": "Fog Cloud",
-            "below": false,
-            "hidden": true,
-            "soundOnly": {
-                "enable": false
-            },
-            "macro": {
-                "enable": true,
-                "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Fog Cloud",
-                "args": ""
-            },
-            "audio": {
-                "a01": {
-                    "enable": false
-                }
-            },
-            "animation": "",
-            "variant": "",
-            "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
-        },
-        "34": {
-            "name": "Goodberry",
-            "below": false,
-            "hidden": true,
-            "soundOnly": {
-                "enable": false
-            },
-            "macro": {
-                "enable": true,
-                "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Goodberry",
-                "args": ""
-            },
-            "audio": {
-                "a01": {
-                    "enable": false
-                }
-            },
-            "animation": "",
-            "variant": "",
-            "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
-        },
-        "35": {
+        "25": {
             "name": "Guiding Bolt",
             "below": false,
             "hidden": true,
@@ -1338,46 +863,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "36": {
-            "name": "Healing Spirit",
-            "below": false,
-            "hidden": true,
-            "soundOnly": {
-                "enable": false
-            },
-            "macro": {
-                "enable": true,
-                "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Healing Spirit",
-                "args": ""
-            },
-            "audio": {
-                "a01": {
-                    "enable": false
-                }
-            },
-            "animation": "",
-            "variant": "",
-            "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
-        },
-        "37": {
+        "26": {
             "name": "Healing Word",
             "below": false,
             "hidden": true,
@@ -1398,16 +886,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "38": {
+        "27": {
             "name": "Hellish Rebuke",
             "below": false,
             "hidden": true,
@@ -1428,16 +909,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "39": {
+        "28": {
             "name": "Heroism",
             "below": false,
             "hidden": true,
@@ -1458,16 +932,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "40": {
+        "29": {
             "name": "Hex",
             "below": false,
             "hidden": true,
@@ -1488,16 +955,55 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "41": {
+        "30": {
+            "name": "Hunter's Mark Damage Bonus",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Hunter's Mark Damage Bonus",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "31": {
+            "name": "Hunter's Mark",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Hunter's Mark",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "32": {
             "name": "Inflict Wounds",
             "below": false,
             "hidden": true,
@@ -1518,16 +1024,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "42": {
+        "33": {
             "name": "Jump",
             "below": false,
             "hidden": true,
@@ -1548,16 +1047,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "43": {
+        "34": {
             "name": "Longstrider",
             "below": false,
             "hidden": true,
@@ -1578,16 +1070,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "44": {
+        "35": {
             "name": "Mage Armor",
             "below": false,
             "hidden": true,
@@ -1608,16 +1093,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "45": {
+        "36": {
             "name": "Protection From Good And Evil",
             "below": false,
             "hidden": true,
@@ -1638,16 +1116,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "46": {
+        "37": {
             "name": "Purify Food And Drink",
             "below": false,
             "hidden": true,
@@ -1668,16 +1139,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "47": {
+        "38": {
             "name": "Sanctuary",
             "below": false,
             "hidden": true,
@@ -1698,16 +1162,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "48": {
+        "39": {
             "name": "Searing Smite",
             "below": false,
             "hidden": true,
@@ -1728,16 +1185,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "49": {
+        "40": {
             "name": "Shield Of Faith",
             "below": false,
             "hidden": true,
@@ -1758,16 +1208,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "50": {
+        "41": {
             "name": "Snare",
             "below": false,
             "hidden": true,
@@ -1788,16 +1231,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "51": {
+        "42": {
             "name": "Speak With Animals",
             "below": false,
             "hidden": true,
@@ -1818,16 +1254,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "52": {
+        "43": {
             "name": "Suggestion",
             "below": false,
             "hidden": true,
@@ -1848,46 +1277,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "53": {
-            "name": "Thunderwave",
-            "below": false,
-            "hidden": true,
-            "soundOnly": {
-                "enable": false
-            },
-            "macro": {
-                "enable": true,
-                "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Thunderwave",
-                "args": ""
-            },
-            "audio": {
-                "a01": {
-                    "enable": false
-                }
-            },
-            "animation": "",
-            "variant": "",
-            "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
-        },
-        "54": {
+        "44": {
             "name": "Unseen Servant",
             "below": false,
             "hidden": true,
@@ -1908,16 +1300,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "55": {
+        "45": {
             "name": "Acid Splash",
             "below": false,
             "hidden": true,
@@ -1938,16 +1323,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "56": {
+        "46": {
             "name": "Blade Ward",
             "below": false,
             "hidden": true,
@@ -1968,16 +1346,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "57": {
+        "47": {
             "name": "Booming Blade",
             "below": false,
             "hidden": true,
@@ -1998,16 +1369,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "58": {
+        "48": {
             "name": "Chill Touch",
             "below": false,
             "hidden": true,
@@ -2028,46 +1392,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "59": {
-            "name": "Dancing Lights",
-            "below": false,
-            "hidden": true,
-            "soundOnly": {
-                "enable": false
-            },
-            "macro": {
-                "enable": true,
-                "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Dancing Lights",
-                "args": ""
-            },
-            "audio": {
-                "a01": {
-                    "enable": false
-                }
-            },
-            "animation": "",
-            "variant": "",
-            "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
-        },
-        "60": {
+        "49": {
             "name": "Druidcraft",
             "below": false,
             "hidden": true,
@@ -2088,16 +1415,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "61": {
+        "50": {
             "name": "Eldritch Blast",
             "below": false,
             "hidden": true,
@@ -2118,16 +1438,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "62": {
+        "51": {
             "name": "Fire Bolt",
             "below": false,
             "hidden": true,
@@ -2148,16 +1461,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "63": {
+        "52": {
             "name": "Guidance",
             "below": false,
             "hidden": true,
@@ -2178,16 +1484,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "64": {
+        "53": {
             "name": "Light",
             "below": false,
             "hidden": true,
@@ -2208,46 +1507,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "65": {
-            "name": "Mage Hand",
-            "below": false,
-            "hidden": true,
-            "soundOnly": {
-                "enable": false
-            },
-            "macro": {
-                "enable": true,
-                "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Mage Hand",
-                "args": ""
-            },
-            "audio": {
-                "a01": {
-                    "enable": false
-                }
-            },
-            "animation": "",
-            "variant": "",
-            "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
-        },
-        "66": {
+        "54": {
             "name": "Mending",
             "below": false,
             "hidden": true,
@@ -2268,46 +1530,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "67": {
-            "name": "Minor Illusion",
-            "below": false,
-            "hidden": true,
-            "soundOnly": {
-                "enable": false
-            },
-            "macro": {
-                "enable": true,
-                "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Minor Illusion",
-                "args": ""
-            },
-            "audio": {
-                "a01": {
-                    "enable": false
-                }
-            },
-            "animation": "",
-            "variant": "",
-            "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
-        },
-        "68": {
+        "55": {
             "name": "Poison Spray",
             "below": false,
             "hidden": true,
@@ -2328,16 +1553,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "69": {
+        "56": {
             "name": "Prestidigitation",
             "below": false,
             "hidden": true,
@@ -2358,16 +1576,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "70": {
+        "57": {
             "name": "Ray Of Frost",
             "below": false,
             "hidden": true,
@@ -2388,16 +1599,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "71": {
+        "58": {
             "name": "Sacred Flame",
             "below": false,
             "hidden": true,
@@ -2418,16 +1622,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "72": {
+        "59": {
             "name": "Shocking Grasp",
             "below": false,
             "hidden": true,
@@ -2448,16 +1645,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "73": {
+        "60": {
             "name": "Spare The Dying",
             "below": false,
             "hidden": true,
@@ -2478,16 +1668,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "74": {
+        "61": {
             "name": "Thaumaturgy",
             "below": false,
             "hidden": true,
@@ -2508,16 +1691,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "75": {
+        "62": {
             "name": "Thorn Whip",
             "below": false,
             "hidden": true,
@@ -2538,16 +1714,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "76": {
+        "63": {
             "name": "Toll The Dead",
             "below": false,
             "hidden": true,
@@ -2568,16 +1737,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "77": {
+        "64": {
             "name": "Vicious Mockery",
             "below": false,
             "hidden": true,
@@ -2598,16 +1760,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "78": {
+        "65": {
             "name": "Alter Self",
             "below": false,
             "hidden": true,
@@ -2628,16 +1783,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "79": {
+        "66": {
             "name": "Barkskin Start",
             "below": false,
             "hidden": true,
@@ -2658,16 +1806,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "80": {
+        "67": {
             "name": "Beast Sense",
             "below": false,
             "hidden": true,
@@ -2688,16 +1829,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "81": {
+        "68": {
             "name": "Dispel Magic",
             "below": false,
             "hidden": true,
@@ -2718,16 +1852,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "82": {
+        "69": {
             "name": "Enhance Ability",
             "below": false,
             "hidden": true,
@@ -2748,16 +1875,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "83": {
+        "70": {
             "name": "Flaming Sphere",
             "below": false,
             "hidden": true,
@@ -2778,16 +1898,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "84": {
+        "71": {
             "name": "Hold Person",
             "below": false,
             "hidden": true,
@@ -2808,16 +1921,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "85": {
+        "72": {
             "name": "Knock",
             "below": false,
             "hidden": true,
@@ -2838,16 +1944,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "86": {
+        "73": {
             "name": "Lesser Restoration",
             "below": false,
             "hidden": true,
@@ -2868,16 +1967,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "87": {
+        "74": {
             "name": "Mirror Image",
             "below": false,
             "hidden": true,
@@ -2898,16 +1990,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "88": {
+        "75": {
             "name": "Pass Without Trace",
             "below": false,
             "hidden": true,
@@ -2928,16 +2013,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "89": {
+        "76": {
             "name": "Shatter",
             "below": false,
             "hidden": true,
@@ -2958,16 +2036,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "90": {
+        "77": {
             "name": "Silence",
             "below": false,
             "hidden": true,
@@ -2988,16 +2059,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "91": {
+        "78": {
             "name": "Spike Growth Alt",
             "below": false,
             "hidden": true,
@@ -3018,16 +2082,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "92": {
+        "79": {
             "name": "Spike Growth",
             "below": false,
             "hidden": true,
@@ -3048,16 +2105,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "93": {
+        "80": {
             "name": "Zone Of Truth",
             "below": false,
             "hidden": true,
@@ -3078,16 +2128,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "94": {
+        "81": {
             "name": "Blink",
             "below": false,
             "hidden": true,
@@ -3108,16 +2151,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "95": {
+        "82": {
             "name": "Conjure Animals",
             "below": false,
             "hidden": true,
@@ -3138,16 +2174,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "96": {
+        "83": {
             "name": "Conjure Barrage",
             "below": false,
             "hidden": true,
@@ -3168,16 +2197,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "97": {
+        "84": {
             "name": "Counterspell",
             "below": false,
             "hidden": true,
@@ -3198,16 +2220,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "98": {
+        "85": {
             "name": "Dispel Magic",
             "below": false,
             "hidden": true,
@@ -3228,16 +2243,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "99": {
+        "86": {
             "name": "Fireball Alt",
             "below": false,
             "hidden": true,
@@ -3258,16 +2266,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "100": {
+        "87": {
             "name": "Fireball",
             "below": false,
             "hidden": true,
@@ -3288,16 +2289,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "101": {
+        "88": {
             "name": "Hunger Of Hadar",
             "below": false,
             "hidden": true,
@@ -3318,16 +2312,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "102": {
+        "89": {
             "name": "Revivify",
             "below": false,
             "hidden": true,
@@ -3348,16 +2335,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "103": {
+        "90": {
             "name": "Sending",
             "below": false,
             "hidden": true,
@@ -3378,16 +2358,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "104": {
+        "91": {
             "name": "Sleet Storm",
             "below": false,
             "hidden": true,
@@ -3408,16 +2381,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "105": {
+        "92": {
             "name": "Slow Start",
             "below": false,
             "hidden": true,
@@ -3438,16 +2404,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "106": {
+        "93": {
             "name": "Spirit Guardians",
             "below": false,
             "hidden": true,
@@ -3468,16 +2427,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "107": {
+        "94": {
             "name": "Dimension Door",
             "below": false,
             "hidden": true,
@@ -3498,16 +2450,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "108": {
+        "95": {
             "name": "Ice Storm",
             "below": false,
             "hidden": true,
@@ -3528,436 +2473,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "109": {
-            "name": "Frostbite",
-            "below": false,
-            "hidden": true,
-            "soundOnly": {
-                "enable": false
-            },
-            "macro": {
-                "enable": true,
-                "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Frostbite",
-                "args": ""
-            },
-            "audio": {
-                "a01": {
-                    "enable": false
-                }
-            },
-            "animation": "",
-            "variant": "",
-            "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
-        },
-        "110": {
-            "name": "Primal Savagery",
-            "below": false,
-            "hidden": true,
-            "soundOnly": {
-                "enable": false
-            },
-            "macro": {
-                "enable": true,
-                "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Primal Savagery",
-                "args": ""
-            },
-            "audio": {
-                "a01": {
-                    "enable": false
-                }
-            },
-            "animation": "",
-            "variant": "",
-            "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
-        },
-        "111": {
-            "name": "Word Of Radiance",
-            "below": false,
-            "hidden": true,
-            "soundOnly": {
-                "enable": false
-            },
-            "macro": {
-                "enable": true,
-                "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Word Of Radiance",
-                "args": ""
-            },
-            "audio": {
-                "a01": {
-                    "enable": false
-                }
-            },
-            "animation": "",
-            "variant": "",
-            "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
-        },
-        "112": {
-            "name": "Absorb Elements",
-            "below": false,
-            "hidden": true,
-            "soundOnly": {
-                "enable": false
-            },
-            "macro": {
-                "enable": true,
-                "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Absorb Elements",
-                "args": ""
-            },
-            "audio": {
-                "a01": {
-                    "enable": false
-                }
-            },
-            "animation": "",
-            "variant": "",
-            "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
-        },
-        "113": {
-            "name": "Beast Bond",
-            "below": false,
-            "hidden": true,
-            "soundOnly": {
-                "enable": false
-            },
-            "macro": {
-                "enable": true,
-                "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Beast Bond",
-                "args": ""
-            },
-            "audio": {
-                "a01": {
-                    "enable": false
-                }
-            },
-            "animation": "",
-            "variant": "",
-            "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
-        },
-        "114": {
-            "name": "Cause Fear",
-            "below": false,
-            "hidden": true,
-            "soundOnly": {
-                "enable": false
-            },
-            "macro": {
-                "enable": true,
-                "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Cause Fear",
-                "args": ""
-            },
-            "audio": {
-                "a01": {
-                    "enable": false
-                }
-            },
-            "animation": "",
-            "variant": "",
-            "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
-        },
-        "115": {
-            "name": "Earth Tremor",
-            "below": false,
-            "hidden": true,
-            "soundOnly": {
-                "enable": false
-            },
-            "macro": {
-                "enable": true,
-                "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Earth Tremor",
-                "args": ""
-            },
-            "audio": {
-                "a01": {
-                    "enable": false
-                }
-            },
-            "animation": "",
-            "variant": "",
-            "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
-        },
-        "116": {
-            "name": "Ice Knife",
-            "below": false,
-            "hidden": true,
-            "soundOnly": {
-                "enable": false
-            },
-            "macro": {
-                "enable": true,
-                "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Ice Knife",
-                "args": ""
-            },
-            "audio": {
-                "a01": {
-                    "enable": false
-                }
-            },
-            "animation": "",
-            "variant": "",
-            "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
-        },
-        "117": {
-            "name": "Dragons Breath Active Item",
-            "below": false,
-            "hidden": true,
-            "soundOnly": {
-                "enable": false
-            },
-            "macro": {
-                "enable": true,
-                "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Dragons Breath Active Item",
-                "args": ""
-            },
-            "audio": {
-                "a01": {
-                    "enable": false
-                }
-            },
-            "animation": "",
-            "variant": "",
-            "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
-        },
-        "118": {
-            "name": "Dragons Breath",
-            "below": false,
-            "hidden": true,
-            "soundOnly": {
-                "enable": false
-            },
-            "macro": {
-                "enable": true,
-                "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Dragons Breath",
-                "args": ""
-            },
-            "audio": {
-                "a01": {
-                    "enable": false
-                }
-            },
-            "animation": "",
-            "variant": "",
-            "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
-        },
-        "119": {
-            "name": "Catnap",
-            "below": false,
-            "hidden": true,
-            "soundOnly": {
-                "enable": false
-            },
-            "macro": {
-                "enable": true,
-                "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Catnap",
-                "args": ""
-            },
-            "audio": {
-                "a01": {
-                    "enable": false
-                }
-            },
-            "animation": "",
-            "variant": "",
-            "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
-        },
-        "120": {
-            "name": "Erupting Earth",
-            "below": false,
-            "hidden": true,
-            "soundOnly": {
-                "enable": false
-            },
-            "macro": {
-                "enable": true,
-                "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Erupting Earth",
-                "args": ""
-            },
-            "audio": {
-                "a01": {
-                    "enable": false
-                }
-            },
-            "animation": "",
-            "variant": "",
-            "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
-        },
-        "121": {
-            "name": "Shadow Of Moil Attack",
-            "below": false,
-            "hidden": true,
-            "soundOnly": {
-                "enable": false
-            },
-            "macro": {
-                "enable": true,
-                "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Shadow Of Moil Attack",
-                "args": ""
-            },
-            "audio": {
-                "a01": {
-                    "enable": false
-                }
-            },
-            "animation": "",
-            "variant": "",
-            "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
-        },
-        "122": {
-            "name": "Shadow Of Moil",
-            "below": false,
-            "hidden": true,
-            "soundOnly": {
-                "enable": false
-            },
-            "macro": {
-                "enable": true,
-                "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Shadow Of Moil",
-                "args": ""
-            },
-            "audio": {
-                "a01": {
-                    "enable": false
-                }
-            },
-            "animation": "",
-            "variant": "",
-            "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
-        },
-        "123": {
+        "96": {
             "name": "Mind Sliver",
             "below": false,
             "hidden": true,
@@ -3978,16 +2496,308 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "anim2d": false,
-            "menuType": "spell",
-            "repeat": null,
-            "delay": null,
-            "explosion": {
-                "enable": false
-            }
+            "custom": false
         },
-        "124": {
+        "97": {
+            "name": "Absorb Elements",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Absorb Elements",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "98": {
+            "name": "Beast Bond",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Beast Bond",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "99": {
+            "name": "Cause Fear",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Cause Fear",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "100": {
+            "name": "Earth Tremor",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Earth Tremor",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "101": {
+            "name": "Ice Knife",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Ice Knife",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "102": {
+            "name": "Frostbite",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Frostbite",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "103": {
+            "name": "Primal Savagery",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Primal Savagery",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "104": {
+            "name": "Catnap",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Catnap",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "105": {
+            "name": "Erupting Earth",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Erupting Earth",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "106": {
+            "name": "Dragons Breath Active Item",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Dragons Breath Active Item",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "107": {
+            "name": "Dragons Breath",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Dragons Breath",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "108": {
+            "name": "Shadow Of Moil Attack",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Shadow Of Moil Attack",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "109": {
+            "name": "Shadow Of Moil",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Shadow Of Moil",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "110": {
             "hidden": true,
             "name": "Crossbow",
             "type": "weapon",
@@ -3999,7 +2809,7 @@
             "below": false,
             "menuType": "weapon"
         },
-        "125": {
+        "111": {
             "hidden": true,
             "name": "Shortbow",
             "type": "weapon",
@@ -4058,7 +2868,7 @@
                 "sprite": "modules/levels-3d-preview/assets/particles/emberssmall.png"
             }
         },
-        "126": {
+        "112": {
             "hidden": true,
             "name": "Dart",
             "type": "weapon",
@@ -4070,7 +2880,7 @@
             "below": false,
             "menuType": "weapon"
         },
-        "127": {
+        "113": {
             "hidden": true,
             "name": "Longbow",
             "type": "weapon",
@@ -4132,6 +2942,328 @@
     },
     "static": {
         "0": {
+            "name": "Rage",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Rage",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "1": {
+            "name": "Sneak Attack",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Sneak Attack",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "2": {
+            "name": "Create Or Destroy Water",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Create Or Destroy Water",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "3": {
+            "name": "Detect Evil",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Detect Evil",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "4": {
+            "name": "Detect Magic",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Detect Magic",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "5": {
+            "name": "Ensnaring Strike",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Ensnaring Strike",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "6": {
+            "name": "Faerie Fire",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Faerie Fire",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "7": {
+            "name": "False Life",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.False Life",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "8": {
+            "name": "Feather Fall",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Feather Fall",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "9": {
+            "name": "Find Familiar",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Find Familiar",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "10": {
+            "name": "Goodberry",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Goodberry",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "11": {
+            "name": "Healing Spirit",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Healing Spirit",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "12": {
+            "name": "Dancing Lights",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Dancing Lights",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "13": {
+            "name": "Mage Hand",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Mage Hand",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "14": {
             "hidden": true,
             "name": "Bite",
             "type": "target",
@@ -4146,7 +3278,7 @@
             "custom": false,
             "menuType": "creature"
         },
-        "1": {
+        "15": {
             "hidden": true,
             "name": "Claws",
             "type": "target",
@@ -4164,6 +3296,213 @@
     },
     "templates": {
         "0": {
+            "name": "Burning Hands",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Burning Hands",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "1": {
+            "name": "Color Spray",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Color Spray",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "2": {
+            "name": "Entangle",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Entangle",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "3": {
+            "name": "Fog Cloud",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Fog Cloud",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "4": {
+            "name": "Grease",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Grease",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "5": {
+            "name": "Entangle",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Entangle",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "6": {
+            "name": "Thunderwave",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Thunderwave",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "7": {
+            "name": "Minor Illusion",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Minor Illusion",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "8": {
+            "name": "Sword Burst",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Sword Burst",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "9": {
             "name": "Arms of Hadar",
             "below": false,
             "hidden": true,
@@ -4184,17 +3523,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "menuType": "",
-            "repeat": null,
-            "delay": null,
-            "scaleX": null,
-            "scaleY": null,
-            "opacity": null,
-            "removeTemplate": false,
-            "persist": false
+            "custom": false
         },
-        "1": {
+        "10": {
             "name": "Tasha's Caustic Brew",
             "below": false,
             "hidden": true,
@@ -4215,21 +3546,36 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "menuType": "",
-            "repeat": null,
-            "delay": null,
-            "scaleX": null,
-            "scaleY": null,
-            "opacity": null,
-            "removeTemplate": false,
-            "persist": false
+            "custom": false
+        },
+        "11": {
+            "name": "Word Of Radiance",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Word Of Radiance",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
         }
     },
     "auras": {},
     "preset": {},
     "aefx": {
-        "6": {
+        "0": {
             "name": "Twisted Transformation Persist",
             "below": false,
             "hidden": true,
@@ -4250,12 +3596,32 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "aeType": "",
-            "type": "source",
-            "menuType": ""
+            "custom": false
         },
-        "13": {
+        "1": {
+            "name": "Armor of Agathys AE",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Armor of Agathys AE",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "2": {
             "name": "Bane AE",
             "below": false,
             "hidden": true,
@@ -4276,12 +3642,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "aeType": "",
-            "type": "source",
-            "menuType": ""
+            "custom": false
         },
-        "14": {
+        "3": {
             "name": "Bless AE",
             "below": false,
             "hidden": true,
@@ -4302,12 +3665,55 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "aeType": "",
-            "type": "source",
-            "menuType": ""
+            "custom": false
         },
-        "30": {
+        "4": {
+            "name": "Divine Favor AE",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Divine Favor AE",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "5": {
+            "name": "Ensnaring Strike AE",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Ensnaring Strike AE",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "6": {
             "name": "Faerie Fire AE",
             "below": false,
             "hidden": true,
@@ -4328,13 +3734,10 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "aeType": "",
-            "type": "source",
-            "menuType": ""
+            "custom": false
         },
-        "40": {
-            "name": "Hex",
+        "7": {
+            "name": "Hex AE",
             "below": false,
             "hidden": true,
             "soundOnly": {
@@ -4343,7 +3746,7 @@
             "macro": {
                 "enable": true,
                 "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Hex",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Hex AE",
                 "args": ""
             },
             "audio": {
@@ -4354,13 +3757,10 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "aeType": "",
-            "type": "source",
-            "menuType": ""
+            "custom": false
         },
-        "41": {
-            "name": "Hunters Mark",
+        "8": {
+            "name": "Hunter's Mark AE",
             "below": false,
             "hidden": true,
             "soundOnly": {
@@ -4369,7 +3769,7 @@
             "macro": {
                 "enable": true,
                 "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Hunters Mark",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Hunter's Mark AE",
                 "args": ""
             },
             "audio": {
@@ -4380,12 +3780,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "aeType": "",
-            "type": "source",
-            "menuType": ""
+            "custom": false
         },
-        "44": {
+        "9": {
             "name": "Mage Armor AE",
             "below": false,
             "hidden": true,
@@ -4406,12 +3803,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "aeType": "",
-            "type": "source",
-            "menuType": ""
+            "custom": false
         },
-        "45": {
+        "10": {
             "name": "Protection From Good And Evil AE",
             "below": false,
             "hidden": true,
@@ -4432,12 +3826,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "aeType": "",
-            "type": "source",
-            "menuType": ""
+            "custom": false
         },
-        "47": {
+        "11": {
             "name": "Sanctuary AE",
             "below": false,
             "hidden": true,
@@ -4458,12 +3849,32 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "aeType": "",
-            "type": "source",
-            "menuType": ""
+            "custom": false
         },
-        "49": {
+        "12": {
+            "name": "Shield AE",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Shield AE",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
+        },
+        "13": {
             "name": "Shield Of Faith AE",
             "below": false,
             "hidden": true,
@@ -4484,12 +3895,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "aeType": "",
-            "type": "source",
-            "menuType": ""
+            "custom": false
         },
-        "56": {
+        "14": {
             "name": "Blade Ward AE",
             "below": false,
             "hidden": true,
@@ -4510,12 +3918,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "aeType": "",
-            "type": "source",
-            "menuType": ""
+            "custom": false
         },
-        "57": {
+        "15": {
             "name": "Booming Blade AE",
             "below": false,
             "hidden": true,
@@ -4536,12 +3941,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "aeType": "",
-            "type": "source",
-            "menuType": ""
+            "custom": false
         },
-        "64": {
+        "16": {
             "name": "Light AE",
             "below": false,
             "hidden": true,
@@ -4562,12 +3964,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "aeType": "",
-            "type": "source",
-            "menuType": ""
+            "custom": false
         },
-        "70": {
+        "17": {
             "name": "Ray of Frost AE",
             "below": false,
             "hidden": true,
@@ -4588,12 +3987,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "aeType": "",
-            "type": "source",
-            "menuType": ""
+            "custom": false
         },
-        "72": {
+        "18": {
             "name": "Shocking Grasp AE",
             "below": false,
             "hidden": true,
@@ -4614,12 +4010,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "aeType": "",
-            "type": "source",
-            "menuType": ""
+            "custom": false
         },
-        "77": {
+        "19": {
             "name": "Vicious Mockery AE",
             "below": false,
             "hidden": true,
@@ -4640,12 +4033,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "aeType": "",
-            "type": "source",
-            "menuType": ""
+            "custom": false
         },
-        "79": {
+        "20": {
             "name": "Barkskin Persist",
             "below": false,
             "hidden": true,
@@ -4666,12 +4056,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "aeType": "",
-            "type": "source",
-            "menuType": ""
+            "custom": false
         },
-        "105": {
+        "21": {
             "name": "Slow Persist",
             "below": false,
             "hidden": true,
@@ -4692,12 +4079,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "aeType": "",
-            "type": "source",
-            "menuType": ""
+            "custom": false
         },
-        "106": {
+        "22": {
             "name": "Spirit Guardians Persist",
             "below": false,
             "hidden": true,
@@ -4718,13 +4102,10 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "aeType": "",
-            "type": "source",
-            "menuType": ""
+            "custom": false
         },
-        "109": {
-            "name": "Frostbite AE",
+        "23": {
+            "name": "Tasha's Caustic Brew AE",
             "below": false,
             "hidden": true,
             "soundOnly": {
@@ -4733,7 +4114,7 @@
             "macro": {
                 "enable": true,
                 "playWhen": "2",
-                "name": "Compendium.dnd5e-spell-automation.Macros.Frostbite AE",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Tasha's Caustic Brew AE",
                 "args": ""
             },
             "audio": {
@@ -4744,12 +4125,9 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "aeType": "",
-            "type": "source",
-            "menuType": ""
+            "custom": false
         },
-        "113": {
+        "24": {
             "name": "Beast Bond Persist",
             "below": false,
             "hidden": true,
@@ -4770,10 +4148,30 @@
             "animation": "",
             "variant": "",
             "color": "",
-            "custom": false,
-            "aeType": "",
-            "type": "source",
-            "menuType": ""
+            "custom": false
+        },
+        "25": {
+            "name": "Frostbite AE",
+            "below": false,
+            "hidden": true,
+            "soundOnly": {
+                "enable": false
+            },
+            "macro": {
+                "enable": true,
+                "playWhen": "2",
+                "name": "Compendium.dnd5e-spell-automation.Macros.Frostbite AE",
+                "args": ""
+            },
+            "audio": {
+                "a01": {
+                    "enable": false
+                }
+            },
+            "animation": "",
+            "variant": "",
+            "color": "",
+            "custom": false
         }
     }
 }
