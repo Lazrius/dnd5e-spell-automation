@@ -8,12 +8,10 @@
 // @include getTemplate.js
 // @include helpers/getRayEndPos.js
 
-const templateEndPos = getRayEndPos(template);
-
 const sequence = new Sequence();
 sequence.effect()
 	.file('jb2a.breath_weapons.acid.line.green')
-	.atLocation({ x: template.x, y: template.y})
+	.atLocation({ x: template.x, y: template.y })
 	.stretchTo(templateEndPos)
 	.fadeOut(200);
 
