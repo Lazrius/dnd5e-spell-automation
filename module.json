@@ -4,7 +4,7 @@
 	"description": "Setting up spell effects, animations, and all the automation with MIDI, DAE, AA - it's a pain. This module does it all for you!",
 	"minimumCoreVersion": "10",
 	"compatibleCoreVersion": "10",
-	"version": "0.0.14",
+	"version": "0.0.15",
 	"url": "https://github.com/Lazrius/dnd5e-spell-automation",
 	"esmodules": [
 		"module/main.js"
@@ -51,5 +51,5 @@
 		}
 	],
 	"manifest": "https://raw.githubusercontent.com/Lazrius/dnd5e-spell-automation/master/module.json",
-	"download": "https://raw.githubusercontent.com/Lazrius/dnd5e-spell-automation/v0.0.14/dist/dnd5e-spell-automation-v0.0.14.zip"
+	"download": "https://raw.githubusercontent.com/Lazrius/dnd5e-spell-automation/v0.0.15/dist/dnd5e-spell-automation-v0.0.15.zip"
 }
